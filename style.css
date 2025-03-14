@@ -6,6 +6,7 @@
   font-family: "Semi bold";
   src: url(./assets/Fonts/Inter_28pt-SemiBold.ttf);
 }
+
 @font-face {
   font-family: "Extra bold";
   src: url(./assets/Fonts/Inter_28pt-ExtraBold.ttf);
@@ -103,7 +104,7 @@ body {
       line-height: 30px;
       margin-inline-end: 10px;
     }
-    
+
     form {
       max-width: 535px;
       width: 535px;
@@ -113,47 +114,44 @@ body {
       padding-inline-end: 12px; */
       padding-block: 16px;
 
-      input{
+      input {
         max-width: 535px;
         height: 64px;
         border-radius: 24px;
       }
 
-      input::placeholder{
-        color: #64748B;
+      input::placeholder {
+        color: #64748b;
         font-size: 16px;
         /* padding: 10px; */
         padding-block: 131.5px;
         padding-inline-start: 35px;
       }
 
-      .myForm{
+      .myForm {
         position: relative;
-        
 
-        span img{
+        span img {
           position: absolute;
           width: 20px;
           height: 20px;
-          color: #1F1F24;
+          color: #1f1f24;
           /* padding: 10px; */
           top: 21px;
           left: 10px;
-          
         }
       }
     }
 
-    .input-field{
+    .input-field {
       position: relative;
       width: 535px;
-      
     }
-    button{
-      background: #FEC545;
+    button {
+      background: #fec545;
       width: 214px;
       height: 44px;
-      color: #0E0D0D;
+      color: #0e0d0d;
       font-size: 16px;
       position: absolute;
       top: 10px;
@@ -161,6 +159,86 @@ body {
       border-radius: 16px;
       border: none;
     }
+  }
+}
+
+/* -------------------------WHO ARE WE----------------------------- */
+.mission {
+  height: 579px;
+  width: 1288px;
+  margin-block: 100px;
+  margin-inline: 59.5px;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+
+  .card5 {
+    width: 292.52px;
+    height: 481px;
+    border-radius: 14px;
+    position: absolute;
+    margin-block-start: -530px;
+  }
+  .div-card6{
+    position: absolute;
     
+  }
+  .card6 {
+    width: 307.69px;
+    height: 467px;
+    border-radius: 14px;
+    margin-block-start: 20%;
+    margin-inline-start: 50%;
+    
+  }
+  .missionStatement {
+    height: 579px;
+    width: 971px;
+    border-radius: 14px;
+    background: #cbd5e1;
+    align-items: center;
+    justify-content: end;
+    padding-block-start: 7%;
+    position: absolute;
+    right: 0;
+
+    h2-tag {
+      height: 389px;
+      width: 515px;
+      text-align: center;
+      align-content: center;
+      margin-inline-start: 224px;
+    }
+
+    h2{
+      font-size: 42px;
+      line-height: 63px;
+      color: #0f172a;
+      margin-inline-start: 228px;
+      
+    }
+    p{
+      width: 515px;
+      /* text-align: center; */
+      align-content: center;
+
+    }
+    .p-tag {
+      width: 515px;
+      height: 288px;
+      font-size: 16px;
+      margin-inline-start: 224px;
+    }
+    a {
+      background: #fec545;
+      text-decoration: none;
+      color: #0e0d0d;
+      width: 174px;
+      height: 44px;
+      border-radius: 16px;
+      text-align: center;
+      align-content: center;
+    }
   }
 }
