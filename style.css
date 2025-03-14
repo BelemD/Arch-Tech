@@ -196,7 +196,7 @@ body {
     height: 579px;
     width: 921px;
     border-radius: 14px;
-    background: #cbd5e1;
+    background: #F6FFFC;
     align-items: center;
     justify-content: end;
     padding-block-start: 6%;
@@ -242,5 +242,33 @@ body {
       text-align: center;
       align-content: center;
     }
+  }
+}
+
+.whyChoose{
+  width: 1221px;
+  height: 619px;
+
+  .features{
+
+  }
+
+  h6{
+    width: 87px;
+    height: 20px;
+    /* padding: 10px 2px; */
+    color: #019DB6;
+    font-size: 14px;
+    background-color: #F0F6FF;
+    border-radius: 150px;
+  }
+
+  p{
+    width: 650px;
+    height: 28px;
+    /* padding: 10px 2px; */
+    color: #344051;
+    height: 28px;
+    font-size: 18px;
   }
 }
