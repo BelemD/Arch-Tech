@@ -194,14 +194,16 @@ body {
   }
   .missionStatement {
     height: 579px;
-    width: 971px;
+    width: 921px;
     border-radius: 14px;
     background: #cbd5e1;
     align-items: center;
     justify-content: end;
-    padding-block-start: 7%;
+    padding-block-start: 6%;
+    /* padding-block-end: 60%; */
     position: absolute;
-    right: 0;
+    right: 3%;
+    left: 24.5%;
 
     h2-tag {
       height: 389px;
