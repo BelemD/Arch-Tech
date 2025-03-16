@@ -329,7 +329,7 @@ body {
 
 .ourServices{
   height: 1205px;
-  width: 1230px;
+  /* width: 1230px; */
   background: #ECFCFF;
   display: flex;
   flex-direction: column;
@@ -337,7 +337,8 @@ body {
   align-items: center;
   align-content: center;
   margin-inline-start: 5%;
-  border-radius: 20px;
+  border-radius: 10px;
+  margin-block-end: 6%;
 
   
   .services{
@@ -433,5 +434,82 @@ body {
   }
 }
 
+/* ---------------------HOW WE WORK---------------------- */
+
+.howWeWork{
+  /* width: 1440px; */
+  height: 544px;
+  background: #F0FEFF;
 
 
+  .howWeWork-left{
+    display: flex;
+    flex-direction: column;
+    width: 284px;
+    height: 227px;
+
+    .dot{
+      display: flex;
+      flex-direction: row;
+      /* align-items: center; */
+      justify-content: left;
+      /* align-items: center; */
+
+      img{
+        background: #276E6E;
+        width: 12px;
+        height: 12px;
+        border-radius: 99999px;
+        /* align-self: center; */
+        margin-block-start:6px;
+        margin-inline-end: 20px;  
+      
+      }
+
+      p{
+        font-size: 16px;
+        color: #131A1B;
+        margin-block-end: 24px;
+        text-align: center;
+        align-self: center;
+      }
+    }
+    h3{
+      font-size: 42px;
+      line-height: 63px;
+      color: #0F172A;
+    }
+    p{
+      font-size: 41px;
+      color: #276E6E;
+      margin-block-end: 34px;
+    }
+
+    .bolt{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      border: 1px solid #0C98A6;
+      border-radius: 19px;
+      height: 41px;
+      text-align: center;
+      align-content: center;
+      padding-block-start:3%;
+
+      img{
+        width: 14px;
+        height: 14px;
+        background: #276E6E;
+        border-radius: 99999px;
+        margin-block-start:6px;
+        margin-inline-end: 20px; 
+      }
+
+      p{
+        font-size: 14px;
+        color: #1A1C1F;
+        
+      }
+    }
+  }
+}
