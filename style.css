@@ -571,6 +571,7 @@ body {
 .whatClientSays{
   height: 924px;
   background: linear-gradient(#119CB0, #019090);
+  /* margin-bottom: 5%; */
 
   .client-top{
     display: flex;
@@ -592,5 +593,242 @@ body {
       height: 56px;
       
     }
+  }
+
+  .client-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .client-details{
+      width: 424px;
+      height: 400px;
+      border-radius: 24px;
+      background: #E7F5E8;
+      padding: 3%;
+      
+    }
+    .top-details{
+      display: flex;
+      margin-block-end: 3%;
+
+      img{
+        width: 48px;
+        height: 48px;
+        margin-inline-end: 7%;
+      }
+
+      h4{
+        color: #061C3D;
+        font-size: 16px;
+      }
+      p{
+        font-size: #42526B;
+        color: 14px;
+      }
+    }
+
+   .middle-details{
+    margin-block-end: 15%;
+    p{
+      color: #061C3D;
+      font-size: 18px;
+    }
+    .group5{
+      width: 80px;
+      height: 40px;
+    }
+   }
+  }
+}
+
+.goFurther{
+  width: 1322px;
+  height: 734px;
+  margin-block: 73px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  
+
+  .top-goFurther{
+    width: 557px;
+    height: 217px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-block-end: 73px;
+
+    h2{
+      color: #0F172A;
+      font-size: 42px;
+      margin-bottom: 13px;
+    }
+    p{
+      font-size: 18px;
+      color: #060809;
+      width: 557px;
+      height: 78px;
+    }
+  }
+
+  .card-title{
+    font-size: 24px;
+    color: #1E293B;
+  }
+
+  .card-text{
+    font-size: 16px;
+    color: #475569;
+    width: 312px;
+  }
+  .card-body{
+
+    .buttonsBelow{
+      display: flex;
+      flex-direction: row;
+      gap: 8px;
+
+      a{
+        color: #0099CC;
+        font-size: 12px;
+        background: #E5F9FF;
+        border-radius: 120px;
+
+        
+      }
+    }
+  }
+
+  .card-div{
+    width: 1192px;
+    height: 444px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+  }
+
+}
+
+/* ----------------------------Ready to Outperform the Competition----------------------- */
+.outPerform{
+  width: 1322px;
+  height: 414px;
+  background: linear-gradient(#119CB0, #019090);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  margin-inline-start: 20px;
+  border-radius: 20px;
+  margin-block-end: 5%;
+  
+
+  .outPerform-top{
+    width: 518px;
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+
+    text-align: end;
+
+
+    h1{
+      font-size: 42px;
+      color: #F6FFFC;
+    }
+    p{
+      color: #F8FAFC;
+      font-size: 16px;
+      margin-block: 20px;
+    }
+    
+    span p{
+        color: #FCFCFC;
+        font-size: 14px;
+        width: 260px;
+        height: 40px;
+        /* padding-inline: 21px; */
+        text-align: center;
+        padding-block: 9px;
+        border: 1px solid #BFDBFE;
+      border-radius: 19px;
+      
+    }
+   
+  }
+
+  img{
+    width: 585px;
+    height: 323px;
+
+  }
+}
+
+/* ------------------------FOOTER------------------------ */
+
+.footer{
+  width: 1300px;
+  height: 297px;
+  background: #ffffff;
+  padding-block: 24px;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-inline-start: 25px;
+  border-radius: 20px;
+  /* padding-inline-start: 3%; */
+  border-radius: 20px;
+  border: 3px solid #98A2B2;
+  /* box-shadow: 5px 5px 3px 5px #667085; */
+
+
+.top{
+  margin-block-end: 30px;
+  
+}
+
+  .left-end{
+    
+    img{
+      
+
+    }
+    p{
+      width: 492px;
+      height: 72px;
+      font-size: 16px;
+      color: #64748B;
+      margin-block-end: 10%;
+    }
+
+    span{
+      width: 336px;
+      height: 24px;
+      font-size: 14px;
+      color: #667085;
+    }
+  }
+
+  .footerlist{
+    display: grid;
+    grid-template-columns: auto auto auto;
+  /* gap: 15px; */
+  
+  ul li{
+    list-style: none;
+    font-size: 16px;
+  }
+
+  
   }
 }
