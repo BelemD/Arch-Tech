@@ -36,10 +36,14 @@
 .inter-bold {
   font-family: "Bold";
 }
-
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
   background: #ffffff;
-  margin: 0rem 6.84rem 0rem 6.84rem;
+  /* margin: 0rem 6.84rem 0rem 6.84rem; */
 }
 
 .navbar {
@@ -48,8 +52,6 @@ body {
 }
 
 .navContainer {
-  
-
   img {
     width: 8.375rem;
     height: 2.25rem;
@@ -80,11 +82,12 @@ body {
 .services {
   height: 14.75rem;
   width: 76.3125rem;
-  background-image: url(../images/BG3.png);
+  background: url(../images/BG3.png);
   align-items: center;
   align-content: center;
   margin-block-start: 3.0625rem;
   text-align: center;
+  margin-inline-start: 50px;
   /* position: relative; */
 
   .servicesContent {
@@ -106,7 +109,6 @@ body {
       font-size: 1rem;
       margin-inline-end: 0.625rem;
     }
-
   }
 }
 
@@ -115,8 +117,6 @@ body {
   width: 1309px;
   height: 579px;
   margin-block: 100px;
-  /* margin-inline: 59.5px; */
-   margin-inline-start: 8%;
   align-self: center;
   display: flex;
   flex-direction: row;
@@ -129,9 +129,9 @@ body {
     position: absolute;
     margin-block-start: -530px;
   }
-  .div-card6{
+  .div-card6 {
     position: absolute;
-    
+    margin-inline-start: 6%;
   }
   .card6 {
     width: 307.69px;
@@ -139,40 +139,38 @@ body {
     border-radius: 14px;
     margin-block-start: 20%;
     margin-inline-start: 50%;
-    
   }
   .missionStatement {
     height: 579px;
-    width: 971px;
+    width: 900px;
     border-radius: 14px;
-    background: #F6FFFC;
+    background: #f6fffc;
     align-items: center;
     justify-content: end;
     /* padding-block-end: 60%; */
     position: absolute;
     /* right: 3%; */
     left: 24.5%;
+    margin-inline-start: 5.7%;
 
     h2-tag {
       height: 389px;
       width: 515px;
       text-align: center;
       align-content: center;
-      margin-inline-start: 224px;
+      
     }
 
-    h2{
+    h2 {
       font-size: 42px;
       line-height: 63px;
       color: #0f172a;
       margin-inline-start: 228px;
-      
     }
-    p{
+    p {
       width: 515px;
       /* text-align: center; */
       align-content: center;
-
     }
     .p-tag {
       width: 515px;
@@ -180,6 +178,37 @@ body {
       font-size: 16px;
       margin-inline-start: 224px;
     }
+  }
+}
+
+/* -----------------------Say hello to our team members----------------------------- */
+
+.teamMembers {
+  .top {
+    /* display: flex; */
+    /* justify-content: center; */
+    h2{
+      font-size: 2.625rem;
+      color: #0F172A;
+      width: 26.0625rem;
+      height: 7.0625rem;
+    }
+    p {
+      font-size: 1.125rem;
+      color: #475569;
+      width: 33.375rem;
+      height: 8.1875rem;
+    }
+
     
+    button {
+      border: none;
+      font-size: 1rem;
+      color: #0e0d0d;
+      background: #fec545;
+      width: 8.5rem;
+      height: 2.75rem;
+      border-radius: 1rem;
+    }
   }
 }
