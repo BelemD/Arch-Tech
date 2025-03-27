@@ -78,19 +78,16 @@ body {
 
 .services {
   height: 13.19.3125rem;
-  width: 76.3125rem;
   background-image: url(../images/BG2.png);
   border-radius: 1.25rem;
   margin-block-start: 3.0625rem;
-  margin-inline: 3.594rem;
+  margin-inline: 6.84375rem;
   /* position: relative; */
 
   .servicesContent {
     color: #ffffff;
-    width: 43.375rem;
+    margin-inline: 23.3125rem;
     height: 19.3125rem;
-    /* padding-block-start: 2.9375rem; */
-    margin-inline-start: 17.6969rem;
 
     h2 {
       height: 4.125rem;
@@ -168,7 +165,6 @@ body {
   
 }
 .grid-div{
-  width: 91.125rem;
   height: 57.4375rem;
   padding-block-start: 3.25rem;
   margin-block: 5%;
@@ -179,12 +175,12 @@ body {
 }
 
 .grid-ourServices{
-  width: 76rem;
+  margin-inline: 5.59375rem;
   height: 16rem;
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 1.4375rem;
-  margin-inline-start: 5%;
+  justify-content: center;
   align-items: center;
   
 
@@ -234,38 +230,32 @@ body {
 
 /* ------------------------FOOTER------------------------ */
 
-.footer{
-  width: 1300px;
-  height: 297px;
+.footer {
   background: #ffffff;
   padding-block: 2.5rem;
-  /* padding-inline: 1.5rem; */
+  padding-inline: 3rem;
   display: grid;
   grid-template-columns: auto auto;
-  margin-inline-start: 30.594rem;
-  margin-block-end: 5%;
+  margin-inline: 2.40625rem;
+  margin-block-start: 7%;
+  margin-block-end: 2.25rem;
   border-radius: 20px;
-  border-radius: 20px;
-  border: 3px solid #667085;
+  border: 0.25rem solid #edeff1;
 
-
-  .top{
-  margin-block-end: 30px;
-  
+  .top {
+    margin-block-end: 1.875rem;
   }
 
-  .left-end{
-    margin-inline-start: 2.5rem;
-  
-    p{
+  .left-end {
+    p {
       width: 492px;
       height: 72px;
       font-size: 16px;
-      color: #64748B;
+      color: #64748b;
       margin-block-end: 10%;
     }
 
-    span{
+    span {
       width: 336px;
       height: 24px;
       font-size: 14px;
@@ -273,16 +263,19 @@ body {
     }
   }
 
-  .footerlist{
+  .footerlist {
     display: grid;
     grid-template-columns: auto auto auto;
- 
-  
-  ul li{
-    list-style: none;
-    font-size: 16px;
-  }
+    /* gap: 1rem; */
 
-  
+    ul li {
+      list-style: none;
+      font-size: 16px;
+      margin-block-start: 0.5rem;
+
+      .contact {
+        margin-block-start: 5rem;
+      }
+    }
   }
 }

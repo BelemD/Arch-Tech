@@ -189,7 +189,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-inline: 2.6875rem;
-    /* margin-block-end: 2.25rem; */
+    margin-inline: 6.4375rem;
     align-items: center;
     margin-block-end: 2.25rem;
 

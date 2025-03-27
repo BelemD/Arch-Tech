@@ -88,7 +88,7 @@
 }
 .solution {
   height: 441px;
-  width: 1200px;
+  margin-inline: 3.59375rem;
   background-image: url("./images/image_fx_\ \(3\)\ 1\ \(1\).png"),
     url(./images/BG.png);
   border-radius: 20px;
@@ -173,54 +173,53 @@
   }
 }
 
-/* -------------------------WHO ARE WE----------------------------- */
+/* ------------------------WHO WE ARE-------------------------------- */
 .mission {
-  width: 1309px;
-  height: 579px;
-  margin-block: 100px;
-  /* margin-inline: 59.5px; */
-  margin-inline-start: 5%;
+  width: 84.375rem;
+  height: 36.1875rem;
+  margin-block: 6.25rem;
   align-self: center;
   display: flex;
   flex-direction: row;
   position: relative;
 
   .card5 {
-    width: 292.52px;
-    height: 481px;
-    border-radius: 14px;
+    width: 18.2825rem;
+    height: 30.0625rem;
+    border-radius: 0.875rem;
     position: absolute;
-    margin-block-start: -530px;
+    margin-block-start: -33.125rem;
   }
   .div-card6 {
     position: absolute;
+    margin-inline-start: 6%;
   }
   .card6 {
     width: 307.69px;
     height: 467px;
-    border-radius: 14px;
+    border-radius: 0.875rem;
     margin-block-start: 20%;
     margin-inline-start: 50%;
   }
   .missionStatement {
     height: 579px;
-    width: 800px;
+    width: 900px;
     border-radius: 14px;
     background: #f6fffc;
     align-items: center;
     justify-content: end;
-    padding-block-start: 6%;
-    margin-inline-start: 4%;
+    /* padding-block-end: 60%; */
     position: absolute;
     /* right: 3%; */
     left: 24.5%;
+    margin-inline-start: 5.7%;
+    background-image: url(../images/Asset\ 4\ 1.png);
 
     h2-tag {
       height: 389px;
       width: 515px;
       text-align: center;
       align-content: center;
-      margin-inline-start: 224px;
     }
 
     h2 {
@@ -240,29 +239,18 @@
       font-size: 16px;
       margin-inline-start: 224px;
     }
-    a {
-      background: #fec545;
-      text-decoration: none;
-      color: #0e0d0d;
-      width: 174px;
-      height: 44px;
-      border-radius: 16px;
-      text-align: center;
-      align-content: center;
-    }
   }
 }
-
 /* WHY CHOODE US */
 
 .whyChoose {
-  width: 1221px;
+  margin-inline: 6.84375rem;
   height: 619px;
   display: grid;
   grid-template-rows: auto auto;
   gap: 30px;
-  margin-inline-start: 7%;
   margin-block-end: 10%;
+  justify-content: center;
 
   .features {
     align-items: center;
@@ -312,19 +300,21 @@
       width: 596px;
       height: 201px;
       border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
     }
     h3 {
       font-size: 24px;
       color: #1e293b;
       width: 464px;
       height: 34px;
-      margin-inline-start: 5%;
-      margin-block: 5%;
     }
     p {
       width: 464px;
       font-size: 16px;
-      margin-inline-start: 5%;
     }
   }
 }
@@ -333,14 +323,13 @@
 
 .ourServices {
   height: 1205px;
-  /* width: 1230px; */
+
   background: linear-gradient(#ecfcff, #e7fafd);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   align-content: center;
-  margin-inline-start: 5%;
   border-radius: 10px;
   margin-block-end: 6%;
   /* background-image: url(./images/Line\ design\ -\ bg.png); */
@@ -440,7 +429,6 @@
 /* ---------------------HOW WE WORK---------------------- */
 
 .howWeWork {
-  /* width: 1440px; */
   height: 544px;
   background: #f0feff;
   display: flex;
@@ -638,19 +626,20 @@
     display: flex;
     justify-content: center;
     margin-block-start: 5%;
+    display: flex;
+    gap: 1rem;
 
     img {
       width: 4rem;
       height: 4rem;
       border-radius: 9.375rem;
-      margin-inline-start: 0.625rem;
     }
   }
 }
 
 /* -------------------------GO FURTHER---------------------- */
 .goFurther {
-  width: 1322px;
+  margin-inline: 3.6875rem;
   height: 734px;
   margin-block: 73px;
   border-radius: 20px;
@@ -660,10 +649,9 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  /* margin-inline-start: 2%; */
 
   .top-goFurther {
-    width: 557px;
+    margin-inline: 27.59375rem;
     height: 217px;
     display: flex;
     flex-direction: column;
@@ -711,7 +699,7 @@
   }
 
   .card-div {
-    width: 1192px;
+    margin-inline: 4.0625rem;
     height: 444px;
     display: flex;
     flex-direction: row;
@@ -724,14 +712,13 @@
 
 /* ----------------------------Ready to Outperform the Competition----------------------- */
 .outPerform {
-  width: 1322px;
+  margin-inline: 2.5rem;
   height: 414px;
   background: linear-gradient(#119cb0, #019090);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   align-content: center;
-  margin-inline-start: 6%;
   border-radius: 20px;
   margin-block-end: 5%;
 
@@ -772,26 +759,25 @@
   }
 }
 
+/* ------------------------FOOTER------------------------ */
+
 .footer {
-  width: 1300px;
-  height: 297px;
   background: #ffffff;
   padding-block: 2.5rem;
-  /* padding-inline: 1.5rem; */
+  padding-inline: 3rem;
   display: grid;
   grid-template-columns: auto auto;
-  margin-block-end: 5%;
+  margin-inline: 2.40625rem;
+  margin-block-start: 7%;
+  margin-block-end: 2.25rem;
   border-radius: 20px;
-  border-radius: 20px;
-  border: 3px solid #667085;
+  border: 0.25rem solid #edeff1;
 
   .top {
-    margin-block-end: 30px;
+    margin-block-end: 1.875rem;
   }
 
   .left-end {
-    margin-inline-start: 2.5rem;
-
     p {
       width: 492px;
       height: 72px;
@@ -811,11 +797,16 @@
   .footerlist {
     display: grid;
     grid-template-columns: auto auto auto;
+    /* gap: 1rem; */
 
     ul li {
       list-style: none;
       font-size: 16px;
-      /* margin-block-end: 1.2rem; */
+      margin-block-start: 0.5rem;
+
+      .contact {
+        margin-block-start: 5rem;
+      }
     }
   }
 }
