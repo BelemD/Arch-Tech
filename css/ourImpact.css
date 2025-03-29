@@ -158,7 +158,7 @@ body {
 
 /* ---------------------------From startups to the world’s largest companies--------------------------------- */
 
-.startups{
+.startups {
   height: 17.4375rem;
   display: flex;
   flex-direction: column;
@@ -166,20 +166,18 @@ body {
   align-items: center;
   gap: 2rem;
 
-  h4{
+  h4 {
     font-size: 1rem;
     color: #475467;
   }
 
-  .images{
+  .images {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 5.796875rem;
-    
 
-    img{
-      
+    img {
       height: 3rem;
     }
   }
@@ -273,4 +271,73 @@ body {
       border-radius: 9.375rem;
     }
   }
+}
+
+/* --------------------------HOW WE CREATE IMPACT---------------------------- */
+
+.createImpact {
+  background: linear-gradient(#f5fffb, #e7fafd);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  .impact-contents {
+    background: url(../images/Asset\ 4\ 5.png);
+    /* width: 83.1875rem; */
+    height: 23.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    h2 {
+      font-size: 2.625rem;
+      color: #0f172a;
+      height: 10.625rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      color: #1e293b;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #475569;
+    }
+
+    .bottomContents {
+      width: 25.25rem;
+      height: 10.8125rem;
+      background: #ffffff;
+      border-radius: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: left;
+      align-content: center;
+      text-align: left;
+      padding: 1.7rem;
+    }
+
+    .impactBottom {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      /* margin-inline: 1.375rem; */
+      gap: 1.375rem;
+    }
+  }
+}
+
+
+/* -------------------------LET'S CREATE IMPACT TOGETHER--------------------------------- */
+
+.letsCreate{
+  background: url(../images/image_fx_\ \(1\)\ 1.png);
 }
