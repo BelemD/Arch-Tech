@@ -343,7 +343,7 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-block-end: 5%;
+    margin-block-start: 2.5%;
 
     h3 {
       font-size: 42px;
@@ -374,53 +374,65 @@
   }
 }
 
-.grid-ourServices {
-  width: 1216px;
+.grid-div{
+  height: 57.4375rem;
+  padding-block-start: 3.25rem;
+  margin-block: 5%;
+  /* padding-inline-end: 2%; */
+  background-image: url(./assets/Icons/glow_one.png.png), url(../images/Line\ design\ -\ bg.png);
+
+    
+}
+
+.grid-ourServices{
+  margin-inline: 5.59375rem;
+  height: 16rem;
   display: grid;
   grid-template-columns: auto auto auto;
-  gap: 15px;
-  background: url(./assets/Icons/glow_one.png.png);
-  margin-inline-start: 2.5%;
+  gap: 1.4375rem;
+  justify-content: center;
+  align-items: center;
+  
 
-  .grid-services {
-    width: 390px;
-    height: 394px;
+  .grid-services{
+    width: 24.375rem;
+    height: 24.625rem;
     background: #ffffff;
+    
+    border-radius: 1.25rem;
+    padding-inline-start: 2.0625rem;
 
-    border-radius: 20px;
-    padding-inline-start: 33px;
-
-    img {
+    img{
       width: 60px;
       height: 60px;
       margin-block-end: 33px;
       margin-block-start: 33px;
     }
-    h3 {
+    h3{
       width: 313px;
       height: 68px;
       font-size: 24px;
       line-height: 34px;
       margin-block-end: 18px;
     }
-    p {
-      font-size: 16px;
+    p{
+      font-size: 1rem;
       line-height: 24px;
       width: 313px;
       height: 72px;
       color: #475569;
       margin-block-end: 10px;
     }
-    a {
+    a{
       text-decoration: none;
-      font-size: 16px;
-      color: #0f172a;
+      font-size: 1rem;
+      color: #0F172A;
       text-align: center;
-
-      img {
-        color: #0f172a;
-        width: 16px;
-        height: 16px;
+      
+      img{
+        color: #0F172A;
+        width: 1rem;
+        height: 1rem;
       }
     }
   }
