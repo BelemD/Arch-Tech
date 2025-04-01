@@ -335,9 +335,150 @@ body {
   }
 }
 
-
 /* -------------------------LET'S CREATE IMPACT TOGETHER--------------------------------- */
 
-.letsCreate{
-  background: url(../images/image_fx_\ \(1\)\ 1.png);
+.letsCreate {
+  background-image: url(../images/BG4.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  .create-content {
+    width: 78rem;
+    margin-block: 5.0625rem;
+    height: 23.25rem;
+    border-radius: 2rem;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+    h2 {
+      font-size: 2.625rem;
+      color: #0f172a;
+      width: 37.4375rem;
+    }
+    p {
+      font-size: 1.125rem;
+      color: #002966;
+      width: 32.5rem;
+    }
+
+    form {
+      max-width: 535px;
+      width: 535px;
+      height: 64px;
+      border-radius: 24px;
+      /* padding-inline-start: 23px;
+      padding-inline-end: 12px; */
+      padding-block: 16px;
+     
+      
+
+      input {
+        max-width: 535px;
+        height: 64px;
+        border-radius: 24px; 
+        box-shadow: 5px 5px 5px 5px #edeff1;
+
+      }
+
+      input::placeholder {
+        color: #64748b;
+        font-size: 16px;
+        padding-block: 131.5px;
+        padding-inline-start: 35px;
+      }
+
+      .myForm {
+        position: relative;
+
+        span img {
+          position: absolute;
+          width: 20px;
+          height: 20px;
+          color: #1f1f24;
+          /* padding: 10px; */
+          top: 21px;
+          left: 10px;
+        }
+      }
+
+      .input-field {
+      position: relative;
+      width: 535px;
+    }
+
+    button {
+      background: #fec545;
+      width: 214px;
+      height: 44px;
+      color: #0e0d0d;
+      font-size: 16px;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      border-radius: 16px;
+      border: none;
+      
+    }
+    }
+
+  }
+}
+
+/* ------------------------FOOTER------------------------ */
+
+.footer {
+  background: #ffffff;
+  padding-block: 2.5rem;
+  padding-inline: 3rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-inline: 2.40625rem;
+  margin-block-start: 7%;
+  margin-block-end: 2.25rem;
+  border-radius: 20px;
+  border: 0.25rem solid #edeff1;
+
+  .top {
+    margin-block-end: 1.875rem;
+  }
+
+  .left-end {
+    p {
+      width: 492px;
+      height: 72px;
+      font-size: 16px;
+      color: #64748b;
+      margin-block-end: 10%;
+    }
+
+    span {
+      width: 336px;
+      height: 24px;
+      font-size: 14px;
+      color: #667085;
+    }
+  }
+
+  .footerlist {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* gap: 1rem; */
+
+    ul li {
+      list-style: none;
+      font-size: 16px;
+      margin-block-start: 0.5rem;
+
+      .contact {
+        margin-block-start: 5rem;
+      }
+    }
+  }
 }
