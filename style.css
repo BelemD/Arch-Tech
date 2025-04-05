@@ -43,7 +43,6 @@
   box-sizing: border-box;
 }
 
-
 .navbar {
   /* width: 1440px; */
   height: 80px;
@@ -80,22 +79,29 @@
     height: 20px;
   }
 }
+
 .solution {
   height: 441px;
-  margin-inline: 3.59375rem;
+  /* margin-inline: 3.59375rem; */
   background-image: url("./images/image_fx_\ \(3\)\ 1\ \(1\).png"),
     url(./images/BG.png);
   border-radius: 20px;
-  margin-block-start: 49px;
-  margin-inline-start: 4rem;
+  /* margin-block-start: 49px; */
+  /* margin-inline-start: 4rem; */
   /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 
   .solutionContent {
     color: #ffffff;
     width: 694px;
     height: 324px;
-    padding-block-start: 58.5px;
-    margin-inline-start: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 
     h2 {
       height: 132px;
@@ -107,7 +113,7 @@
       height: 72px;
       font-size: 16px;
       line-height: 30px;
-      margin-inline-end: 10px;
+      /* margin-inline-end: 10px; */
     }
 
     form {
@@ -368,17 +374,16 @@
   }
 }
 
-.grid-div{
+.grid-div {
   height: 57.4375rem;
   padding-block-start: 3.25rem;
   margin-block: 5%;
   /* padding-inline-end: 2%; */
-  background-image: url(./assets/Icons/glow_one.png.png), url(../images/Line\ design\ -\ bg.png);
-
-    
+  background-image: url(./assets/Icons/glow_one.png.png),
+    url(../images/Line\ design\ -\ bg.png);
 }
 
-.grid-ourServices{
+.grid-ourServices {
   /* margin-inline: 5.59375rem; */
   height: 16rem;
   display: grid;
@@ -386,30 +391,29 @@
   gap: 1.4375rem;
   justify-content: center;
   align-items: center;
-  
 
-  .grid-services{
+  .grid-services {
     width: 24.375rem;
     height: 24.625rem;
     background: #ffffff;
-    
+
     border-radius: 1.25rem;
     padding-inline-start: 2.0625rem;
 
-    img{
+    img {
       width: 60px;
       height: 60px;
       margin-block-end: 33px;
       margin-block-start: 33px;
     }
-    h3{
+    h3 {
       width: 313px;
       height: 68px;
       font-size: 24px;
       line-height: 34px;
       margin-block-end: 18px;
     }
-    p{
+    p {
       font-size: 1rem;
       line-height: 24px;
       width: 313px;
@@ -417,14 +421,14 @@
       color: #475569;
       margin-block-end: 10px;
     }
-    a{
+    a {
       text-decoration: none;
       font-size: 1rem;
-      color: #0F172A;
+      color: #0f172a;
       text-align: center;
-      
-      img{
-        color: #0F172A;
+
+      img {
+        color: #0f172a;
         width: 1rem;
         height: 1rem;
       }
