@@ -238,7 +238,7 @@
 /* WHY CHOODE US */
 
 .whyChoose {
-  margin-inline: 6.84375rem;
+  /* margin-inline: 6.84375rem; */
   height: 619px;
   display: grid;
   grid-template-rows: auto auto;
@@ -379,7 +379,7 @@
 }
 
 .grid-ourServices{
-  margin-inline: 5.59375rem;
+  /* margin-inline: 5.59375rem; */
   height: 16rem;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -646,7 +646,7 @@
 
 /* -------------------------GO FURTHER---------------------- */
 .goFurther {
-  margin-inline: 3.6875rem;
+  /* margin-inline: 3.6875rem; */
   height: 734px;
   margin-block: 73px;
   border-radius: 20px;
@@ -658,7 +658,7 @@
   align-content: center;
 
   .top-goFurther {
-    margin-inline: 27.59375rem;
+    /* margin-inline: 27.59375rem; */
     height: 217px;
     display: flex;
     flex-direction: column;
@@ -668,6 +668,7 @@
     margin-block-end: 73px;
 
     h2 {
+      width: 34.8125rem;
       color: #0f172a;
       font-size: 42px;
       margin-bottom: 13px;
@@ -675,7 +676,7 @@
     p {
       font-size: 18px;
       color: #060809;
-      width: 557px;
+      width: 34.8125rem;
       height: 78px;
     }
   }
@@ -706,7 +707,7 @@
   }
 
   .card-div {
-    margin-inline: 4.0625rem;
+    /* margin-inline: 4.0625rem; */
     height: 444px;
     display: flex;
     flex-direction: row;
