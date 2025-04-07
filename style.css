@@ -82,26 +82,17 @@
 
 .solution {
   height: 441px;
-  /* margin-inline: 3.59375rem; */
+  /* width: ; */
   background-image: url("./images/image_fx_\ \(3\)\ 1\ \(1\).png"),
     url(./images/BG.png);
   border-radius: 20px;
-  /* margin-block-start: 49px; */
-  /* margin-inline-start: 4rem; */
-  /* position: relative; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+  /* background-size: 82.8125rem; */
+  margin-inline: 3.6rem;
 
   .solutionContent {
     color: #ffffff;
     width: 694px;
     height: 324px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
 
     h2 {
       height: 132px;
@@ -174,7 +165,7 @@
 }
 
 /* ------------------------WHO WE ARE-------------------------------- */
-/* .mission {
+.mission {
   width: 84.375rem;
   height: 36.1875rem;
   margin-block: 6.25rem;
@@ -210,7 +201,6 @@
     justify-content: end;
     /* padding-block-end: 60%; */
     position: absolute;
-    /* right: 3%; */
     left: 24.5%;
     margin-inline-start: 5.7%;
     background-image: url(../images/Asset\ 4\ 1.png);
@@ -230,7 +220,6 @@
     }
     p {
       width: 515px;
-      /* text-align: center; */
       align-content: center;
     }
     .p-tag {
@@ -240,7 +229,8 @@
       margin-inline-start: 224px;
     }
   }
-} */
+}
+
 /* WHY CHOODE US */
 
 .whyChoose {
