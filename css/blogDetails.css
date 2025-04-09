@@ -103,14 +103,17 @@ body {
 }
 
 /* --------------------LEADERSHIP LESSON---------------------- */
+.myBody{
+  margin-inline: 6.625rem;
+  margin-block-start: 6%;
+}
 .leadershipLesson{
-    padding-inline: 2rem;
-    margin-block-start: 5%;
+    
 
     .eightMin{
         font-size: 0.75rem;
         color: #1B1822;
-        background: #E1FCFF;
+        background: #4ee1f1;
         width: 9.1875rem;
         height: 1.675rem;
         border-radius: 1rem;
@@ -138,4 +141,179 @@ body {
         color: #475569;
         font-size: 1.25rem;
     }
+
 }
+
+.myPhoto{
+  gap: 2rem;
+
+      .bottomTop{
+
+        .pTags{
+          gap: 7.5rem;
+
+          p{
+          color: #B77E00;
+          font-size: 0.875rem;
+          /* width: 4.4375rem; */
+        }
+        }
+       
+        .bottomBelow{
+          gap: 5rem;
+
+        p{
+          color: #101828;
+          font-size: 1.135rem;
+        }
+      }
+      }
+
+      
+      .myImages{
+          gap: 0.75rem;
+
+          img{
+            width: 2.5rem;
+            height: 2.5rem;
+          }
+
+          .myImg{
+            width: 7.6875rem;
+            height: 2.5rem;
+          }
+        }
+}
+
+.introduction{
+  margin-block-start: 5%;
+  gap: 7.75rem;
+
+  .leftPart{
+    width: 45rem;
+
+    p{
+      font-size: 1.125rem;
+      color: #265358;
+    }
+
+    h2{
+      font-size: 1.975rem;
+      color: #101828;
+    }
+    li{
+      color: #265358;
+      font-size: 1.125rem;
+    }
+  }
+
+  .rightPart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding-inline: 2rem;
+    padding-block-start: 2rem;
+    padding-block-end: 2.5rem;
+    background: #E7FAFD;
+    height: 27.75rem;
+    border-radius: 1rem;
+
+    img{
+      width: 3.5rem;
+      height: 3.5rem;
+    }
+
+    h3{
+      color: #B77E00;
+      font-size: 1.5rem;
+    }
+
+    form{
+
+
+      p{
+        font-size: 1rem;
+        margin-block-start: 0.5rem;
+      }
+
+      input{
+        border-radius: 0.75rem;
+        margin-inline-end: 0.375rem;
+      }
+      input::placeholder {
+        color: #64748b;
+        font-size: 16px;
+        /* padding: 10px; */
+        padding-block: 131.5px;
+      }
+
+      button{
+        margin-block-start: 1rem;
+        width: 15rem;
+        border: none;
+        height: 2.75rem;
+        border-radius: 1rem;
+        background: #FEC545;
+      }
+    }
+  }
+  .aTag{
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+    }
+}
+
+/* ------------------------FOOTER------------------------ */
+
+.footer {
+  background: #ffffff;
+  padding-block: 2.5rem;
+  padding-inline: 3rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-inline: 2.40625rem;
+  margin-block-start: 7%;
+  margin-block-end: 2.25rem;
+  border-radius: 20px;
+  border: 0.25rem solid #edeff1;
+
+  .top {
+    margin-block-end: 1.875rem;
+  }
+
+  .left-end {
+    p {
+      width: 492px;
+      height: 72px;
+      font-size: 16px;
+      color: #64748b;
+      margin-block-end: 10%;
+    }
+
+    span {
+      width: 336px;
+      height: 24px;
+      font-size: 14px;
+      color: #667085;
+    }
+  }
+
+  .footerlist {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* gap: 1rem; */
+
+    ul li {
+      list-style: none;
+      font-size: 16px;
+      margin-block-start: 0.5rem;
+
+      .contact {
+        margin-block-start: 5rem;
+      }
+    }
+  }
+}
+
