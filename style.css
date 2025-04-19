@@ -44,11 +44,22 @@
 }
 
 .navbar {
-  /* width: 1440px; */
   height: 80px;
   background: #ffffff;
-}
 
+  /* .dropdown-item {
+    background: #fec545 !important;
+  } */
+}
+nav a {
+  text-decoration: none !important;
+}
+/* nav li:hover a {
+  color: #ffffff;
+} */
+.nav-item a:hover{
+  text-decoration: none !important;
+}
 .navContainer {
   /* padding-inline-end: 32px; */
 
@@ -57,9 +68,7 @@
     height: 36px;
   }
   a {
-    text-decoration: none;
-    /* width: 68px;
-    height: 26px; */
+    text-decoration: none !important;
     color: #0b0d14;
     font-size: 16px;
     line-height: 165%;
@@ -580,7 +589,7 @@
   .client-bottom {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     margin-inline: 1rem;
 
     .client-details {
@@ -642,7 +651,7 @@
 .goFurther {
   /* margin-inline: 3.6875rem; */
   height: 734px;
-  margin-block: 73px;
+  margin-block: 10%;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -811,4 +820,16 @@
       }
     }
   }
+}
+
+/* ----------------HOVER EFFECTS-------------------- */
+.hvr-underline-from-left:before {
+  background: #fec545 !important;
+}
+
+.hvr-fade:before {
+  background-color: #fec545 !important;
+}
+.dropdown-menu{
+      --bs-dropdown-link-active-bg: #fec545 !important;
 }

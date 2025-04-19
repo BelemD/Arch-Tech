@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OUR PRODUCTS</title>
+    <link rel="stylesheet" href="../css/product.css" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="container swiper mySwiper">
+      <div class="card_content swiper-wrapper">
+        <div class="cards swiper-slide">
+          <img src="../images/Team Member Photo (1).png" alt="" />
+          <div class="title">
+            <h2>Walter White</h2>
+          </div>
+          <div class="content">
+            <p>Chief Executive Officer</p>
+            <div class="social-icons"></div>
+          </div>
+        </div>
+
+        <div class="cards swiper-slide">
+          <img src="../images/Team Member Photo (1).png" alt="" />
+          <div class="title">
+            <h2>Walter White</h2>
+          </div>
+          <div class="content">
+            <p>Chief Executive Officer</p>
+            <div class="social-icons"></div>
+          </div>
+        </div>
+
+        <div class="cards swiper-slide">
+          <img src="../images/Team Member Photo (1).png" alt="" />
+          <div class="title">
+            <h2>Walter White</h2>
+          </div>
+          <div class="content">
+            <p>Chief Executive Officer</p>
+            <div class="social-icons"></div>
+          </div>
+        </div>
+
+        <div class="cards swiper-slide">
+          <img src="../images/Team Member Photo (1).png" alt="" />
+          <div class="title">
+            <h2>Walter White</h2>
+          </div>
+          <div class="content">
+            <p>Chief Executive Officer</p>
+            <div class="social-icons"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <script src="../script.js"></script> -->
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 1,
+      loop: true,
+      fade: true,
+      centerSlider: true,
+      grabCursor: true,
+      loopFillGroupWithBlank: true,
+      freeMode: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+  </body>
+</html>
