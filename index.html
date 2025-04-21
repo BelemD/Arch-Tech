@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width ,  initial-scale=1.0" />
     <title>ARKTECH</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="./assets/Hover-master/css/hover-min.css" />
@@ -53,7 +53,7 @@
                   <a
                     class="nav-link hvr-underline-from-left inter-medium me-3"
                     aria-current="page"
-                    href="#"
+                    href="./html/product.html"
                     >Products</a
                   >
                 </li>
@@ -97,7 +97,7 @@
               </ul>
             </div>
             <div class="d-flex inter-semibold">
-              <button class="mybtn inter-semibold hvr-shadow" type="button">
+              <button class="mybtn myButton inter-semibold hvr-shadow" type="button">
                 Start Your Project Today
               </button>
             </div>
@@ -138,7 +138,7 @@
                 />
               </div>
 
-              <button type="submit" class="inter-semibold hvr-shadow">
+              <button type="submit" class=" myButtoninter-semibold hvr-shadow">
                 Start Your Project Today
               </button>
             </div>
@@ -241,14 +241,14 @@
             These are some of the various things you <br />
             can easily sell on Shoplit.
           </p>
-          <a href="#" class="inter-semibold hvr-shadow" type="button"
+          <a href="#" class="inter-semibold hvr-shadow myButton" type="button"
             >Start Your Project Today</a
           >
         </div>
 
         <div class="grid-div container-fluid">
-          <div class="grid-ourServices">
-            <div class="grid-services ">
+          <div class="grid-ourServices ">
+            <div class="grid-services hvr-bounce-to-top">
               <img src="./assets/Icons/Frame 1171279775.png" alt="" />
               <h3 class="inter-extrabold">
                 Web Development <br />
@@ -263,7 +263,7 @@
               /></a>
             </div>
 
-            <div class="grid-services">
+            <div class="grid-services hvr-bounce-to-top">
               <img src="./assets/Icons/Frame 1171279775 (2).png" alt="" />
               <h3 class="inter-extrabold">Mobile App <br />Development</h3>
               <p class="inter-medium">
@@ -275,7 +275,7 @@
               /></a>
             </div>
 
-            <div class="grid-services">
+            <div class="grid-services hvr-bounce-to-top">
               <img src="./assets/Icons/Frame 1171279775 (3).png" alt="" />
               <h3 class="inter-extrabold">
                 AI & Machine Learning <br />Integration
@@ -290,7 +290,7 @@
               /></a>
             </div>
 
-            <div class="grid-services">
+            <div class="grid-services hvr-bounce-to-top">
               <img src="./assets/Icons/Frame 1171279775 (4).png" alt="" />
               <h3 class="inter-extrabold">Cloud Services & DevOps</h3>
               <p class="inter-medium">
@@ -302,7 +302,7 @@
               /></a>
             </div>
 
-            <div class="grid-services">
+            <div class="grid-services hvr-bounce-to-top">
               <img src="./assets/Icons/Frame 1171279775 (5).png" alt="" />
               <h3 class="inter-extrabold">UI/UX Design</h3>
               <p class="inter-medium">
@@ -314,7 +314,7 @@
               /></a>
             </div>
 
-            <div class="grid-services">
+            <div class="grid-services hvr-bounce-to-top">
               <img src="./assets/Icons/Frame 1171279775 (7).png" alt="" />
               <h3 class="inter-extrabold">Software <br />Modernization</h3>
               <p class="inter-medium">
@@ -386,7 +386,7 @@
         </div>
 
         <div class="client-bottom d-flex flex-column swiper mySwiper">
-          <div class="swiper-wrapper">
+          <div class="slide swiper-wrapper">
             <div class="client-details swiper-slide">
             <div class="top-details ">
               <img src="./assets/Icons/Invisible.png" alt="" />
@@ -496,13 +496,15 @@
 
         <div class="arrows">
           <img
-            class="prev swiper-button-prev"
+            class="prev "
+            onclick="prevSlide()"
             style="background: #f0f5ff"
             src="./assets/Icons/Icon Button2.png"
             alt=""
           />
           <img
-            class="next swiper-button-next"
+            class="next "
+            onclick="nextSlide()"
             style="background: #fec545"
             src="./assets/Icons/Icon Button.png"
             alt=""
@@ -618,10 +620,11 @@
         <img src="./images/Frame 4.png" alt="" />
       </div>
 
-      <!-- -------------------------------------FOOTER-------------------------------------------- -->
+     
+       <!-- -------------------------------------FOOTER-------------------------------------------- -->
     <div class="footer">
       <div class="left-end">
-        <img src="../images/Asset 1 1logo.png" class="top" alt="" />
+        <img src="./images/Asset 1 1logo.png" class="top" alt="" />
         <p class="inter-medium">
           Shoplit empowers sellers to easily sell digital products, services <br>and
           physical goods globally. Our platform offers secure payments,<br> currency
@@ -649,12 +652,12 @@
           <li class="top inter-bold" style="font-size: 14px">Socials</li>
           <li>
             <img
-              src="../assets/Icons/entypo-social_linkedin-with-circle.png"
+              src="./assets/Icons/entypo-social_linkedin-with-circle.png"
               alt=""
             />
-            <img src="../assets/Icons/ph_x-logo-bold.png" alt="" />
-            <img src="../assets/Icons/bi_facebook.png" alt="" />
-            <img src="../assets/Icons/uil_instagram-alt.png" alt="" />
+            <img src="./assets/Icons/ph_x-logo-bold.png" alt="" />
+            <img src="./assets/Icons/bi_facebook.png" alt="" />
+            <img src="./assets/Icons/uil_instagram-alt.png" alt="" />
           </li>
         </ul>
       </div>
@@ -666,6 +669,19 @@
 
     <!-- Initialize Swiper -->
     <script>
+      let next = document.querySelector('.next');
+      let prev = document.querySelector('.prev');
+
+      next.addEventListener('click', function(){
+        let items = document.querySelectorAll('.client-details');
+        document.querySelector('.slide').appendChild(items[0]);
+      })
+
+      prev.addEventListener('click', function(){
+        let items = document.querySelectorAll('.client-details');
+        document.querySelector('.slide').prepend(items[items.length - 1]);
+      })
+
     var swiper = new Swiper(".mySwiper", {
       slidesPerView: 3,
       spaceBetween: 30,
@@ -685,6 +701,6 @@
         prevEl: ".swiper-button-prev",
       },
     });
-  </script>
+    </script>
   </body>
 </html>

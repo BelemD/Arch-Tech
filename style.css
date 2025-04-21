@@ -770,6 +770,7 @@ nav a {
   }
 }
 
+
 /* ------------------------FOOTER------------------------ */
 
 .footer {
@@ -832,4 +833,13 @@ nav a {
 }
 .dropdown-menu{
       --bs-dropdown-link-active-bg: #fec545 !important;
+}
+.hvr-bounce-to-top:before {
+  background-color: #fec545 !important;
+  border-radius: 1rem;
+}
+
+.myButton:active{
+  background-color: #f5b726 ;
+  transform: translateY(4px);
 }
