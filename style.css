@@ -175,7 +175,6 @@ nav a {
 
 /* ------------------------WHO WE ARE-------------------------------- */
 .mission {
-  width: 84.375rem;
   height: 36.1875rem;
   margin-block: 6.25rem;
   align-self: center;
@@ -322,7 +321,6 @@ nav a {
 
 .ourServices {
   height: 1205px;
-
   background: linear-gradient(#ecfcff, #e7fafd);
   display: flex;
   flex-direction: column;
@@ -661,8 +659,7 @@ nav a {
   align-content: center;
 
   .top-goFurther {
-    /* margin-inline: 27.59375rem; */
-    height: 217px;
+     height: 217px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -774,6 +771,7 @@ nav a {
 /* ------------------------FOOTER------------------------ */
 
 .footer {
+  height: 297px;
   background: #ffffff;
   padding-block: 2.5rem;
   padding-inline: 3rem;
