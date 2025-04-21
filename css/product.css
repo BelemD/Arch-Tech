@@ -175,10 +175,10 @@ nav a {
 
 /* ------------------------WHO WE ARE-------------------------------- */
 .mission {
-  width: 84.375rem;
+  /* width: 84.375rem; */
   height: 36.1875rem;
   margin-block: 6.25rem;
-  align-self: center;
+  align-items: center;
   display: flex;
   flex-direction: row;
   position: relative;
@@ -211,7 +211,7 @@ nav a {
     /* padding-block-end: 60%; */
     position: absolute;
     left: 24.5%;
-    margin-inline-start: 5.7%;
+    margin-inline-start: 5%;
     background-image: url(../images/Asset\ 4\ 1.png);
 
     h2-tag {
