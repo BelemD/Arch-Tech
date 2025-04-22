@@ -42,7 +42,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body {
+  background: #ffffff;
+  /* margin: 0rem 6.84rem 0rem 6.84rem; */
+}
 .navbar {
   height: 80px;
   background: #ffffff;
@@ -57,7 +60,7 @@ nav a {
 /* nav li:hover a {
   color: #ffffff;
 } */
-.nav-item a:hover{
+.nav-item a:hover {
   text-decoration: none !important;
 }
 .navContainer {
@@ -235,6 +238,17 @@ nav a {
       height: 288px;
       font-size: 16px;
       margin-inline-start: 224px;
+
+      .mybtn {
+        font-size: 16px;
+        color: #0e0d0d;
+        width: 174px;
+        height: 44px;
+        border-radius: 16px;
+        background: #fec545;
+        margin: 0;
+        border: none;
+      }
     }
   }
 }
@@ -659,7 +673,7 @@ nav a {
   align-content: center;
 
   .top-goFurther {
-     height: 217px;
+    height: 217px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -767,11 +781,9 @@ nav a {
   }
 }
 
-
 /* ------------------------FOOTER------------------------ */
 
 .footer {
-  height: 297px;
   background: #ffffff;
   padding-block: 2.5rem;
   padding-inline: 3rem;
@@ -779,7 +791,7 @@ nav a {
   grid-template-columns: auto auto;
   margin-inline: 2.40625rem;
   margin-block-start: 7%;
-  margin-block-end: 2.25rem;
+  margin-block-end: 2%;
   border-radius: 20px;
   border: 0.25rem solid #edeff1;
 
@@ -807,7 +819,6 @@ nav a {
   .footerlist {
     display: grid;
     grid-template-columns: auto auto auto;
-    /* gap: 1rem; */
 
     ul li {
       list-style: none;
@@ -816,6 +827,12 @@ nav a {
 
       .contact {
         margin-block-start: 5rem;
+      }
+
+      a {
+        text-decoration: none;
+        font-size: 16px;
+        color: #0b0d14;
       }
     }
   }
@@ -829,15 +846,15 @@ nav a {
 .hvr-fade:before {
   background-color: #fec545 !important;
 }
-.dropdown-menu{
-      --bs-dropdown-link-active-bg: #fec545 !important;
+.dropdown-menu {
+  --bs-dropdown-link-active-bg: #fec545 !important;
 }
 .hvr-bounce-to-top:before {
   background-color: #fec545 !important;
   border-radius: 1rem;
 }
 
-.myButton:active{
-  background-color: #f5b726 ;
+.myButton:active {
+  background-color: #f5b726;
   transform: translateY(4px);
 }

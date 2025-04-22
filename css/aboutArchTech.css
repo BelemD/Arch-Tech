@@ -158,7 +158,6 @@ body {
       width: 515px;
       text-align: center;
       align-content: center;
-      
     }
 
     h2 {
@@ -177,6 +176,8 @@ body {
       height: 288px;
       font-size: 16px;
       margin-inline-start: 224px;
+
+    
     }
   }
 }
