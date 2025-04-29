@@ -228,6 +228,128 @@ body {
   }
 }
 
+/* ---------------------HOW WE WORK---------------------- */
+
+.howWeWork {
+  height: 544px;
+  background: #f0feff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-block-end: 3px;
+
+  .howWeWork-left {
+    display: flex;
+    flex-direction: column;
+    width: 284px;
+    height: 227px;
+    margin-inline-start: 6.2%;
+    margin-inline-end: 7%;
+    /* padding: ; */
+
+    .dot {
+      display: flex;
+      flex-direction: row;
+      /* align-items: center; */
+      justify-content: left;
+      /* align-items: center; */
+
+      img {
+        background: #276e6e;
+        width: 12px;
+        height: 12px;
+        border-radius: 99999px;
+        /* align-self: center; */
+        margin-block-start: 6px;
+        margin-inline-end: 20px;
+      }
+
+      p {
+        font-size: 16px;
+        color: #131a1b;
+        margin-block-end: 24px;
+        text-align: center;
+        align-self: center;
+      }
+    }
+    h3 {
+      font-size: 42px;
+      line-height: 63px;
+      color: #0f172a;
+    }
+    p {
+      font-size: 41px;
+      color: #276e6e;
+      margin-block-end: 34px;
+    }
+
+    .bolt {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      border: 1px solid #0c98a6;
+      border-radius: 19px;
+      height: 41px;
+      text-align: center;
+      align-content: center;
+      padding-block-start: 3%;
+      padding-inline: 1.5%;
+
+      img {
+        width: 14px;
+        height: 14px;
+        background: #276e6e;
+        border-radius: 99999px;
+        margin-block-start: 6px;
+        margin-inline-end: 10px;
+      }
+
+      p {
+        font-size: 14px;
+        color: #1a1c1f;
+      }
+    }
+  }
+
+  .howWeWork-right {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    align-items: center;
+    width: 850px;
+    height: 352px;
+    background: url();
+    padding-inline-end: 6rem;
+
+    h4 {
+      width: 170px;
+      height: 50px;
+      font-size: 24px;
+      color: #1e293b;
+      background: #ffe5aa;
+      border-radius: 8px;
+      text-align: center;
+      align-content: center;
+      margin-block-end: 15px;
+    }
+
+    p {
+      color: #475569;
+      font-size: 19px;
+      height: 24px;
+    }
+
+    .right-details {
+      width: 415px;
+      height: 166px;
+      background-color: #ffffff;
+      border-radius: 20px;
+      align-content: center;
+      padding-inline-start: 10%;
+    }
+  }
+}
+
 /* ------------------------FOOTER------------------------ */
 
 .footer {

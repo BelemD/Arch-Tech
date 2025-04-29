@@ -1,18 +1,20 @@
 
 
+    // <!-- Initialize Swiper -->
 
-var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      slidesPerGroup: 1,
-      loop: true,
-      fade: true,
-      centerSlider: true,
-      grabCursor: true,
-      loopFillGroupWithBlank: true,
-      freeMode: true,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
+      let next = document.querySelector(".next");
+      let prev = document.querySelector(".prev");
+
+      next.addEventListener("click", function () {
+        let items = document.querySelectorAll(".client-details");
+        document.querySelector(".slide").appendChild(items[0]);
+      });
+
+      prev.addEventListener("click", function () {
+        let items = document.querySelectorAll(".client-details");
+        document.querySelector(".slide").prepend(items[items.length - 1]);
+      });
+
+      
+    
+

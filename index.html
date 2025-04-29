@@ -31,7 +31,7 @@
       <!------------------------------------- Nav Bar  ------------------------------------------->
       <nav class="navbar fixed-top w-100 navbar-expand-lg">
         <div
-          class="navContainer d-flex justify-content-center align-content-center container"
+          class="navContainer d-flex justify-content-between align-content-center container"
         >
           <img src="./images/Asset 1 1logo.png" class="me-5" alt="" />
           <button
@@ -117,7 +117,8 @@
           </div>
           <div class="d-flex inter-semibold">
             <button
-              class="mybtn myButton inter-semibold hvr-shadow"
+              class="collapse navbar-collapse mybtn myButton inter-semibold hvr-shadow"
+              onclick='window.location.assign("https://calendly.com/dc-session_with_tobi-arktech/30m-dc")'
               type="button"
             >
               Start Your Project Today
@@ -145,7 +146,11 @@
           <br />
           your market with code that delivers results.
         </p>
-        <form>
+        <form
+          action="https://calendly.com/dc-session_with_tobi-arktech/30m-dc"
+          method="get"
+          target="_blank"
+        >
           <div class="input-field justify-content-between">
             <div class="myForm inter-regular mt-4">
               <span
@@ -157,7 +162,7 @@
               <input
                 type="email"
                 class="form-control fs-6 inter-medium"
-                id=""
+                required
                 placeholder="Email"
               />
             </div>
@@ -172,11 +177,13 @@
 
     <!----------------------------------- WHO WE ARE (MISSION AND VISION)  -------------------------->
     <div class="mission">
-      <div class="missionStatement d-flex flex-column align-content-center justify-content-center">
-        <div class="h2-tag ">
+      <div
+        class="missionStatement d-flex flex-column align-content-center justify-content-center"
+      >
+        <div class="h2-tag">
           <h2 class="inter-extrabold">Who We Are <br />(Mission & Vision)</h2>
 
-          <div class="p-tag inter-medium ">
+          <div class="p-tag inter-medium">
             <p>
               At Arktech, we’re more than just a tech company—we’re your
               partners in digital transformation. Our mission is to empower
@@ -189,8 +196,12 @@
               established enterprise, we’re here to help you navigate the
               digital landscape with confidence.
             </p>
-            
-            <button type="submit" onclick="window.location.href='./html/aboutArchTech.html';" class="myButton mybtn inter-semibold hvr-shadow">
+
+            <button
+              type="submit"
+              onclick="window.location.href='./html/aboutArchTech.html';"
+              class="myButton mybtn inter-semibold hvr-shadow"
+            >
               View more
             </button>
           </div>
@@ -256,7 +267,10 @@
           These are some of the various things you <br />
           can easily sell on Shoplit.
         </p>
-        <a href="#" class="inter-semibold hvr-shadow myButton" type="button"
+        <a
+          href="https://calendly.com/dc-session_with_tobi-arktech/30m-dc"
+          class="inter-semibold hvr-shadow myButton"
+          type="button"
           >Start Your Project Today</a
         >
       </div>
@@ -273,7 +287,9 @@
               Seamlessly sell your e-books with options <br />
               for downloadable and non- downloadable <br />formats
             </p>
-            <a href="#" class="inter-semibold hvr-icon-forward"
+            <a
+              href="./html/contactUs.html"
+              class="inter-semibold hvr-icon-forward"
               >Start Now
               <img
                 src="./assets/Icons/chevron-right.png"
@@ -289,7 +305,9 @@
               Create engaging mobile experiences with <br />native and hybrid
               app development for <br />iOS and Android.
             </p>
-            <a href="#" class="inter-semibold hvr-icon-forward"
+            <a
+              href="./html/contactUs.html"
+              class="inter-semibold hvr-icon-forward"
               >Start Now
               <img
                 src="./assets/Icons/chevron-right.png"
@@ -308,7 +326,9 @@
               predictive analytics, and personalized <br />user experiences into
               your applications.
             </p>
-            <a href="#" class="inter-semibold hvr-icon-forward"
+            <a
+              href="./html/contactUs.html"
+              class="inter-semibold hvr-icon-forward"
               >Start Now
               <img
                 src="./assets/Icons/chevron-right.png"
@@ -324,7 +344,9 @@
               Optimize your infrastructure with cloud solutions, continuous
               integration, and deployment pipelines.
             </p>
-            <a href="#" class="inter-semibold hvr-icon-forward"
+            <a
+              href="./html/contactUs.html"
+              class="inter-semibold hvr-icon-forward"
               >Start Now
               <img
                 src="./assets/Icons/chevron-right.png"
@@ -340,7 +362,9 @@
               Craft intuitive and visually appealing interfaces that enhance
               user engagement and satisfaction.
             </p>
-            <a href="#" class="inter-semibold hvr-icon-forward"
+            <a
+              href="./html/contactUs.html"
+              class="inter-semibold hvr-icon-forward"
               >Start Now
               <img
                 src="./assets/Icons/chevron-right.png"
@@ -356,7 +380,9 @@
               Revamp legacy systems with scalable <br />APIs, microservices, and
               cloud migration.
             </p>
-            <a href="#" class="inter-semibold hvr-icon-forward"
+            <a
+              href="./html/contactUs.html"
+              class="inter-semibold hvr-icon-forward"
               >Start Now
               <img
                 src="./assets/Icons/chevron-right.png"
@@ -382,7 +408,11 @@
 
         <span class="bolt"
           ><img src="./assets/Icons/bolt.png" alt="" />
-          <p class="inter-extrabold">Schedule a Free Strategy Session</p></span
+          <p class="inter-extrabold">
+            <a href="https://calendly.com/dc-session_with_tobi-arktech/30m-dc"
+              >Schedule a Free Discovery Session</a
+            >
+          </p></span
         >
       </div>
 
@@ -417,13 +447,39 @@
           What <span style="color: #fec545">client</span> says
         </h2>
         <p class="inter-regular">
-          Working with Arctech was a game-changer. Our app’s <br />
+          Working with Arktech was a game-changer. Our app’s <br />
           user base grew 300% in 6 months!
         </p>
       </div>
 
       <div class="client-bottom d-flex flex-column swiper mySwiper">
         <div class="slide swiper-wrapper">
+          <div class="client-details swiper-slide">
+            <div class="top-details">
+              <img src="./assets/Icons/Invisible.png" alt="" />
+              <div>
+                <h4 class="inter-medium">Annette Black</h4>
+                <p class="inter-regular">
+                  Chief Chairman of
+                  <span class="inter-medium" style="color: #7534ff"
+                    >Google</span
+                  >
+                </p>
+              </div>
+            </div>
+
+            <div class="middle-details">
+              <p class="inter-medium">
+                “This guy is true professional and very <br />
+                experienced in migration and server <br />
+                configuration. He was able to complete <br />
+                my order in time and as per agreed <br />
+                scope. Highly recommend!”
+              </p>
+            </div>
+            <img src="./assets/Icons/Group 5.png" class="group5" alt="" />
+          </div>
+
           <div class="client-details swiper-slide">
             <div class="top-details">
               <img src="./assets/Icons/Invisible.png" alt="" />
@@ -546,199 +602,179 @@
           />
         </div>
       </div>
+    </div>
 
-      <!-- ----------------------------GO FURTHER---------------------------------- -->
+    <!-- ----------------------------GO FURTHER---------------------------------- -->
 
-      <div class="goFurther">
-        <div class="top-goFurther">
-          <h2 class="inter-extrabold">Go further with our resources</h2>
-          <p class="inter-regular">
-            We have partnered with businesses on the same mission as ours to
-            help local businesses. We have also added resources you need to
-            start, run and grow your business.
-          </p>
-        </div>
-
-        <div class="card-div">
-          <div class="card" style="width: 383px">
-            <img
-              src="./images/Replace Image.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title inter-semibold">
-                Meet an web designer in his studio in Amsterdam
-              </h5>
-              <p class="card-text inter-medium">
-                We'll get to know the designer and their design philosophy, as
-                well as take a look...
-              </p>
-
-              <div class="inter-medium buttonsBelow">
-                <a href="./html/contactUs.html" class="btn">UI/UX</a>
-                <a href="./html/contactUs.html" class="btn">Studio</a>
-                <a href="./html/contactUs.html" class="btn">Web Design</a>
-                <a
-                  href="./html/contactUs.html"
-                  class="btn"
-                  style="color: #344051"
-                  >+2</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <div class="card" style="width: 383px">
-            <img
-              src="./images/Replace Image (1).png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title inter-semibold">
-                Meet an web designer in his studio in Amsterdam
-              </h5>
-              <p class="card-text inter-medium">
-                We'll get to know the designer and their design philosophy, as
-                well as take a look...
-              </p>
-
-              <div class="inter-medium buttonsBelow">
-                <a href="./html/contactUs.html" class="btn">UI/UX</a>
-                <a href="./html/contactUs.html" class="btn">Studio</a>
-                <a href="./html/contactUs.html" class="btn">Web Design</a>
-                <a
-                  href="./html/contactUs.html"
-                  class="btn"
-                  style="color: #344051"
-                  >+2</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <div class="card" style="width: 383px">
-            <img
-              src="./images/Replace Image (2).png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title inter-semibold">
-                Meet an web designer in his studio in Amsterdam
-              </h5>
-              <p class="card-text inter-medium">
-                We'll get to know the designer and their design philosophy, as
-                well as take a look...
-              </p>
-
-              <div class="inter-medium buttonsBelow">
-                <a href="./html/contactUs.html" class="btn">UI/UX</a>
-                <a href="./html/contactUs.html" class="btn">Studio</a>
-                <a href="./html/contactUs.html" class="btn">Web Design</a>
-                <a
-                  href="./html/contactUs.html"
-                  class="btn"
-                  style="color: #344051"
-                  >+2</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
+    <div class="goFurther">
+      <div class="top-goFurther">
+        <h2 class="inter-extrabold">Go further with our resources</h2>
+        <p class="inter-regular">
+          We have partnered with businesses on the same mission as ours to help
+          local businesses. We have also added resources you need to start, run
+          and grow your business.
+        </p>
       </div>
 
-      <!------------------------- Ready to Outperform the Competition  -------------->
+      <div class="card-div">
+        <div class="card" style="width: 383px">
+          <img
+            src="./images/Replace Image.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title inter-semibold">
+              Meet an web designer in his studio in Amsterdam
+            </h5>
+            <p class="card-text inter-medium">
+              We'll get to know the designer and their design philosophy, as
+              well as take a look...
+            </p>
 
-      <div class="outPerform">
-        <div class="outPerform-top">
-          <h1 class="inter-extrabold">
-            Ready to <span style="color: #ffdb89">Outperform</span> the
-            Competition
-          </h1>
-          <p class="inter-medium">
-            Let’s build the app or website your business deserves.
-          </p>
-          <span
-            ><p class="inter-extrabold p-schedule">
-              Schedule a Free Strategy Session
-            </p></span
-          >
+            <div class="inter-medium buttonsBelow">
+              <a href="./html/contactUs.html" class="btn">UI/UX</a>
+              <a href="./html/contactUs.html" class="btn">Studio</a>
+              <a href="./html/contactUs.html" class="btn">Web Design</a>
+              <a href="./html/contactUs.html" class="btn" style="color: #344051"
+                >+2</a
+              >
+            </div>
+          </div>
         </div>
 
-        <img src="./images/Frame 4.png" alt="" />
-      </div>
+        <div class="card" style="width: 383px">
+          <img
+            src="./images/Replace Image (1).png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title inter-semibold">
+              Meet an web designer in his studio in Amsterdam
+            </h5>
+            <p class="card-text inter-medium">
+              We'll get to know the designer and their design philosophy, as
+              well as take a look...
+            </p>
 
-      <!-- -------------------------------------FOOTER-------------------------------------------- -->
-      <div class="footer">
-        <div class="left-end">
-          <img src="./images/Asset 1 1logo.png" class="top" alt="" />
-          <p class="inter-medium">
-            Shoplit empowers sellers to easily sell digital products, services
-            <br />and physical goods globally. Our platform offers secure
-            payments,<br />
-            currency conversion, and a seamless customer reach.
-          </p>
-          <span class="inter-regular"
-            >© 2025 Arktech. All rights reserved.</span
-          >
+            <div class="inter-medium buttonsBelow">
+              <a href="./html/contactUs.html" class="btn">UI/UX</a>
+              <a href="./html/contactUs.html" class="btn">Studio</a>
+              <a href="./html/contactUs.html" class="btn">Web Design</a>
+              <a href="./html/contactUs.html" class="btn" style="color: #344051"
+                >+2</a
+              >
+            </div>
+          </div>
         </div>
 
-        <div class="footerlist">
-          <ul>
-            <li class="top inter-bold" style="font-size: 14px">Pages</li>
-            <li class="inter-semibold"><a href="./index.html">Home</a></li>
-            <li class="inter-semibold">How it works</li>
-            <li class="inter-semibold"><a href="#">FAQ</a></li>
-            <li class="contact inter-semibold"><a href="./html/contactUs.html">Contact Us</a></li>
-          </ul>
+        <div class="card" style="width: 383px">
+          <img
+            src="./images/Replace Image (2).png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title inter-semibold">
+              Meet an web designer in his studio in Amsterdam
+            </h5>
+            <p class="card-text inter-medium">
+              We'll get to know the designer and their design philosophy, as
+              well as take a look...
+            </p>
 
-          <ul>
-            <li class="top inter-bold" style="font-size: 14px">Privacy</li>
-            <li class="inter-semibold"><a href="./html/ourLegal.html">Privacy</a></li>
-            <li class="inter-semibold"><a href="./html/ourLegal.html">Terms & Conditions</a></li>
-          </ul>
-
-          <ul>
-            <li class="top inter-bold" style="font-size: 14px">Socials</li>
-            <li>
-              <img
-                src="./assets/Icons/entypo-social_linkedin-with-circle.png"
-                alt=""
-              />
-              <img src="./assets/Icons/ph_x-logo-bold.png" alt="" />
-              <img src="./assets/Icons/bi_facebook.png" alt="" />
-              <img src="./assets/Icons/uil_instagram-alt.png" alt="" />
-            </li>
-          </ul>
+            <div class="inter-medium buttonsBelow">
+              <a href="./html/contactUs.html" class="btn">UI/UX</a>
+              <a href="./html/contactUs.html" class="btn">Studio</a>
+              <a href="./html/contactUs.html" class="btn">Web Design</a>
+              <a href="./html/contactUs.html" class="btn" style="color: #344051"
+                >+2</a
+              >
+            </div>
+          </div>
         </div>
-
-        <div class="mt-2"></div>
       </div>
     </div>
-    <!-- <script src="./index.js"></script> -->
+
+    <!------------------------- Ready to Outperform the Competition  -------------->
+
+    <div class="outPerform">
+      <div class="outPerform-top">
+        <h1 class="inter-extrabold">
+          Ready to <span style="color: #ffdb89">Outperform</span> the
+          Competition
+        </h1>
+        <p class="inter-medium">
+          Let’s build the app or website your business deserves.
+        </p>
+        <span
+          ><p class="inter-extrabold p-schedule">
+            Schedule a Free Strategy Session
+          </p></span
+        >
+      </div>
+
+      <img src="./images/Frame 4.png" alt="" />
+    </div>
+
+    <!-- -------------------------------------FOOTER-------------------------------------------- -->
+    <div class="footer">
+      <div class="left-end">
+        <img src="./images/Asset 1 1logo.png" class="top" alt="" />
+        <p class="inter-medium">
+          Shoplit empowers sellers to easily sell digital products, services
+          <br />and physical goods globally. Our platform offers secure
+          payments,<br />
+          currency conversion, and a seamless customer reach.
+        </p>
+        <span class="inter-regular">© 2025 Arktech. All rights reserved.</span>
+      </div>
+
+      <div class="footerlist">
+        <ul>
+          <li class="top inter-bold" style="font-size: 14px">Pages</li>
+          <li class="inter-semibold"><a href="./index.html">Home</a></li>
+          <li class="inter-semibold">How it works</li>
+          <li class="inter-semibold"><a href="#">FAQ</a></li>
+          <li class="contact inter-semibold">
+            <a href="./html/contactUs.html">Contact Us</a>
+          </li>
+        </ul>
+
+        <ul>
+          <li class="top inter-bold" style="font-size: 14px">Privacy</li>
+          <li class="inter-semibold">
+            <a href="./html/ourLegal.html">Privacy</a>
+          </li>
+          <li class="inter-semibold">
+            <a href="./html/ourLegal.html">Terms & Conditions</a>
+          </li>
+        </ul>
+
+        <ul>
+          <li class="top inter-bold" style="font-size: 14px">Socials</li>
+          <li>
+            <img
+              src="./assets/Icons/entypo-social_linkedin-with-circle.png"
+              alt=""
+            />
+            <img src="./assets/Icons/ph_x-logo-bold.png" alt="" />
+            <img src="./assets/Icons/bi_facebook.png" alt="" />
+            <img src="./assets/Icons/uil_instagram-alt.png" alt="" />
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <!-- Initialize Swiper -->
     <script>
-      let next = document.querySelector(".next");
-      let prev = document.querySelector(".prev");
-
-      next.addEventListener("click", function () {
-        let items = document.querySelectorAll(".client-details");
-        document.querySelector(".slide").appendChild(items[0]);
-      });
-
-      prev.addEventListener("click", function () {
-        let items = document.querySelectorAll(".client-details");
-        document.querySelector(".slide").prepend(items[items.length - 1]);
-      });
-
       var swiper = new Swiper(".mySwiper", {
         slidesPerView: 3,
-        spaceBetween: 30,
+        spaceBetween: 24,
         slidesPerGroup: 1,
         loop: true,
         fade: true,
@@ -755,6 +791,15 @@
           prevEl: ".swiper-button-prev"
         }
       });
+
+      //   document.addEventListener('DOMContentLoaded', () => {
+      //  const carousel = document.querySelector('.slider');
+      // const items = document.querySelectorAll('.client-details');
+      // const middleIndex = Math.floor(items.length / 2);
+
+      // // Set the initial position to the middle item
+      // carousel.style.transform = `translateX(-${middleIndex * 80}%)`;
+      // });
     </script>
   </body>
 </html>
