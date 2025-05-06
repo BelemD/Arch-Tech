@@ -39,26 +39,23 @@
 
 body {
   background: #ffffff;
-  margin: 0rem 6.84rem 0rem 6.84rem;
+  /* margin: 0rem 6.84rem 0rem 6.84rem; */
 }
 
 .navbar {
   height: 5rem;
   background: #ffffff;
+  height: 80px;
+  bottom: 0;
 }
 
-.navContainer {
-  
-
-  img {
-    width: 8.375rem;
-    height: 2.25rem;
-  }
-  a {
-    text-decoration: none;
-    color: #0b0d14;
-    font-size: 1rem;
-    line-height: 165%;
+.navbar {
+ 
+  .nav-item{
+    a{
+      font-size: 1rem;
+      color: #0B0D14;
+    }
   }
   .mybtn {
     font-size: 1rem;
@@ -67,7 +64,6 @@ body {
     height: 2.75rem;
     border-radius: 1rem;
     background: #fec545;
-    margin: 0;
     border: none;
   }
   li a img {
@@ -80,8 +76,9 @@ body {
   height: 19.3125rem;
   background-image: url(../images/BG2.png);
   border-radius: 1.25rem;
-  margin-block-start: 3.0625rem;
-  margin-inline: 6.84375rem;
+  margin-block-start: 6rem;
+  margin-inline-end: 116px;
+  margin-inline-start: 106px;
   /* position: relative; */
 
   .servicesContent {
@@ -125,10 +122,8 @@ body {
       }
 
       .myForm {
-        position: relative;
 
         span img {
-          position: absolute;
           width: 20px;
           height: 20px;
           color: #1f1f24;
@@ -140,7 +135,6 @@ body {
     }
 
     .input-field {
-      position: relative;
       width: 535px;
     }
     button {
@@ -149,7 +143,6 @@ body {
       height: 44px;
       color: #0e0d0d;
       font-size: 16px;
-      position: absolute;
       top: 10px;
       right: 10px;
       border-radius: 16px;
@@ -160,21 +153,19 @@ body {
 
 /* ------------------------OUR SERVICE GRID--------------------------------- */
 
-.lines{
-    background: linear-gradient( #ECFCFF, #E7FAFD);
-  
+.lines {
+  background: linear-gradient(#ecfcff, #e7fafd);
 }
-.grid-div{
+.grid-div {
   height: 57.4375rem;
   padding-block-start: 3.25rem;
   margin-block: 5%;
   /* padding-inline-end: 2%; */
-  background-image: url(../assets/Icons/glow_one.png.png), url(../images/Line\ design\ -\ bg.png);
-
-    
+  background-image: url(../assets/Icons/glow_one.png.png),
+    url(../images/Line\ design\ -\ bg.png);
 }
 
-.grid-ourServices{
+.grid-ourServices {
   margin-inline: 5.59375rem;
   height: 16rem;
   display: grid;
@@ -182,30 +173,29 @@ body {
   gap: 1.4375rem;
   justify-content: center;
   align-items: center;
-  
 
-  .grid-services{
+  .grid-services {
     width: 24.375rem;
     height: 24.625rem;
     background: #ffffff;
-    
+
     border-radius: 1.25rem;
     padding-inline-start: 2.0625rem;
 
-    img{
+    img {
       width: 60px;
       height: 60px;
       margin-block-end: 33px;
       margin-block-start: 33px;
     }
-    h3{
+    h3 {
       width: 313px;
       height: 68px;
       font-size: 24px;
       line-height: 34px;
       margin-block-end: 18px;
     }
-    p{
+    p {
       font-size: 1rem;
       line-height: 24px;
       width: 313px;
@@ -213,14 +203,14 @@ body {
       color: #475569;
       margin-block-end: 10px;
     }
-    a{
+    a {
       text-decoration: none;
       font-size: 1rem;
-      color: #0F172A;
+      color: #0f172a;
       text-align: center;
-      
-      img{
-        color: #0F172A;
+
+      img {
+        color: #0f172a;
         width: 1rem;
         height: 1rem;
       }
@@ -400,4 +390,522 @@ body {
       }
     }
   }
+}
+
+@media screen and (max-width: 36rem) {
+  .navbar .mybtn {
+    display: none;
+  }
+
+  body{
+    width: auto;
+  }
+
+  .navbar, .myNav{
+    max-width: 430px !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  .services {
+    height: 275px;
+    max-width: 448px;
+    background-image: url(../images/BG\ ph.png);
+    border-radius: 0;
+    margin-block-start: 3.0625rem;
+    margin-inline: 0;
+
+    .servicesContent {
+    color: #ffffff;
+    margin-inline: 0;
+    height: 19.3125rem;
+
+    h2{
+      font-size: 36px;
+      height: 66px;
+      width: 425px;
+      padding-block-end: 0;
+    }
+
+    p{
+      font-size: 1rem;
+       width: 264px;
+      height: 29px;
+      margin-block-end: 41px;
+      margin-inline-end: 0;
+    }
+
+    
+
+    form {
+      width: 214px;
+      height: 4rem;
+      border-radius: 1.5rem;
+      /* padding-inline-start: 23px;
+      padding-inline-end: 12px; */
+      padding-block-end: 2.5625rem;
+
+      input {
+        max-width: 535px;
+        height: 64px;
+        border-radius: 24px;
+      }
+
+      input::placeholder {
+        color: #64748b;
+        font-size: 16px;
+        /* padding: 10px; */
+        padding-block: 0;
+        padding-inline-start: 0;
+      }
+
+      .myForm {
+        display: none;
+
+        span img {
+          width: 20px;
+          height: 20px;
+          color: #1f1f24;
+          /* padding: 10px; */
+          top: 210px;
+          left: 0;
+        }
+      }
+    }
+
+    .input-field {
+      width: 5px;
+    }
+    button {
+      background: #fec545;
+      width: 214px;
+      height: 44px;
+      color: #0e0d0d;
+      font-size: 16px;
+      top: 10px;
+      right: 10px;
+      border-radius: 16px;
+      border: none;
+    }
+  
+    }
+  }
+
+
+  .lines {
+  background: linear-gradient(#ecfcff, #e7fafd);
+  height: 2216px;
+ }
+.grid-div {
+  height: 57.4375rem;
+  padding-block-start: 7px;
+  margin-block: 0;
+  margin-block-start: 32px;
+  /* padding-inline-end: 2%; */
+  background-image: url(../assets/Icons/glow_two.png)
+}
+
+.grid-ourServices {
+  margin-inline: 5.59375rem;
+  height: 16rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 9.68px;
+  justify-content: center;
+  align-items: center;
+
+  .grid-services {
+    width: 353px;
+    height: 356.32px;
+    background: #ffffff;
+
+    border-radius: 1.25rem;
+    padding-inline-start: 2.0625rem;
+
+    img {
+      width: 60px;
+      height: 60px;
+      margin-block-end: 34px;
+      margin-block-start: 24px;
+    }
+    h3 {
+      width: 313px;
+      height: 68px;
+      font-size: 24px;
+      line-height: 34px;
+      margin-block-end: 18px;
+    }
+    p {
+      font-size: 1rem;
+      line-height: 24px;
+      width: 313px;
+      height: 72px;
+      color: #475569;
+      margin-block-end: 10px;
+    }
+    a {
+      text-decoration: none;
+      font-size: 1rem;
+      color: #0f172a;
+      text-align: center;
+
+      img {
+        color: #0f172a;
+        width: 1rem;
+        height: 1rem;
+      }
+    }
+  }
+}
+
+.howWeWork{
+  display: none;
+}
+
+.footer{
+  display: none;
+}
+
+.footer-ph{
+  .top{
+    margin-block-end: 40px;
+    ul li{
+      list-style: none;
+      font-size: 16px;
+
+      a{
+        text-decoration: none;
+      }
+    }
+
+    .pages{
+      margin-block-end: 48px;
+    }
+  }
+}
+}
+
+@media screen and (min-width: 1024px){
+  .services {
+  height: 19.3125rem;
+  background-image: url(../images/BG2.png);
+  border-radius: 1.25rem;
+  margin-block-start: 6rem;
+  margin-inline-end: 116px;
+  margin-inline-start: 106px;
+  /* position: relative; */
+
+  .servicesContent {
+    color: #ffffff;
+    margin-inline: 23.3125rem;
+    height: 19.3125rem;
+
+    h2 {
+      height: 4.125rem;
+      font-size: 3.625rem;
+      width: 50.875rem;
+      padding-block-end: 3.0375rem;
+    }
+    p {
+      width: 33rem;
+      height: 1.8125rem;
+      font-size: 1rem;
+      margin-inline-end: 0.625rem;
+    }
+
+    form {
+      width: 33.4375rem;
+      height: 4rem;
+      border-radius: 1.5rem;
+      /* padding-inline-start: 23px;
+      padding-inline-end: 12px; */
+      padding-block-end: 2.5625rem;
+
+      input {
+        max-width: 535px;
+        height: 64px;
+        border-radius: 24px;
+      }
+
+      input::placeholder {
+        color: #64748b;
+        font-size: 16px;
+        /* padding: 10px; */
+        padding-block: 131.5px;
+        padding-inline-start: 35px;
+      }
+
+      .myForm {
+        position: relative;
+
+        span img {
+          position: absolute;
+          width: 20px;
+          height: 20px;
+          color: #1f1f24;
+          /* padding: 10px; */
+          top: 21px;
+          left: 10px;
+        }
+      }
+    }
+
+    .input-field {
+      position: relative;
+      width: 535px;
+    }
+    button {
+      background: #fec545;
+      width: 214px;
+      height: 44px;
+      color: #0e0d0d;
+      font-size: 16px;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      border-radius: 16px;
+      border: none;
+    }
+  }
+}
+
+/* ------------------------OUR SERVICE GRID--------------------------------- */
+
+.lines {
+  background: linear-gradient(#ecfcff, #e7fafd);
+}
+.grid-div {
+  height: 57.4375rem;
+  padding-block-start: 3.25rem;
+  margin-block: 5%;
+  /* padding-inline-end: 2%; */
+  background-image: url(../assets/Icons/glow_one.png.png),
+    url(../images/Line\ design\ -\ bg.png);
+}
+
+.grid-ourServices {
+  margin-inline: 5.59375rem;
+  height: 16rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1.4375rem;
+  justify-content: center;
+  align-items: center;
+
+  .grid-services {
+    width: 24.375rem;
+    height: 24.625rem;
+    background: #ffffff;
+
+    border-radius: 1.25rem;
+    padding-inline-start: 2.0625rem;
+
+    img {
+      width: 60px;
+      height: 60px;
+      margin-block-end: 33px;
+      margin-block-start: 33px;
+    }
+    h3 {
+      width: 313px;
+      height: 68px;
+      font-size: 24px;
+      line-height: 34px;
+      margin-block-end: 18px;
+    }
+    p {
+      font-size: 1rem;
+      line-height: 24px;
+      width: 313px;
+      height: 72px;
+      color: #475569;
+      margin-block-end: 10px;
+    }
+    a {
+      text-decoration: none;
+      font-size: 1rem;
+      color: #0f172a;
+      text-align: center;
+
+      img {
+        color: #0f172a;
+        width: 1rem;
+        height: 1rem;
+      }
+    }
+  }
+}
+
+/* ---------------------HOW WE WORK---------------------- */
+
+.howWeWork {
+  height: 544px;
+  background: #f0feff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-block-end: 3px;
+
+  .howWeWork-left {
+    display: flex;
+    flex-direction: column;
+    width: 284px;
+    height: 227px;
+    margin-inline-start: 6.2%;
+    margin-inline-end: 7%;
+    /* padding: ; */
+
+    .dot {
+      display: flex;
+      flex-direction: row;
+      /* align-items: center; */
+      justify-content: left;
+      /* align-items: center; */
+
+      img {
+        background: #276e6e;
+        width: 12px;
+        height: 12px;
+        border-radius: 99999px;
+        /* align-self: center; */
+        margin-block-start: 6px;
+        margin-inline-end: 20px;
+      }
+
+      p {
+        font-size: 16px;
+        color: #131a1b;
+        margin-block-end: 24px;
+        text-align: center;
+        align-self: center;
+      }
+    }
+    h3 {
+      font-size: 42px;
+      line-height: 63px;
+      color: #0f172a;
+    }
+    p {
+      font-size: 41px;
+      color: #276e6e;
+      margin-block-end: 34px;
+    }
+
+    .bolt {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      border: 1px solid #0c98a6;
+      border-radius: 19px;
+      height: 41px;
+      text-align: center;
+      align-content: center;
+      padding-block-start: 3%;
+      padding-inline: 1.5%;
+
+      img {
+        width: 14px;
+        height: 14px;
+        background: #276e6e;
+        border-radius: 99999px;
+        margin-block-start: 6px;
+        margin-inline-end: 10px;
+      }
+
+      p {
+        font-size: 14px;
+        color: #1a1c1f;
+      }
+    }
+  }
+
+  .howWeWork-right {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    align-items: center;
+    width: 850px;
+    height: 352px;
+    background: url();
+    padding-inline-end: 6rem;
+
+    h4 {
+      width: 170px;
+      height: 50px;
+      font-size: 24px;
+      color: #1e293b;
+      background: #ffe5aa;
+      border-radius: 8px;
+      text-align: center;
+      align-content: center;
+      margin-block-end: 15px;
+    }
+
+    p {
+      color: #475569;
+      font-size: 19px;
+      height: 24px;
+    }
+
+    .right-details {
+      width: 415px;
+      height: 166px;
+      background-color: #ffffff;
+      border-radius: 20px;
+      align-content: center;
+      padding-inline-start: 10%;
+    }
+  }
+}
+
+/* ------------------------FOOTER------------------------ */
+
+.footer {
+  background: #ffffff;
+  padding-block: 2.5rem;
+  padding-inline: 3rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-inline: 2.40625rem;
+  margin-block-start: 7%;
+  margin-block-end: 2.25rem;
+  border-radius: 20px;
+  border: 0.25rem solid #edeff1;
+
+  .top {
+    margin-block-end: 1.875rem;
+  }
+
+  .left-end {
+    p {
+      width: 492px;
+      height: 72px;
+      font-size: 16px;
+      color: #64748b;
+      margin-block-end: 10%;
+    }
+
+    span {
+      width: 336px;
+      height: 24px;
+      font-size: 14px;
+      color: #667085;
+    }
+  }
+
+  .footerlist {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* gap: 1rem; */
+
+    ul li {
+      list-style: none;
+      font-size: 16px;
+      margin-block-start: 0.5rem;
+
+      .contact {
+        margin-block-start: 5rem;
+      }
+    }
+  }
+}
 }

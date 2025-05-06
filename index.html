@@ -26,10 +26,10 @@
     />
   </head>
 
-  <body>
-    <div class="navbar container">
+  <body class="">
+    <div class="navbar">
       <!------------------------------------- Nav Bar  ------------------------------------------->
-      <nav class="navbar fixed-top w-100 navbar-expand-lg">
+      <nav class="navbar container-fluid fixed-top w-100 navbar-expand-lg">
         <div
           class="navContainer d-flex justify-content-between align-content-center container"
         >
@@ -117,7 +117,7 @@
           </div>
           <div class="d-flex inter-semibold">
             <button
-              class="collapse navbar-collapse mybtn myButton inter-semibold hvr-shadow"
+              class=" mybtn myButton inter-semibold hvr-shadow"
               onclick='window.location.assign("https://calendly.com/dc-session_with_tobi-arktech/30m-dc")'
               type="button"
             >
@@ -131,10 +131,10 @@
     <!--------------------------------- Creating Boundless Solution Globally  -------------------------------->
 
     <div
-      class="solution container-fluid-sm d-flex flex-column justify-content-center align-items-center align-content-center"
+      class="solution d-flex flex-column justify-content-center align-items-center align-content-center"
     >
       <div
-        class="text-center d-flex flex-column justify-content-center align-items-center align-content-center solutionContent"
+        class="container-fluid text-center d-flex flex-column justify-content-center align-items-center align-content-center solutionContent"
       >
         <h2 class="inter-extrabold">
           Creating Boundless <br />Solution Globally
@@ -151,9 +151,7 @@
           method="get"
           target="_blank"
         >
-          <div
-            class="input-field justify-content-between "
-          >
+          <div class="input-field justify-content-between">
             <div class="myForm inter-regular mt-4">
               <span
                 ><img
@@ -169,10 +167,7 @@
               />
             </div>
 
-            <button
-              type="submit"
-              class="myButton  inter-semibold hvr-shadow"
-            >
+            <button type="submit" class="myButton inter-semibold hvr-shadow">
               Start Your Project Today
             </button>
           </div>
@@ -183,9 +178,9 @@
     <!----------------------------------- WHO WE ARE (MISSION AND VISION)  -------------------------->
     <div class="mission d-sm-flex flex-sm-column-reverse">
       <div
-        class="missionStatement d-flex flex-column align-content-center align-items-sm-center  justify-content-center"
+        class="missionStatement d-flex flex-column align-content-center align-items-sm-center justify-content-center"
       >
-        <div class="h2-tag ">
+        <div class="h2-tag">
           <h2 class="inter-extrabold">Who We Are <br />(Mission & Vision)</h2>
 
           <div class="p-tag inter-medium">
@@ -230,8 +225,11 @@
         </p>
       </div>
 
-      <div class="grid-chooseUs">
-        <div class="grid-boxes d-flex flex-column align-content-center align-items-center  justify-content-center" style="background: #e7fafd">
+      <div class="grid-chooseUs container-fluid row">
+        <div
+          class="grid-boxes col-lg-6 col-sm-12 d-flex flex-column align-content-center align-items-center justify-content-center"
+          style="background: #e7fafd"
+        >
           <h3 class="inter-extrabold">Tailored to Your Needs</h3>
           <p class="inter-medium">
             No cookie-cutter solutions. We build apps and websites designed for
@@ -239,21 +237,21 @@
             platforms.
           </p>
         </div>
-        <div class="grid-boxes" style="background: #f0fff9">
+        <div class="grid-boxes col-lg-6 col-sm-12" style="background: #f0fff9">
           <h3 class="inter-extrabold">Full-Cycle Expertise</h3>
           <p class="inter-medium">
             From concept to launch and beyond: UI/UX design, development, QA,
             and ongoing support.
           </p>
         </div>
-        <div class="grid-boxes" style="background: #e8f5ff">
+        <div class="grid-boxes col-lg-6 col-sm-12" style="background: #e8f5ff">
           <h3 class="inter-extrabold">Future-Ready Technology</h3>
           <p class="inter-medium">
             From concept to launch and beyond: UI/UX design, development, QA,
             and ongoing support.
           </p>
         </div>
-        <div class="grid-boxes" style="background: #ecfcff">
+        <div class="grid-boxes col-lg-6 col-sm-12" style="background: #ecfcff">
           <h3 class="inter-extrabold">Transparent Process</h3>
           <p class="inter-medium">
             Agile workflows, real-time updates, and zero hidden fees. Your
@@ -281,8 +279,8 @@
       </div>
 
       <div class="grid-div container-fluid">
-        <div class="grid-ourServices">
-          <div class="grid-services hvr-bounce-to-top">
+        <div class="grid-ourServices row">
+          <div class="grid-services col-lg-4 col-sm-12 hvr-bounce-to-top">
             <img src="./assets/Icons/Frame 1171279775.png" alt="" />
             <h3 class="inter-extrabold">
               Web Development <br />
@@ -303,7 +301,7 @@
             /></a>
           </div>
 
-          <div class="grid-services hvr-bounce-to-top">
+          <div class="grid-services col-lg-4 col-sm-12 hvr-bounce-to-top">
             <img src="./assets/Icons/Frame 1171279775 (2).png" alt="" />
             <h3 class="inter-extrabold">Mobile App <br />Development</h3>
             <p class="inter-medium">
@@ -321,7 +319,7 @@
             /></a>
           </div>
 
-          <div class="grid-services hvr-bounce-to-top">
+          <div class="grid-services col-lg-4 col-sm-12 hvr-bounce-to-top">
             <img src="./assets/Icons/Frame 1171279775 (3).png" alt="" />
             <h3 class="inter-extrabold">
               AI & Machine Learning <br />Integration
@@ -342,7 +340,7 @@
             /></a>
           </div>
 
-          <div class="grid-services hvr-bounce-to-top">
+          <div class="grid-services col-lg-4 col-sm-12 hvr-bounce-to-top">
             <img src="./assets/Icons/Frame 1171279775 (4).png" alt="" />
             <h3 class="inter-extrabold">Cloud Services & DevOps</h3>
             <p class="inter-medium">
@@ -360,7 +358,7 @@
             /></a>
           </div>
 
-          <div class="grid-services hvr-bounce-to-top">
+          <div class="grid-services col-lg-4 col-sm-12 hvr-bounce-to-top">
             <img src="./assets/Icons/Frame 1171279775 (5).png" alt="" />
             <h3 class="inter-extrabold">UI/UX Design</h3>
             <p class="inter-medium">
@@ -378,7 +376,7 @@
             /></a>
           </div>
 
-          <div class="grid-services hvr-bounce-to-top">
+          <div class="grid-services col-lg-4 col-sm-12 hvr-bounce-to-top">
             <img src="./assets/Icons/Frame 1171279775 (7).png" alt="" />
             <h3 class="inter-extrabold">Software <br />Modernization</h3>
             <p class="inter-medium">
@@ -457,7 +455,7 @@
         </p>
       </div>
 
-      <div class="client-bottom d-flex flex-column swiper mySwiper">
+      <div class="client-bottom container d-flex flex-column swiper mySwiper">
         <div class="slide swiper-wrapper">
           <div class="client-details swiper-slide">
             <div class="top-details">
@@ -622,7 +620,7 @@
       </div>
 
       <div class="card-div">
-        <div class="card" style="width: 383px">
+        <div class="card">
           <img
             src="./images/Replace Image.png"
             class="card-img-top"
@@ -648,7 +646,7 @@
           </div>
         </div>
 
-        <div class="card noDisplay" style="width: 383px">
+        <div class="card noDisplay">
           <img
             src="./images/Replace Image (1).png"
             class="card-img-top"
@@ -674,7 +672,7 @@
           </div>
         </div>
 
-        <div class="card noDisplay" style="width: 383px">
+        <div class="card noDisplay">
           <img
             src="./images/Replace Image (2).png"
             class="card-img-top"
@@ -771,6 +769,12 @@
         </ul>
       </div>
     </div>
+
+
+    <!-- -------------------------------------FOOTER FOR A PHONE-------------------------------------------- -->
+     <div class="container d-flex">
+
+     </div>
     <script src="./script.js"></script>
 
     <!-- Swiper JS -->

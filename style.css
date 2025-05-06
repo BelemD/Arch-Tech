@@ -50,9 +50,9 @@ body {
   height: 80px;
   background: #ffffff;
 
-  /* .dropdown-item {
-    background: #fec545 !important;
-  } */
+  .dropdown-item {
+    background: #ffffff !important;
+  }
 }
 nav a {
   text-decoration: none !important;
@@ -62,9 +62,9 @@ nav a {
   text-decoration: none !important;
 }
 .navContainer {
-  .navbar-nav {
+  /* .navbar-nav {
     text-align: right;
-  }
+  } */
 
   img {
     width: 134px;
@@ -330,58 +330,6 @@ nav a {
 }
 
 /*-------------------------- OUR SERVICES -------------------------*/
-
-.ourServices {
-  height: 1205px;
-  background: linear-gradient(#ecfcff, #e7fafd);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  border-radius: 10px;
-  margin-block-end: 0;
-  /* background-image: url(./images/Line\ design\ -\ bg.png); */
-
-  .services {
-    height: 219px;
-    width: 460px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin-block-start: 2.5%;
-
-    h3 {
-      font-size: 42px;
-      height: 63px;
-      width: 518px;
-      color: #0f172a;
-      margin-bottom: 12px;
-    }
-
-    p {
-      color: #475569;
-      font-size: 16px;
-      width: 622px;
-      height: 60px;
-      margin-bottom: 28px;
-    }
-
-    a {
-      text-decoration: none;
-      background: #fec545;
-      width: 214px;
-      height: 44px;
-      color: #0e0d0d;
-      border-radius: 16px;
-      text-align: center;
-      align-content: center;
-    }
-  }
-}
 
 .grid-div {
   height: 57.4375rem;
@@ -847,90 +795,21 @@ nav a {
   }
 }
 
-/* ----------------HOVER EFFECTS-------------------- */
-.hvr-underline-from-left:before {
-  background: #fec545 !important;
-}
-
-.hvr-fade:before {
-  background-color: #fec545 !important;
-}
-.dropdown-menu {
-  --bs-dropdown-link-active-bg: #fec545 !important;
-}
-.hvr-bounce-to-top:before {
-  background-color: #fec545 !important;
-  border-radius: 1rem;
-}
-.grid-services:hover {
-  h3 {
-    color: #060809;
-  }
-}
-.myButton:active {
-  background-color: #f5b726;
-  transform: translateY(4px);
-}
-
 /* ----------------------MEDIA QUERY----------------- */
 
 @media screen and (max-width: 480px) {
   body {
-    height: 8067px;
+    max-width: 100%;
   }
-  .navbar {
-    height: 72px;
-    background: #ffffff;
-    margin-inline-start: 16px;
-    margin-inline-end: 12px;
-
-    /* .dropdown-item {
-    background: #fec545 !important;
-  } */
+  .navbar .mybtn {
+    display: none;
   }
-  nav a {
-    text-decoration: none !important;
-  }
-
-  .nav-item a:hover {
-    text-decoration: none !important;
-  }
-  .navContainer {
-    .navbar-nav {
-      text-align: left;
-    }
-
-    img {
-      width: 134px;
-      height: 36px;
-    }
-    a {
-      text-decoration: none !important;
-      color: #0b0d14;
-      font-size: 16px;
-      line-height: 165%;
-    }
-
-    .mybtn {
-      font-size: 16px;
-      color: #0e0d0d;
-      width: 214px;
-      height: 44px;
-      border-radius: 16px;
-      background: #fec545;
-      padding-inline: 18px;
-      border: none;
-    }
-    li a img {
-      width: 20px;
-      height: 20px;
-    }
-  }
-
   .solution {
+    max-width: 100%;
+    width: 375px;
     height: 395px;
     background-image: url("./images/image_fx.png"), url("./images/BG25.png");
-    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 0 !important;
     margin-inline: 0 !important;
     margin-block-end: 33px;
@@ -1130,7 +1009,7 @@ nav a {
       gap: 0;
 
       .grid-boxes {
-        width: 382px;
+        min-width: 100%;
         height: 201px;
         border-radius: 0;
         display: flex;
@@ -1163,7 +1042,7 @@ nav a {
     align-items: center;
     align-content: center;
     border-radius: 10px;
-    margin-block-end: 0;
+    margin-block-end: 95rem;
     margin-block-start: 37px;
     /* background-image: url(./images/Line\ design\ -\ bg.png); */
 
@@ -1405,6 +1284,8 @@ nav a {
     height: 591px;
     background: linear-gradient(#119cb0, #019090);
     margin-block-end: 0;
+    padding-block-end: 46px;
+    padding-block-start: 32px;
     margin-block-start: 35px;
     display: flex;
     flex-direction: column;
@@ -1436,10 +1317,9 @@ nav a {
     .client-bottom {
       display: flex;
       flex-direction: row;
-      justify-content: stretch;
-      overflow-x: hidden;
+      /* justify-content: stretch;
+      overflow-x: hidden; */
       width: 100%;
-      position: relative;
 
       .client-details {
         width: 344px !important;
@@ -1569,7 +1449,7 @@ nav a {
       align-items: center;
       align-content: center;
 
-      .noDisplay{
+      .noDisplay {
         display: none;
       }
     }
@@ -1629,14 +1509,14 @@ nav a {
   /* ------------------------FOOTER------------------------ */
 
   .footer {
+    display: none;
     background: #ffffff;
     padding-block: 0;
     padding-inline: 50px;
     height: 870px;
-    display: flex;
     flex-direction: column-reverse;
     margin-inline: 0;
-    margin-block-end:  0;
+    margin-block-end: 0;
     border-radius: 20px;
     border: 0.25rem solid #edeff1;
 
@@ -1682,56 +1562,31 @@ nav a {
       }
     }
   }
+
+  /* ----------------HOVER EFFECTS-------------------- */
+
+  .hvr-fade:before {
+    background-color: #fec545 !important;
+  }
+  .dropdown-menu {
+    --bs-dropdown-link-active-bg: #ffffff !important;
+  }
+  .hvr-bounce-to-top:before {
+    background-color: #fec545 !important;
+    border-radius: 1rem;
+  }
+  .grid-services:hover {
+    h3 {
+      color: #060809;
+    }
+  }
+  .myButton:active {
+    background-color: #f5b726;
+    transform: translateY(4px);
+  }
 }
 
 @media screen and (min-width: 1024px) {
-  .navbar {
-    height: 80px;
-    background: #ffffff;
-
-    /* .dropdown-item {
-    background: #fec545 !important;
-  } */
-  }
-  nav a {
-    text-decoration: none !important;
-  }
-
-  .nav-item a:hover {
-    text-decoration: none !important;
-  }
-  .navContainer {
-    .navbar-nav {
-      text-align: right;
-    }
-
-    img {
-      width: 134px;
-      height: 36px;
-    }
-    a {
-      text-decoration: none !important;
-      color: #0b0d14;
-      font-size: 16px;
-      line-height: 165%;
-    }
-
-    .mybtn {
-      font-size: 16px;
-      color: #0e0d0d;
-      width: 214px;
-      height: 44px;
-      border-radius: 16px;
-      background: #fec545;
-      padding-inline: 18px;
-      border: none;
-    }
-    li a img {
-      width: 20px;
-      height: 20px;
-    }
-  }
-
   .solution {
     height: 441px;
     background-image: url("./images/image_fx_\ \(3\)\ 1\ \(1\).png"),
@@ -2382,6 +2237,7 @@ nav a {
       align-content: center;
 
       .card {
+        width: 383px;
       }
     }
   }
@@ -2489,5 +2345,30 @@ nav a {
         }
       }
     }
+  }
+
+  /* ----------------HOVER EFFECTS-------------------- */
+  .hvr-underline-from-left:before {
+    background: #fec545 !important;
+  }
+
+  .hvr-fade:before {
+    background-color: #fec545 !important;
+  }
+  .dropdown-menu {
+    --bs-dropdown-link-active-bg: #fec545 !important;
+  }
+  .hvr-bounce-to-top:before {
+    background-color: #fec545 !important;
+    border-radius: 1rem;
+  }
+  .grid-services:hover {
+    h3 {
+      color: #060809;
+    }
+  }
+  .myButton:active {
+    background-color: #f5b726;
+    transform: translateY(4px);
   }
 }
