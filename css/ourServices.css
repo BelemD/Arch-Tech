@@ -392,25 +392,58 @@ body {
   }
 }
 
+.hvr-fade:before {
+    background-color: #fec545 !important;
+}
+  .dropdown-menu {
+    --bs-dropdown-link-active-bg: #ffffff !important;
+  }
+  .hvr-bounce-to-top:before {
+    background-color: #fec545 !important;
+    border-radius: 1rem;
+  }
+  .grid-services:hover {
+    h3 {
+      color: #060809;
+    }
+  }
+  .myButton:active {
+    background-color: #f5b726;
+    transform: translateY(4px);
+  }
+
+
+
 @media screen and (max-width: 36rem) {
   .navbar .mybtn {
     display: none;
   }
 
-  body{
-    width: auto;
-  }
-
+  
   .navbar, .myNav{
     max-width: 430px !important;
     margin-right: 0 !important;
     margin-left: 0 !important;
+
+  }
+
+  .dropdown-item {
+    background: #ffffff !important;
+    }
+
+  nav a {
+  text-decoration: none !important;
+  }
+
+  .nav-item a:hover {
+  text-decoration: none !important;
   }
   .services {
     height: 275px;
-    max-width: 448px;
+    max-width: 425px;
     background-image: url(../images/BG\ ph.png);
     border-radius: 0;
+    background-repeat: round;
     margin-block-start: 3.0625rem;
     margin-inline: 0;
 
@@ -571,17 +604,40 @@ body {
     ul li{
       list-style: none;
       font-size: 16px;
+      color: #475467;
 
       a{
         text-decoration: none;
+        color: #475467;
       }
     }
 
-    .pages{
-      margin-block-end: 48px;
-    }
   }
 }
+
+.hvr-underline-from-left:before {
+    background: #fec545 !important;
+    width: 0;
+  }
+.hvr-fade:before {
+    background-color: #fec545 !important;
+  }
+  .dropdown-menu {
+    --bs-dropdown-link-active-bg: #ffffff !important;
+  }
+  .hvr-bounce-to-top:before {
+    background-color: #fec545 !important;
+    border-radius: 1rem;
+  }
+  .grid-services:hover {
+    h3 {
+      color: #060809;
+    }
+  }
+  .myButton:active {
+    background-color: #f5b726;
+    transform: translateY(4px);
+  }
 }
 
 @media screen and (min-width: 1024px){
@@ -908,4 +964,33 @@ body {
     }
   }
 }
+
+.footer-ph{
+  display: none;
+}
+ /* ----------------HOVER EFFECTS-------------------- */
+.hvr-underline-from-left:before {
+    background: #fec545 !important;
+    
+  }
+.hvr-fade:before {
+    background-color: #fec545 !important;
+ 
+}
+  .dropdown-menu {
+    --bs-dropdown-link-active-bg: #ffffff !important;
+  }
+  .hvr-bounce-to-top:before {
+    background-color: #fec545 !important;
+    border-radius: 1rem;
+  }
+  .grid-services:hover {
+    h3 {
+      color: #060809;
+    }
+  }
+  .myButton:active {
+    background-color: #f5b726;
+    transform: translateY(4px);
+  }
 }

@@ -46,21 +46,21 @@ body {
   /* margin: 0rem 6.84rem 0rem 6.84rem; */
 }
 
+
 .navbar {
-  height: 72px;
+  height: 5rem;
   background: #ffffff;
+  height: 80px;
+  bottom: 0;
 }
 
-.navContainer {
-  img {
-    width: 8.375rem;
-    height: 2.25rem;
-  }
-  a {
-    text-decoration: none;
-    color: #0b0d14;
-    font-size: 1rem;
-    line-height: 165%;
+.navbar {
+ 
+  .nav-item{
+    a{
+      font-size: 1rem;
+      color: #0B0D14;
+    }
   }
   .mybtn {
     font-size: 1rem;
@@ -69,7 +69,6 @@ body {
     height: 2.75rem;
     border-radius: 1rem;
     background: #fec545;
-    margin: 0;
     border: none;
   }
   li a img {
@@ -85,7 +84,549 @@ body {
   background: url(../images/BG3.png);
   align-items: center;
   align-content: center;
+  margin-block-start: 6rem;
+  text-align: center;
+  margin-inline-start: 50px;
+
+  .servicesContent {
+    color: #ffffff;
+    width: 43.375rem;
+    height: 19.3125rem;
+    /* padding-block-start: 2.9375rem; */
+    padding-block-end: 3.9375rem;
+    padding-inline-start: 50%;
+
+    h2 {
+      height: 4.125rem;
+      font-size: 3.625rem;
+      width: 50.875rem;
+    }
+    p {
+      width: 33rem;
+      height: 1.8125rem;
+      font-size: 1rem;
+      margin-inline-end: 0.625rem;
+    }
+  }
+}
+
+/* ------------------------WHO WE ARE-------------------------------- */
+.mission {
+  height: 36.1875rem;
+  margin-block: 6.25rem;
+  align-self: center;
+
+  .card5 {
+    width: 18.2825rem;
+    height: 30.0625rem;
+    border-radius: 0.875rem;
+    margin-block-start: -33.125rem;
+  }
+  .div-card6 {
+    /* position: absolute;
+    margin-inline-start: 6%; */
+  }
+  .card6 {
+    width: 307.69px;
+    height: 467px;
+    border-radius: 0.875rem;
+    margin-block-start: 20%;
+    margin-inline-start: 50%;
+  }
+  .missionStatement {
+    height: 579px;
+    width: 900px;
+    border-radius: 14px;
+    background: #f6fffc;
+    align-items: center;
+    justify-content: end;
+    /* position: absolute; */
+    margin-inline-start: 5.7%;
+    background-image: url(../images/Asset\ 4\ 1.png);
+
+    h2-tag {
+      height: 389px;
+      width: 515px;
+      text-align: center;
+      align-content: center;
+    }
+
+    h2 {
+      font-size: 42px;
+      line-height: 63px;
+      color: #0f172a;
+      margin-inline-start: 228px;
+    }
+    p {
+      width: 515px;
+      /* text-align: center; */
+      align-content: center;
+    }
+    .p-tag {
+      width: 515px;
+      height: 288px;
+      font-size: 16px;
+      margin-inline-start: 224px;
+    }
+  }
+}
+
+/* -----------------------Say hello to our team members----------------------------- */
+
+.teamMembers {
+  .top {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 2.6875rem;
+    margin-inline: 6.4375rem;
+    align-items: center;
+    margin-block-end: 2.25rem;
+
+    h2 {
+      font-size: 2.625rem;
+      color: #0f172a;
+      /* width: 26.0625rem; */
+      height: 7.0625rem;
+    }
+    p {
+      font-size: 1.125rem;
+      color: #475569;
+      width: 33.375rem;
+      height: 8.1875rem;
+      margin-block-end: 0;
+    }
+
+    button {
+      border: none;
+      font-size: 1rem;
+      color: #0e0d0d;
+      background: #fec545;
+      width: 8.5rem;
+      height: 2.75rem;
+      border-radius: 1rem;
+    }
+  }
+
+  .teamMembersCarousel {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-block-end: 2.9375rem;
+
+    .members {
+      img {
+        width: 19.5rem;
+        height: 19.9375;
+        margin-block-end: 1.5rem;
+      }
+
+      .name-div {
+        width: 9.8125rem;
+        height: 2.5rem;
+        /* border: 1px solid #01b2a4;
+        border-radius: 1.1875rem; */
+        margin-block-end: 0.5rem;
+
+        p {
+          /* padding-inline: 1rem; */
+          color: #060606;
+          font-size: 1.25rem;
+        }
+      }
+
+      .job-role {
+        color: #6c7c94;
+        font-size: 1rem;
+      }
+      .staff {
+        color: #475467;
+        margin-block-end: 1.5rem;
+      }
+
+      .socialIcons {
+        display: flex;
+        gap: 1rem;
+        a img {
+          width: 1.5rem;
+          height: 1.5rem;
+        }
+      }
+    }
+  }
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 3.75rem;
+
+    .icons {
+      width: 9.5rem;
+      gap: 1.5rem;
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}
+
+/* ------------------------FOOTER------------------------ */
+
+.footer {
+  background: #ffffff;
+
+  padding-block: 2.5rem;
+  padding-inline: 3rem;
+  display: none;
+  grid-template-columns: auto auto;
+  margin-inline: 2.40625rem;
+  margin-block-start: 7%;
+  margin-block-end: 2.25rem;
+  border-radius: 20px;
+  border: 0.25rem solid #edeff1;
+
+  .top {
+    margin-block-end: 1.875rem;
+  }
+
+  .left-end {
+    p {
+      width: 492px;
+      height: 72px;
+      font-size: 16px;
+      color: #64748b;
+      margin-block-end: 10%;
+    }
+
+    span {
+      width: 336px;
+      height: 24px;
+      font-size: 14px;
+      color: #667085;
+    }
+  }
+
+  .footerlist {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* gap: 1rem; */
+
+    ul li {
+      list-style: none;
+      font-size: 16px;
+      margin-block-start: 0.5rem;
+
+      .contact {
+        margin-block-start: 5rem;
+      }
+    }
+  }
+}
+
+.hvr-fade:before {
+    background-color: #fec545 !important;
+}
+  .dropdown-menu {
+    --bs-dropdown-link-active-bg: #ffffff !important;
+  }
+  .hvr-bounce-to-top:before {
+    background-color: #fec545 !important;
+    border-radius: 1rem;
+  }
+  .grid-services:hover {
+    h3 {
+      color: #060809;
+    }
+  }
+  .myButton:active {
+    background-color: #f5b726;
+    transform: translateY(4px);
+  }
+
+
+
+@media screen and (max-width: 36rem){
+  .navbar .mybtn {
+    display: none;
+  }
+
+  
+  .navbar, .myNav{
+    max-width: 430px !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+
+  }
+
+  .dropdown-item {
+    background: #ffffff !important;
+    }
+
+  nav a {
+  text-decoration: none !important;
+  }
+
+  .nav-item a:hover {
+  text-decoration: none !important;
+  }
+
+  .services {
+  height: 275px;
+  width: 425px;
+  background-image: url(../images/BG\ ph.png);
+  align-items: center;
+  background-repeat: round;
+  align-content: center;
   margin-block-start: 3.0625rem;
+  text-align: center;
+  margin-inline-start: 0;
+
+  .servicesContent {
+    color: #ffffff;
+    width: 423px;
+    height: 100px;
+    padding-block-start: 26px;
+    padding-block-end: 47px;
+    padding-inline-start: 0;
+
+    h2 {
+      height: 48px;
+      font-size: 34px;
+      width: 423px;
+      margin-block-end: 15px;
+    }
+    p {
+      width: 276px;
+      height: 38px;
+      font-size: 1rem;
+      margin-inline-end: 0;
+    }
+  }
+}
+
+/* ------------------------WHO WE ARE-------------------------------- */
+.mission {
+  height: 881px;
+  margin-block: 0;
+  align-self: center;
+  display: flex;
+  background: #F6FFFC;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  
+
+  .card5 {
+    width: 187.47px;
+    height: 292px;
+    border-radius: 0.875rem;
+    margin-block-start: -370px;
+    margin-inline-end: 107.53px;
+  }
+  .div-card6 {
+    position: relative;
+    width: 298px;
+    height: 328px;
+    margin-block-start: 32px;
+    padding-block-start: 33px;
+    margin-block-end: 32px;
+  }
+  .card6 {
+    width: 196.95px;
+    height: 284px;
+    border-radius: 0.875rem;
+    margin-block-start: 0;
+    margin-inline-start: 102px;
+    
+  }
+  .missionStatement {
+    height: 514px;
+    width: 317px;
+    border-radius: 14px;
+    background: #f6fffc;
+    align-items: center;
+    justify-content: center;
+   
+    background-image: url(../images/Asset\ 4\ 1.png);
+
+    h2-tag {
+      height: 514px;
+      width: 317px;
+      text-align: center;
+      align-content: center;
+    }
+
+    h2 {
+      font-size: 32px;
+      line-height: 43px;
+      color: #0F172A;
+      text-align: center;
+      margin-inline-start: 0;
+       margin-block: 30px;
+    }
+    p {
+      width: 303px;
+      text-align: center;
+      font-size: 16px;
+      align-content: center;
+    }
+    .p-tag {
+      width: 303px;
+      height: 288px;
+      
+      margin-inline-start: 0;
+    }
+
+    .myP{
+      display: none;
+    }
+  }
+}
+
+/* -----------------------Say hello to our team members----------------------------- */
+
+.teamMembers {
+  width: 375px;
+  height: 4507px;
+  .top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-inline: 0;
+    margin-inline: 0;
+    align-items: center;
+    margin-block-end: 50px;
+
+    h2 {
+      font-size: 32px;
+      color: #0f172a;
+      height: 0;
+    }
+    p {
+      font-size: 1.125rem;
+      color: #475569;
+      width: 0;
+      height: 0;
+      margin-block-end: 0;
+    }
+
+    button {
+      border: none;
+      font-size: 1rem;
+      color: #0e0d0d;
+      background: #fec545;
+      width: 8.5rem;
+      height: 2.75rem;
+      border-radius: 1rem;
+    }
+  }
+
+  .teamMembersCarousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-block-end: o;
+
+    .members {
+      img {
+        width: 351px;
+        height: 296px;
+        margin-block-end: 24px;
+      }
+
+      .name-div {
+        width: 353px;
+        height: 30px;
+        /* border: 1px solid #01b2a4;
+        border-radius: 1.1875rem; */
+        margin-block-end: 4px;
+
+        p {
+          /* padding-inline: 1rem; */
+           width: 353px;
+        height: 24px;
+          color: #060606;
+          font-size: 1.25rem;
+        }
+      }
+
+      .job-role {
+        color: #6c7c94;
+        font-size: 1rem;
+      }
+      .staff {
+        color: #475467;
+        margin-block-end: 1.5rem;
+      }
+
+      .socialIcons {
+        display: flex;
+        gap: 1rem;
+        a img {
+          width: 1.5rem;
+          height: 1.5rem;
+        }
+      }
+    }
+  }
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 3.75rem;
+
+    .icons {
+      width: 9.5rem;
+      gap: 1.5rem;
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}
+
+/* ------------------------FOOTER------------------------ */
+
+.footer {
+  display: none;
+}
+
+.hvr-underline-from-left:before {
+    background: #fec545 !important;
+    width: 0;
+  }
+.hvr-fade:before {
+    background-color: #fec545 !important;
+  }
+  .dropdown-menu {
+    --bs-dropdown-link-active-bg: #ffffff !important;
+  }
+  .hvr-bounce-to-top:before {
+    background-color: #fec545 !important;
+    border-radius: 1rem;
+  }
+  .grid-services:hover {
+    h3 {
+      color: #060809;
+    }
+  }
+  .myButton:active {
+    background-color: #f5b726;
+    transform: translateY(4px);
+  }
+
+}
+
+@media screen and (min-width: 1024px){
+  .services {
+  height: 14.75rem;
+  width: 76.3125rem;
+  background: url(../images/BG3.png);
+  align-items: center;
+  align-content: center;
+  margin-block-start: 6rem;
   text-align: center;
   margin-inline-start: 50px;
 
@@ -329,257 +870,29 @@ body {
     }
   }
 }
-
-
-@media screen and (max-width: 480px){
-  .services {
-  height: 14.75rem;
-  width: 76.3125rem;
-  background: url(../images/BG3.png);
-  align-items: center;
-  align-content: center;
-  margin-block-start: 3.0625rem;
-  text-align: center;
-  margin-inline-start: 50px;
-
-  .servicesContent {
-    color: #ffffff;
-    width: 43.375rem;
-    height: 19.3125rem;
-    /* padding-block-start: 2.9375rem; */
-    padding-block-end: 3.9375rem;
-    padding-inline-start: 50%;
-
-    h2 {
-      height: 4.125rem;
-      font-size: 3.625rem;
-      width: 50.875rem;
-    }
-    p {
-      width: 33rem;
-      height: 1.8125rem;
-      font-size: 1rem;
-      margin-inline-end: 0.625rem;
-    }
+/* ----------------HOVER EFFECTS-------------------- */
+.hvr-underline-from-left:before {
+    background: #fec545 !important;
+    
   }
+.hvr-fade:before {
+    background-color: #fec545 !important;
+ 
 }
-
-/* ------------------------WHO WE ARE-------------------------------- */
-.mission {
-  height: 36.1875rem;
-  margin-block: 6.25rem;
-  align-self: center;
-  display: flex;
-  flex-direction: row;
-  position: relative;
-
-  .card5 {
-    width: 18.2825rem;
-    height: 30.0625rem;
-    border-radius: 0.875rem;
-    position: absolute;
-    margin-block-start: -33.125rem;
+  .dropdown-menu {
+    --bs-dropdown-link-active-bg: #ffffff !important;
   }
-  .div-card6 {
-    position: absolute;
-    margin-inline-start: 6%;
+  .hvr-bounce-to-top:before {
+    background-color: #fec545 !important;
+    border-radius: 1rem;
   }
-  .card6 {
-    width: 307.69px;
-    height: 467px;
-    border-radius: 0.875rem;
-    margin-block-start: 20%;
-    margin-inline-start: 50%;
-  }
-  .missionStatement {
-    height: 579px;
-    width: 900px;
-    border-radius: 14px;
-    background: #f6fffc;
-    align-items: center;
-    justify-content: end;
-    /* padding-block-end: 60%; */
-    position: absolute;
-    /* right: 3%; */
-    left: 24.5%;
-    margin-inline-start: 5.7%;
-    background-image: url(../images/Asset\ 4\ 1.png);
-
-    h2-tag {
-      height: 389px;
-      width: 515px;
-      text-align: center;
-      align-content: center;
-    }
-
-    h2 {
-      font-size: 42px;
-      line-height: 63px;
-      color: #0f172a;
-      margin-inline-start: 228px;
-    }
-    p {
-      width: 515px;
-      /* text-align: center; */
-      align-content: center;
-    }
-    .p-tag {
-      width: 515px;
-      height: 288px;
-      font-size: 16px;
-      margin-inline-start: 224px;
+  .grid-services:hover {
+    h3 {
+      color: #060809;
     }
   }
-}
-
-/* -----------------------Say hello to our team members----------------------------- */
-
-.teamMembers {
-  .top {
-    display: flex;
-    justify-content: space-between;
-    margin-inline: 2.6875rem;
-    margin-inline: 6.4375rem;
-    align-items: center;
-    margin-block-end: 2.25rem;
-
-    h2 {
-      font-size: 2.625rem;
-      color: #0f172a;
-      /* width: 26.0625rem; */
-      height: 7.0625rem;
-    }
-    p {
-      font-size: 1.125rem;
-      color: #475569;
-      width: 33.375rem;
-      height: 8.1875rem;
-      margin-block-end: 0;
-    }
-
-    button {
-      border: none;
-      font-size: 1rem;
-      color: #0e0d0d;
-      background: #fec545;
-      width: 8.5rem;
-      height: 2.75rem;
-      border-radius: 1rem;
-    }
+  .myButton:active {
+    background-color: #f5b726;
+    transform: translateY(4px);
   }
-
-  .teamMembersCarousel {
-    display: flex;
-    gap: 1.5rem;
-    justify-content: center;
-    margin-block-end: 2.9375rem;
-
-    .members {
-      img {
-        width: 19.5rem;
-        height: 19.9375;
-        margin-block-end: 1.5rem;
-      }
-
-      .name-div {
-        width: 9.8125rem;
-        height: 2.5rem;
-        /* border: 1px solid #01b2a4;
-        border-radius: 1.1875rem; */
-        margin-block-end: 0.5rem;
-
-        p {
-          /* padding-inline: 1rem; */
-          color: #060606;
-          font-size: 1.25rem;
-        }
-      }
-
-      .job-role {
-        color: #6c7c94;
-        font-size: 1rem;
-      }
-      .staff {
-        color: #475467;
-        margin-block-end: 1.5rem;
-      }
-
-      .socialIcons {
-        display: flex;
-        gap: 1rem;
-        a img {
-          width: 1.5rem;
-          height: 1.5rem;
-        }
-      }
-    }
-  }
-  .bottom {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-inline: 3.75rem;
-
-    .icons {
-      width: 9.5rem;
-      gap: 1.5rem;
-      display: flex;
-      flex-direction: row;
-    }
-  }
-}
-
-/* ------------------------FOOTER------------------------ */
-
-.footer {
-  background: #ffffff;
-  padding-block: 2.5rem;
-  padding-inline: 3rem;
-  display: grid;
-  grid-template-columns: auto auto;
-  margin-inline: 2.40625rem;
-  margin-block-start: 7%;
-  margin-block-end: 2.25rem;
-  border-radius: 20px;
-  border: 0.25rem solid #edeff1;
-
-  .top {
-    margin-block-end: 1.875rem;
-  }
-
-  .left-end {
-    p {
-      width: 492px;
-      height: 72px;
-      font-size: 16px;
-      color: #64748b;
-      margin-block-end: 10%;
-    }
-
-    span {
-      width: 336px;
-      height: 24px;
-      font-size: 14px;
-      color: #667085;
-    }
-  }
-
-  .footerlist {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    /* gap: 1rem; */
-
-    ul li {
-      list-style: none;
-      font-size: 16px;
-      margin-block-start: 0.5rem;
-
-      .contact {
-        margin-block-start: 5rem;
-      }
-    }
-  }
-}
-
 }

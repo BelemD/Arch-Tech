@@ -27,55 +27,67 @@
   </head>
 
   <body class="">
-    <div class="navbar">
-      <!------------------------------------- Nav Bar  ------------------------------------------->
-      <nav class="navbar container-fluid fixed-top w-100 navbar-expand-lg">
+    <nav
+        class="navbar bg-white w-100 fixed-top navbar-expand-lg px-lg-5 pt-lg-4 bottom-0"
+        
+      >
         <div
-          class="navContainer d-flex justify-content-between align-content-center container"
+          class="myNav container-fluid d-flex  justify-content-between align-content-center align-items-center px-lg-5 mb-lg-4"
+          
         >
-          <img src="./images/Asset 1 1logo.png" class="me-5" alt="" />
+          <a class="navbar-brand ps-lg-3" href="#">
+            <img
+              src="../images/Asset 1 1logo.png"
+              alt="Logo"
+              width="134"
+              height="36"
+              class="d-inline-block"
+            />
+          </a>
+
           <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="true"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul
-              class="navbar-nav d-flex inter-medium justify-content-between me-auto mb-2 mb-lg-0"
-            >
-              <li class="nav-item">
+          <div
+            class="collapse navbar-text navbar-collapse align-content-center justify-content-between pb-0"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item ms-2 d-md-inline">
                 <a
-                  class="nav-link hvr-underline-from-left inter-medium me-3"
-                  aria-current="page"
-                  href="./html/product.html"
-                  >Products</a
+                  class="nav-link hvr-underline-from-left inter-medium"
+                  href="../html/product.html"
+                  >Product</a
                 >
               </li>
-              <li class="nav-item">
+              <li class="nav-item ms-2 d-md-inline">
                 <a
-                  class="nav-link hvr-underline-from-left inter-medium me-3"
-                  href="./html/ourServices.html"
+                  class="nav-link hvr-underline-from-left inter-medium"
+                  href="../html/ourServices.html"
                   >Services</a
                 >
               </li>
-              <li class="nav-item dropdown">
+              <li
+                class="nav-item dropdown ms-2 d-md-inline d-lg-inline inter-medium"
+              >
                 <a
-                  class="nav-link inter-medium me-3 hvr-underline-from-left"
+                  class="nav-link dropdown-toggle inter-medium hvr-underline-from-left"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
-                  aria-expanded="false"
+                  aria-expanded="true"
                 >
                   Company
-                  <img src="./assets/Icons/dropdown Icon.png" alt="" />
                 </a>
-                <ul class="dropdown-menu inter-medium">
+                <ul class="dropdown-menu">
                   <li>
                     <a class="dropdown-item" href="./html/aboutArchTech.html"
                       >About</a
@@ -99,34 +111,24 @@
                   </li>
                 </ul>
               </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link inter-medium me-3 hvr-underline-from-left"
-                  href="./html/career.html"
-                  >Careers</a
-                >
+              <li class="nav-item ms-2 d-md-inline hvr-underline-from-left">
+                <a class="nav-link inter-medium " href="../html/career.html">Careers</a>
               </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link inter-medium me-3 hvr-underline-from-left"
-                  href="./html/blogDetails.html"
-                  >Blog</a
-                >
+              <li class="nav-item ms-2 d-md-inline hvr-underline-from-left">
+                <a class="nav-link inter-medium" href="../html/blogDetails.html">Resources</a>
               </li>
             </ul>
           </div>
-          <div class="d-flex inter-semibold">
-            <button
-              class=" mybtn myButton inter-semibold hvr-shadow"
-              onclick='window.location.assign("https://calendly.com/dc-session_with_tobi-arktech/30m-dc")'
-              type="button"
-            >
-              Start Your Project Today
-            </button>
-          </div>
+
+          <button
+            class="mybtn myButton inter-semibold hvr-shadow  justify-content-center text-center px-2"
+            onclick='window.location.assign("https://calendly.com/dc-session_with_tobi-arktech/30m-dc")'
+            type="button"
+          >
+            Start Your Project Today
+          </button>
         </div>
       </nav>
-    </div>
 
     <!--------------------------------- Creating Boundless Solution Globally  -------------------------------->
 
@@ -176,9 +178,9 @@
     </div>
 
     <!----------------------------------- WHO WE ARE (MISSION AND VISION)  -------------------------->
-    <div class="mission d-sm-flex flex-sm-column-reverse">
+    <div class="mission d-sm-flex flex-sm-column-reverse justify-content-sm-center align-content-sm-center">
       <div
-        class="missionStatement d-flex flex-column align-content-center align-items-sm-center justify-content-center"
+        class="missionStatement d-flex flex-column align-content-center align-items-center justify-content-center"
       >
         <div class="h2-tag">
           <h2 class="inter-extrabold">Who We Are <br />(Mission & Vision)</h2>
@@ -227,7 +229,7 @@
 
       <div class="grid-chooseUs container-fluid row">
         <div
-          class="grid-boxes col-lg-6 col-sm-12 d-flex flex-column align-content-center align-items-center justify-content-center"
+          class="grid-boxes= d-flex flex-column align-content-center align-items-center justify-content-center"
           style="background: #e7fafd"
         >
           <h3 class="inter-extrabold">Tailored to Your Needs</h3>
@@ -237,21 +239,21 @@
             platforms.
           </p>
         </div>
-        <div class="grid-boxes col-lg-6 col-sm-12" style="background: #f0fff9">
+        <div class="grid-boxes " style="background: #f0fff9">
           <h3 class="inter-extrabold">Full-Cycle Expertise</h3>
           <p class="inter-medium">
             From concept to launch and beyond: UI/UX design, development, QA,
             and ongoing support.
           </p>
         </div>
-        <div class="grid-boxes col-lg-6 col-sm-12" style="background: #e8f5ff">
+        <div class="grid-boxes " style="background: #e8f5ff">
           <h3 class="inter-extrabold">Future-Ready Technology</h3>
           <p class="inter-medium">
             From concept to launch and beyond: UI/UX design, development, QA,
             and ongoing support.
           </p>
         </div>
-        <div class="grid-boxes col-lg-6 col-sm-12" style="background: #ecfcff">
+        <div class="grid-boxes " style="background: #ecfcff">
           <h3 class="inter-extrabold">Transparent Process</h3>
           <p class="inter-medium">
             Agile workflows, real-time updates, and zero hidden fees. Your
@@ -278,120 +280,86 @@
         >
       </div>
 
-      <div class="grid-div container-fluid">
-        <div class="grid-ourServices row">
-          <div class="grid-services col-lg-4 col-sm-12 hvr-bounce-to-top">
-            <img src="./assets/Icons/Frame 1171279775.png" alt="" />
-            <h3 class="inter-extrabold">
-              Web Development <br />
-              That Converts
-            </h3>
-            <p class="inter-medium">
-              Seamlessly sell your e-books with options <br />
-              for downloadable and non- downloadable <br />formats
-            </p>
-            <a
-              href="./html/contactUs.html"
-              class="inter-semibold hvr-icon-forward"
-              >Start Now
-              <img
-                src="./assets/Icons/chevron-right.png"
-                class="hvr-icon"
-                alt=""
-            /></a>
-          </div>
+      <div class="lines container-fluid">
+        <div class="grid-div container-fluid">
+          <div class="grid-ourServices row">
+            <div class="grid-services hvr-bounce-to-top">
+              <img src="../assets/Icons/Frame 1171279775.png" alt="" />
+              <h3 class="inter-extrabold">
+                Web Development <br />
+                That Converts
+              </h3>
+              <p class="inter-medium">
+                Seamlessly sell your e-books with options <br />
+                for downloadable and non- downloadable <br />formats
+              </p>
+              <a href="#" class="inter-semibold"
+                >Start Now <img src="../assets/Icons/chevron-right.png" alt=""
+              /></a>
+            </div>
 
-          <div class="grid-services col-lg-4 col-sm-12 hvr-bounce-to-top">
-            <img src="./assets/Icons/Frame 1171279775 (2).png" alt="" />
-            <h3 class="inter-extrabold">Mobile App <br />Development</h3>
-            <p class="inter-medium">
-              Create engaging mobile experiences with <br />native and hybrid
-              app development for <br />iOS and Android.
-            </p>
-            <a
-              href="./html/contactUs.html"
-              class="inter-semibold hvr-icon-forward"
-              >Start Now
-              <img
-                src="./assets/Icons/chevron-right.png"
-                class="hvr-icon"
-                alt=""
-            /></a>
-          </div>
+            <div class="grid-services hvr-bounce-to-top">
+              <img src="../assets/Icons/Frame 1171279775 (2).png" alt="" />
+              <h3 class="inter-extrabold">Mobile App <br />Development</h3>
+              <p class="inter-medium">
+                Create engaging mobile experiences with <br />native and hybrid
+                app development for <br />iOS and Android.
+              </p>
+              <a href="#" class="inter-semibold"
+                >Start Now <img src="../assets/Icons/chevron-right.png" alt=""
+              /></a>
+            </div>
 
-          <div class="grid-services col-lg-4 col-sm-12 hvr-bounce-to-top">
-            <img src="./assets/Icons/Frame 1171279775 (3).png" alt="" />
-            <h3 class="inter-extrabold">
-              AI & Machine Learning <br />Integration
-            </h3>
-            <p class="inter-medium">
-              Incorporate intelligent automation, <br />
-              predictive analytics, and personalized <br />user experiences into
-              your applications.
-            </p>
-            <a
-              href="./html/contactUs.html"
-              class="inter-semibold hvr-icon-forward"
-              >Start Now
-              <img
-                src="./assets/Icons/chevron-right.png"
-                class="hvr-icon"
-                alt=""
-            /></a>
-          </div>
+            <div class="grid-services hvr-bounce-to-top">
+              <img src="../assets/Icons/Frame 1171279775 (3).png" alt="" />
+              <h3 class="inter-extrabold">
+                AI & Machine Learning <br />Integration
+              </h3>
+              <p class="inter-medium">
+                Incorporate intelligent automation, <br />
+                predictive analytics, and personalized <br />user experiences
+                into your applications.
+              </p>
+              <a href="#" class="inter-semibold"
+                >Start Now <img src="../assets/Icons/chevron-right.png" alt=""
+              /></a>
+            </div>
 
-          <div class="grid-services col-lg-4 col-sm-12 hvr-bounce-to-top">
-            <img src="./assets/Icons/Frame 1171279775 (4).png" alt="" />
-            <h3 class="inter-extrabold">Cloud Services & DevOps</h3>
-            <p class="inter-medium">
-              Optimize your infrastructure with cloud solutions, continuous
-              integration, and deployment pipelines.
-            </p>
-            <a
-              href="./html/contactUs.html"
-              class="inter-semibold hvr-icon-forward"
-              >Start Now
-              <img
-                src="./assets/Icons/chevron-right.png"
-                class="hvr-icon"
-                alt=""
-            /></a>
-          </div>
+            <div class="grid-services hvr-bounce-to-top">
+              <img src="../assets/Icons/Frame 1171279775 (4).png" alt="" />
+              <h3 class="inter-extrabold">Cloud Services & DevOps</h3>
+              <p class="inter-medium">
+                Optimize your infrastructure with cloud solutions, continuous
+                integration, and deployment pipelines.
+              </p>
+              <a href="#" class="inter-semibold"
+                >Start Now <img src="../assets/Icons/chevron-right.png" alt=""
+              /></a>
+            </div>
 
-          <div class="grid-services col-lg-4 col-sm-12 hvr-bounce-to-top">
-            <img src="./assets/Icons/Frame 1171279775 (5).png" alt="" />
-            <h3 class="inter-extrabold">UI/UX Design</h3>
-            <p class="inter-medium">
-              Craft intuitive and visually appealing interfaces that enhance
-              user engagement and satisfaction.
-            </p>
-            <a
-              href="./html/contactUs.html"
-              class="inter-semibold hvr-icon-forward"
-              >Start Now
-              <img
-                src="./assets/Icons/chevron-right.png"
-                class="hvr-icon"
-                alt=""
-            /></a>
-          </div>
+            <div class="grid-services hvr-bounce-to-top">
+              <img src="../assets/Icons/Frame 1171279775 (5).png" alt="" />
+              <h3 class="inter-extrabold">UI/UX Design</h3>
+              <p class="inter-medium">
+                Craft intuitive and visually appealing interfaces that enhance
+                user engagement and satisfaction.
+              </p>
+              <a href="#" class="inter-semibold"
+                >Start Now <img src="../assets/Icons/chevron-right.png" alt=""
+              /></a>
+            </div>
 
-          <div class="grid-services col-lg-4 col-sm-12 hvr-bounce-to-top">
-            <img src="./assets/Icons/Frame 1171279775 (7).png" alt="" />
-            <h3 class="inter-extrabold">Software <br />Modernization</h3>
-            <p class="inter-medium">
-              Revamp legacy systems with scalable <br />APIs, microservices, and
-              cloud migration.
-            </p>
-            <a
-              href="./html/contactUs.html"
-              class="inter-semibold hvr-icon-forward"
-              >Start Now
-              <img
-                src="./assets/Icons/chevron-right.png"
-                class="hvr-icon"
-                alt=""
-            /></a>
+            <div class="grid-services hvr-bounce-to-top">
+              <img src="../assets/Icons/Frame 1171279775 (7).png" alt="" />
+              <h3 class="inter-extrabold">Software <br />Modernization</h3>
+              <p class="inter-medium">
+                Revamp legacy systems with scalable <br />APIs, microservices,
+                and cloud migration.
+              </p>
+              <a href="#" class="inter-semibold"
+                >Start Now <img src="../assets/Icons/chevron-right.png" alt=""
+              /></a>
+            </div>
           </div>
         </div>
       </div>
@@ -399,7 +367,7 @@
 
     <!---------------------------- HOW WE WORK --------------------------->
 
-    <div class="howWeWork">
+    <div class="howWeWork" id="howWeWork">
       <div class="howWeWork-left">
         <span class="dot">
           <img src="./assets/Icons/Dot.png" alt="" />
@@ -738,7 +706,7 @@
         <ul>
           <li class="top inter-bold" style="font-size: 14px">Pages</li>
           <li class="inter-semibold"><a href="./index.html">Home</a></li>
-          <li class="inter-semibold">How it works</li>
+          <li class="inter-semibold"><a href="#howWeWork">How it works</a></li>
           <li class="inter-semibold"><a href="#">FAQ</a></li>
           <li class="contact inter-semibold">
             <a href="./html/contactUs.html">Contact Us</a>
@@ -758,23 +726,20 @@
         <ul>
           <li class="top inter-bold" style="font-size: 14px">Socials</li>
           <li>
-            <img
+            <a href="https://www.linkedin.com/company/arktechltd"> <img
               src="./assets/Icons/entypo-social_linkedin-with-circle.png"
               alt=""
-            />
-            <img src="./assets/Icons/ph_x-logo-bold.png" alt="" />
-            <img src="./assets/Icons/bi_facebook.png" alt="" />
-            <img src="./assets/Icons/uil_instagram-alt.png" alt="" />
+            /></a>
+            <a href="#"><img src="./assets/Icons/ph_x-logo-bold.png" alt="" /></a>
+            <a href="https://web.facebook.com/arkcelerateconsulting"><img src="./assets/Icons/bi_facebook.png" alt="" /></a>
+            <a href="#"><img src="./assets/Icons/uil_instagram-alt.png" alt="" /></a>
           </li>
         </ul>
       </div>
     </div>
 
-
     <!-- -------------------------------------FOOTER FOR A PHONE-------------------------------------------- -->
-     <div class="container d-flex">
 
-     </div>
     <script src="./script.js"></script>
 
     <!-- Swiper JS -->
