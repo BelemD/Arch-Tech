@@ -490,103 +490,7 @@
   }
 }
 
-/* --------------------WHAT CLIENT SAYS--------------------- */
-.whatClientSays {
-  height: 924px;
-  background: linear-gradient(#119cb0, #019090);
-  margin-block-end: 101px;
 
-  .client-top {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    padding-block: 5%;
-
-    h2 {
-      color: #f8fafc;
-      font-size: 56px;
-      line-height: 60px;
-      padding-block-end: 2%;
-    }
-
-    p {
-      font-size: 20px;
-      color: #f8fafc;
-      width: 547px;
-      height: 56px;
-    }
-  }
-
-  .client-bottom {
-    display: flex;
-    flex-direction: row;
-    justify-content: stretch;
-    overflow-x: hidden;
-    width: 100%;
-    position: relative;
-
-    gap: 24px !important;
-
-    .client-details {
-      width: 424px;
-      height: 400px;
-      margin-inline-end: 24px;
-      border-radius: 24px;
-      background: #e7f5e8;
-      /* padding-inline: 40px; */
-      padding-block-start: 40px;
-      padding-block-end: 52px;
-    }
-    .top-details {
-      display: flex;
-      /* margin-block-end: 3%; */
-
-      img {
-        width: 48px;
-        height: 48px;
-        margin-inline-end: 7%;
-      }
-
-      h4 {
-        color: #061c3d;
-        font-size: 16px;
-      }
-      p {
-        font-size: #42526b;
-        color: 14px;
-      }
-    }
-
-    .middle-details {
-      margin-block-end: 15%;
-      p {
-        color: #061c3d;
-        font-size: 18px;
-      }
-      .group5 {
-        width: 80px;
-        height: 40px;
-      }
-    }
-  }
-
-  .arrows {
-    display: flex;
-    justify-content: center;
-    margin-block-start: 5%;
-    display: flex;
-    gap: 1rem;
-    cursor: pointer;
-
-    img {
-      width: 4rem;
-      height: 4rem;
-      border-radius: 9.375rem;
-    }
-  }
-}
 
 /* -------------------------GO FURTHER---------------------- */
 .goFurther {
@@ -1283,13 +1187,18 @@
   /* --------------------WHAT CLIENT SAYS--------------------- */
   .whatClientSays {
     height: 591px;
+    width: 425px;
     background: linear-gradient(#119cb0, #019090);
     margin-block-end: 0;
     padding-block-end: 46px;
     padding-block-start: 32px;
     margin-block-start: 35px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
+    align-items: center;
+    align-content: center;
+    gap: 23px;
 
     .client-top {
       display: flex;
@@ -1297,20 +1206,19 @@
       justify-content: center;
       text-align: center;
       align-items: center;
-      padding-block-start: 32px;
-      padding-block-start: 53px;
+      margin-inline-end: 40px;
 
       h2 {
         color: #f8fafc;
         font-size: 38px;
         line-height: 60px;
-        padding-block-end: 2%;
+        padding-block-end: 8px;
       }
 
       p {
         font-size: 20px;
         color: #f8fafc;
-        width: 351px;
+        width: 300px;
         height: 84px;
       }
     }
@@ -1318,20 +1226,21 @@
     .client-bottom {
       display: flex;
       flex-direction: row;
-      /* justify-content: stretch;
-      overflow-x: hidden; */
       width: 100%;
+      
 
       .client-details {
         width: 344px !important;
         height: 308px;
-        margin-inline-end: 0;
+        margin-inline: 8px;
+        margin-right: 0 !important;
         border-radius: 24px;
         background: #e7f5e8;
         padding-inline-start: 21px;
         padding-block-start: 31px;
         padding-block-end: 23px;
       }
+
       .top-details {
         display: flex;
         gap: 12px;
@@ -1367,10 +1276,9 @@
     }
 
     .arrows {
-      display: flex;
+      display: none;
       justify-content: center;
       margin-block-start: 5%;
-      display: flex;
       gap: 1rem;
       cursor: pointer;
 
@@ -2077,19 +1985,23 @@
     background: linear-gradient(#119cb0, #019090);
     margin-block-end: 101px;
 
+
     .client-top {
+      width: 548px;
+      height: 140px;
       display: flex;
       flex-direction: column;
       justify-content: center;
       text-align: center;
       align-items: center;
-      padding-block: 5%;
+      padding-block: 0;
+      margin-block-end: 109px;
+      gap: 24px;
 
       h2 {
         color: #f8fafc;
         font-size: 56px;
         line-height: 60px;
-        padding-block-end: 2%;
       }
 
       p {
@@ -2102,22 +2014,13 @@
 
     .client-bottom {
       display: flex;
-      flex-direction: row;
-      justify-content: stretch;
-      overflow-x: hidden;
-      width: 100%;
+      justify-content: center;
       position: relative;
-
+      /* overflow:; */
       gap: 24px !important;
-
-      .client-details:nth-child(2) {
-        position: absolute;
-
-        transform-style: translateX (40%);
-      }
-
+      
       .client-details {
-        width: 424px;
+        width: 424px !important;
         height: 400px;
         margin-inline-end: 24px;
         border-radius: 24px;
@@ -2125,15 +2028,15 @@
         padding-inline: 40px;
         padding-block-start: 40px;
         padding-block-end: 52px;
+        
       }
       .top-details {
         display: flex;
-        margin-block-end: 3%;
+        width: 228px;
 
         img {
           width: 48px;
           height: 48px;
-          margin-inline-end: 7%;
         }
 
         h4 {
@@ -2147,10 +2050,12 @@
       }
 
       .middle-details {
-        margin-block-end: 15%;
+        margin-block-start: 24px;
+        margin-block-end: 40px;
         p {
           color: #061c3d;
           font-size: 18px;
+          width: 344px;
         }
         .group5 {
           width: 80px;

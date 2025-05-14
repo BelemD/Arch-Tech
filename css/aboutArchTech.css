@@ -41,6 +41,7 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   background: #ffffff;
   /* margin: 0rem 6.84rem 0rem 6.84rem; */
@@ -259,13 +260,6 @@ body {
     justify-content: center;
     align-items: center;
     margin-inline: 3.75rem;
-
-    .icons {
-      width: 9.5rem;
-      gap: 1.5rem;
-      display: flex;
-      flex-direction: row;
-    }
   }
 }
 
@@ -486,27 +480,47 @@ body {
 
 .teamMembers {
   width: 375px;
-  height: 4507px;
+  margin-block-start: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-inline: 21px;
+  
   .top {
+    height: 269px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-inline: 0;
-    margin-inline: 0;
     align-items: center;
+    align-content: center;
     margin-block-end: 50px;
+    margin-block-start: 25px;
 
     h2 {
       font-size: 32px;
       color: #0f172a;
-      height: 0;
+      width: 343px;
+      height: 135px;
+      text-align: center;
+      margin-block-end: 13px;
+      line-height: 43px;
     }
     p {
       font-size: 1.125rem;
       color: #475569;
-      width: 0;
-      height: 0;
-      margin-block-end: 0;
+      width: 343px;
+      text-align: center;
+      margin-block-end: 24px;
+    }
+
+    .myDiv{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
     }
 
     button {
@@ -514,8 +528,8 @@ body {
       font-size: 1rem;
       color: #0e0d0d;
       background: #fec545;
-      width: 8.5rem;
-      height: 2.75rem;
+      width: 136px;
+      height: 44px;
       border-radius: 1rem;
     }
   }
@@ -545,8 +559,8 @@ body {
 
         p {
           /* padding-inline: 1rem; */
-           width: 353px;
-        height: 24px;
+          width: 353px;
+          height: 24px;
           color: #060606;
           font-size: 1.25rem;
         }
@@ -576,16 +590,33 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-inline: 3.75rem;
+    margin-inline: 0;
 
     .icons {
+      display: none;
       width: 9.5rem;
       gap: 1.5rem;
-      display: flex;
-      flex-direction: row;
     }
   }
 }
+
+.footer-ph{
+  .top{
+    margin-block-end: 40px;
+    ul li{
+      list-style: none;
+      font-size: 16px;
+      color: #475467;
+
+      a{
+        text-decoration: none;
+        color: #475467;
+      }
+    }
+
+  }
+}
+
 
 /* ------------------------FOOTER------------------------ */
 
@@ -825,7 +856,7 @@ body {
 
   padding-block: 2.5rem;
   padding-inline: 3rem;
-  display: none;
+  display: grid;
   grid-template-columns: auto auto;
   margin-inline: 2.40625rem;
   margin-block-start: 7%;
@@ -870,6 +901,11 @@ body {
     }
   }
 }
+
+.footer-ph{
+  display: none;
+}
+
 /* ----------------HOVER EFFECTS-------------------- */
 .hvr-underline-from-left:before {
     background: #fec545 !important;

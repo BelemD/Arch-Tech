@@ -39,7 +39,6 @@
 
 body {
   background: #ffffff;
-  /* margin: 0rem 6.84rem 0rem 6.84rem; */
 }
 
 .navbar {
@@ -438,6 +437,7 @@ body {
   .nav-item a:hover {
   text-decoration: none !important;
   }
+
   .services {
     height: 275px;
     max-width: 425px;

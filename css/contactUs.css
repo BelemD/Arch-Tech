@@ -39,24 +39,22 @@
 
 body {
   background: #ffffff;
-  margin: 0rem 6.84rem 0rem 6.84rem;
 }
 
 .navbar {
   height: 5rem;
   background: #ffffff;
+  height: 80px;
+  bottom: 0;
 }
 
-.navContainer {
-  img {
-    width: 8.375rem;
-    height: 2.25rem;
-  }
-  a {
-    text-decoration: none;
-    color: #0b0d14;
-    font-size: 1rem;
-    line-height: 165%;
+.navbar {
+ 
+  .nav-item{
+    a{
+      font-size: 1rem;
+      color: #0B0D14;
+    }
   }
   .mybtn {
     font-size: 1rem;
@@ -65,7 +63,6 @@ body {
     height: 2.75rem;
     border-radius: 1rem;
     background: #fec545;
-    margin: 0;
     border: none;
   }
   li a img {
@@ -227,4 +224,240 @@ body {
       }
     }
   }
+}
+
+@media screen and (max-width: 36rem) {
+  .navbar .mybtn {
+    display: none;
+  }
+
+  
+  .navbar, .myNav{
+    max-width: 430px !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+
+  }
+
+  .dropdown-item {
+    background: #ffffff !important;
+    }
+
+  nav a {
+  text-decoration: none !important;
+  }
+
+  .nav-item a:hover {
+  text-decoration: none !important;
+  }
+  /* ---------------------------OUR VALUES--------------------------------------- */
+.services {
+
+  height: 14.75rem;
+  background: url(../images/BG\ ph.png);
+  align-items: center;
+  display: flex;
+  margin-block-start: 3rem;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+
+  .servicesContent {
+    color: #ffffff;
+    width: 425px;
+    height: 19.3125rem;
+
+    h2 {
+      height: 66px;
+      font-size: 36px;
+      width: 425px;
+    }
+
+    p {
+      font-size: 1rem;
+      width: 264px;
+    }
+  }
+}
+
+/* ----------------------CONTACT US----------------- */
+.contactUs {
+  height: 68.875rem;
+  margin-block-start: 5%;
+  
+  .myImg{
+    display: none;
+  }
+  .myForm {
+    width: 36.8125rem;
+    height: 56.875rem;
+    padding: 2rem;
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+
+    form {
+      gap: 1.5rem;
+      display: flex;
+      flex-direction: column;
+
+      .myCheckBox {
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .myInput{
+
+        input{
+        height: 3rem;
+        width: 32rem;
+      }
+      }
+    }
+  }
+
+  div h2 {
+    font-size: 3rem;
+    color: #0f172a;
+  }
+  div p {
+    font-size: 1.125rem;
+    color: #475467;
+
+    a {
+      color: #0099a8;
+      text-decoration: none;
+    }
+  }
+
+  .check {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+
+    label {
+      font-size: 1rem;
+      color: #344054;
+    }
+  }
+  input::placeholder {
+    color: #667085;
+    font-size: 1rem;
+  }
+
+  button {
+    width: 32.125rem;
+    height: 2.75rem;
+    border: none;
+    background: #fec545;
+    color: #0e0d0d;
+    border-radius: 1rem;
+  }
+}
+}
+
+
+@media screen and (min-width: 1024px) {
+  /* ---------------------------OUR VALUES--------------------------------------- */
+.services {
+  height: 14.75rem;
+  background: url(../images/BG3.png);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+
+  .servicesContent {
+    color: #ffffff;
+    width: 43.375rem;
+    height: 19.3125rem;
+
+    h2 {
+      height: 4.125rem;
+      font-size: 3.625rem;
+      width: 50.875rem;
+    }
+
+    p {
+      font-size: 1rem;
+      width: 33rem;
+    }
+  }
+}
+
+/* ----------------------CONTACT US----------------- */
+.contactUs {
+  height: 68.875rem;
+  margin-block-start: 5%;
+  
+
+  .myForm {
+    width: 36.8125rem;
+    height: 56.875rem;
+    padding: 2rem;
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+
+    form {
+      gap: 1.5rem;
+      display: flex;
+      flex-direction: column;
+
+      .myCheckBox {
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .myInput{
+
+        input{
+        height: 3rem;
+        width: 32rem;
+      }
+      }
+    }
+  }
+
+  div h2 {
+    font-size: 3rem;
+    color: #0f172a;
+  }
+  div p {
+    font-size: 1.125rem;
+    color: #475467;
+
+    a {
+      color: #0099a8;
+      text-decoration: none;
+    }
+  }
+
+  .check {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+
+    label {
+      font-size: 1rem;
+      color: #344054;
+    }
+  }
+  input::placeholder {
+    color: #667085;
+    font-size: 1rem;
+  }
+
+  button {
+    width: 32.125rem;
+    height: 2.75rem;
+    border: none;
+    background: #fec545;
+    color: #0e0d0d;
+    border-radius: 1rem;
+  }
+}
 }

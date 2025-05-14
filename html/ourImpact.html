@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OUR IMPACT</title>
     <link rel="stylesheet" href="../css/ourImpact.css" />
+    <link rel="stylesheet" href="../assets/Hover-master/css/hover-min.css" />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -16,91 +18,119 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
   </head>
 
   <body>
-    <div class="navbar container">
-      <!------------------------------------- Nav Bar  ------------------------------------------->
-      <nav class="navbar fixed-top w-100 navbar-expand-lg">
+    <nav
+        class="navbar bg-white w-100 fixed-top navbar-expand-lg px-lg-5 pt-lg-4 bottom-0"
+      >
         <div
-          class="navContainer d-flex justify-content-center align-content-center container"
+          class="myNav container-fluid d-flex justify-content-between align-content-center align-items-center px-lg-5 mb-lg-4"
         >
-          <img src="../images/Asset 1 1logo.png" class="me-5" alt="" />
+          <a class="navbar-brand ps-lg-3" href="#">
+            <img
+              src="../images/Asset 1 1logo.png"
+              alt="Logo"
+              width="134"
+              height="36"
+              class="d-inline-block"
+            />
+          </a>
+
           <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="true"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul
-              class="navbar-nav d-flex inter-medium justify-content-between me-auto mb-2 mb-lg-0"
-            >
-              <li class="nav-item">
+          <div
+            class="collapse navbar-text navbar-collapse align-content-center justify-content-between pb-0"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item ms-2 d-md-inline">
                 <a
-                  class="nav-link inter-medium me-3"
-                  aria-current="page"
-                  href="#"
-                  >Products</a
+                  class="nav-link hvr-underline-from-left inter-medium"
+                  href="../html/product.html"
+                  >Product</a
                 >
               </li>
-              <li class="nav-item">
+              <li class="nav-item ms-2 d-md-inline">
                 <a
-                  class="nav-link inter-medium me-3"
+                  class="nav-link hvr-underline-from-left inter-medium"
                   href="../html/ourServices.html"
                   >Services</a
                 >
               </li>
-              <li class="nav-item dropdown">
+              <li
+                class="nav-item dropdown ms-2 d-md-inline d-lg-inline inter-medium"
+              >
                 <a
-                  class="nav-link inter-medium me-3"
+                  class="nav-link dropdown-toggle inter-medium hvr-underline-from-left"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
-                  aria-expanded="false"
+                  aria-expanded="true"
                 >
                   Company
-                  <img src="../assets/Icons/dropdown Icon.png" alt="" />
                 </a>
-                <ul class="dropdown-menu inter-medium">
+                <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="../html/aboutArchTech.html"
+                    <a class="dropdown-item" href="./html/aboutArchTech.html"
                       >About</a
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="../ourServices.html">Our Services</a>
+                    <a class="dropdown-item" href="./html/ourFreshNews.html"
+                      >Our Fresh News</a
+                    >
                   </li>
                   <li><hr class="dropdown-divider" /></li>
                   <li>
-                    <a class="dropdown-item" href="../html/ourValues.html">Our Values</a>
+                    <a class="dropdown-item" href="./html/ourValues.html"
+                      >Our Values</a
+                    >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="../html/ourImpact.html">Our Impact</a>
+                    <a class="dropdown-item" href="./html/ourImpact.html"
+                      >Our Impact</a
+                    >
                   </li>
                 </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link inter-medium me-3" href="#">Careers</a>
+              <li class="nav-item ms-2 d-md-inline hvr-underline-from-left">
+                <a class="nav-link inter-medium" href="../html/career.html"
+                  >Careers</a
+                >
               </li>
-              <li class="nav-item">
-                <a class="nav-link inter-medium me-3" href="#">Blog</a>
+              <li class="nav-item ms-2 d-md-inline hvr-underline-from-left">
+                <a class="nav-link inter-medium" href="../html/blogDetails.html"
+                  >Resources</a
+                >
               </li>
             </ul>
           </div>
-          <div class="d-flex inter-semibold">
-            <button class="mybtn inter-semibold" type="button">
-              Start Your Project Today
-            </button>
-          </div>
+
+          <button
+            class="mybtn myButton inter-semibold hvr-shadow px-2 justify-content-center"
+            onclick='window.location.assign("https://calendly.com/dc-session_with_tobi-arktech/30m-dc")'
+            type="button"
+          >
+            Start Your Project Today
+          </button>
         </div>
       </nav>
-    </div>
 
     <!--------------------------------- OUR IMPACT -------------------------------->
 
@@ -109,18 +139,20 @@
         class="text-center d-flex flex-column justify-content-center align-items-center align-content-center servicesContent"
       >
         <h2 class="inter-extrabold">Our Impact</h2>
-        <p class="inter-medium">Driving Results That Matter</p>
+        <p class="inter-medium myP">Driving Results That Matter</p>
+        <p>These are some of the various things you can easily sell on Shoplit. </p>
       </div>
     </div>
 
     <!-- --------------------------------------OUR JOURNEY------------------------------------------- -->
     <div class="ourJourney">
       <div class="journey-contents">
-        <img src="../images/Image.png" alt="" />
+        <img class="myImg" src="../images/Image.png" alt="" />
+        <img class="phn"  src="../images/Container.png" alt="">
 
         <div class="journey">
           <h2 class="inter-extrabold">
-            We’re only just getting <br />started on our journey
+            We’re only just getting started on our journey
           </h2>
 
           <div class="right-part">
@@ -151,29 +183,55 @@
       <h4 class="inter-bold">From startups to the world’s largest companies</h4>
 
       <div class="images">
-        <img src="../assets/Icons/Company-logo.png" style="width: 9.125rem;" alt="">
-        <img src="../assets/Icons/Company logo (1).png" style="width: 10.5625rem;" alt="">
-        <img src="../assets/Icons/Company logo (2).png" style="width: 11.5625rem;" alt="">
-        <img src="../assets/Icons/Company logo (3).png" style="width: 10rem;" alt="">
-        <img src="../assets/Icons/Company logo (4).png" style="width: 11.6875rem;" alt="">
+        <img class="img1" src="../assets/Icons/Company-logo.png" alt="">
+        <img class="img2" src="../assets/Icons/Company logo (1).png"  alt="">
+        <img class="img3" src="../assets/Icons/Company logo (2).png"  alt="">
+        <img class="img4" src="../assets/Icons/Company logo (3).png"  alt="">
+        <img  class="img5" src="../assets/Icons/Company logo (4).png"  alt="">
       </div>
     </div>
 
      <!------------------------------- WHAT CLIENT SAYS ---------------------------------------->
 
-      <div class="whatClientSays ">
-        <div class="client-top">
-          <h2 class="inter-bold">
-            What <span style="color: #fec545">client</span> says
-          </h2>
-          <p class="inter-regular">
-            Working with Arctech was a game-changer. Our app’s <br />
-            user base grew 300% in 6 months!
-          </p>
-        </div>
+     <!------------------------------- WHAT CLIENT SAYS ---------------------------------------->
 
-        <div class="client-bottom">
-          <div class="client-details">
+     <div class="whatClientSays d-flex flex-column align-content-center justify-content-center align-items-center">
+      <div class="client-top">
+        <h2 class="inter-bold">
+          What <span style="color: #fec545">client</span> says
+        </h2>
+        <p class="inter-regular">
+          Working with Arktech was a game-changer. Our app’s
+          user base grew 300% in 6 months!
+        </p>
+      </div>
+
+      <div class="client-bottom container d-flex flex-column swiper mySwiper" style="overflow: hidden; margin-left: 0; margin-right: 0">
+        <div class="slide swiper-wrapper">
+          <div class="client-details swiper-slide" style="margin-right: 0">
+            <div class="top-details">
+              <img src="../assets/Icons/Invisible.png" alt="" />
+              <div>
+                <h4 class="inter-medium">Annette Black</h4>
+                <p class="inter-regular">
+                  Chief Chairman of
+                  <span class="inter-medium" style="color: #7534ff"
+                    >Google</span
+                  >
+                </p>
+              </div>
+            </div>
+
+            <div class="middle-details">
+              <p class="inter-medium">
+                “This guy is true professional and very experienced in migration and server 
+                configuration. He was able to complete my order in time and as per agreed scope. Highly recommend!”
+              </p>
+            </div>
+            <img src="../assets/Icons/Group 5.png" class="group5" alt="" />
+          </div>
+
+          <div class="client-details swiper-slide">
             <div class="top-details">
               <img src="../assets/Icons/Invisible.png" alt="" />
               <div>
@@ -199,7 +257,7 @@
             <img src="../assets/Icons/Group 5.png" class="group5" alt="" />
           </div>
 
-          <div class="client-details">
+          <div class="client-details swiper-slide">
             <div class="top-details">
               <img src="../assets/Icons/Invisible.png" alt="" />
               <div>
@@ -225,7 +283,7 @@
             <img src="../assets/Icons/Group.png" class="group5" alt="" />
           </div>
 
-          <div class="client-details">
+          <div class="client-details swiper-slide">
             <div class="top-details">
               <img src="../assets/Icons/Invisible.png" alt="" />
               <div>
@@ -251,38 +309,51 @@
             <img src="../assets/Icons/Company Logo.png" class="group5" alt="" />
           </div>
 
-          <!-- <div class="client-bottom">
-        <div class="client-details">
-          <div class="top-details">
-            <img class="img" src="./assets/Icons/Invisible.png" alt="">
-            <div>
-              <h4 class="inter-medium">Annette Black</h4>
-              <p class="inter-regular">Chief Chairman of <span class="inter-medium" style="color: #7534FF;">Google</span></p>
+          <div class="client-details swiper-slide">
+            <div class="top-details">
+              <img src="../assets/Icons/Invisible.png" alt="" />
+              <div>
+                <h4 class="inter-medium">Annette Black</h4>
+                <p class="inter-regular">
+                  Chief Chairman of
+                  <span class="inter-medium" style="color: #7534ff"
+                    >Google</span
+                  >
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div class="middle-details">
-            <p class="inter-medium">“This guy is true professional and very <br> experienced in migration and server <br> configuration. He was able to complete <br> my order in time and as per agreed <br> scope. Highly recommend!”</p>
-          
+            <div class="middle-details">
+              <p class="inter-medium">
+                “This guy is true professional and very <br />
+                experienced in migration and server <br />
+                configuration. He was able to complete <br />
+                my order in time and as per agreed <br />
+                scope. Highly recommend!”
+              </p>
+            </div>
+            <img src="./assets/Icons/Company Logo.png" class="group5" alt="" />
           </div>
-         <img src="./assets/Icons/Company Logo.png" class="group5" alt="">
-        </div>
-      </div> -->
         </div>
 
         <div class="arrows">
           <img
+            class="prev"
+            onclick="prevSlide()"
             style="background: #f0f5ff"
             src="../assets/Icons/Icon Button2.png"
             alt=""
           />
           <img
+            class="next"
+            onclick="nextSlide()"
             style="background: #fec545"
             src="../assets/Icons/Icon Button.png"
             alt=""
           />
         </div>
       </div>
+    </div>
 
       <!-- ------------------------------------HOW WE CREATE IMPACT-------------------------------- -->
 
@@ -386,7 +457,31 @@
         </ul>
       </div>
     </div>
-    </div>
       
+
+     <!-- Swiper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+     <script>
+       var swiper = new Swiper(".mySwiper", {
+         slidesPerView: 3,
+         spaceBetween: 24,
+         slidesPerGroup: 1,
+         loop: true,
+         fade: true,
+         centerSlider: true,
+         grabCursor: true,
+         loopFillGroupWithBlank: true,
+         freeMode: true,
+         pagination: {
+           el: ".swiper-pagination",
+           clickable: true
+         },
+         navigation: {
+           nextEl: ".swiper-button-next",
+           prevEl: ".swiper-button-prev"
+         }
+       });
+      </script> 
   </body>
 </html>

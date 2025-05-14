@@ -39,24 +39,23 @@
 
 body {
   background: #ffffff;
-  margin: 0rem 6.84rem 0rem 6.84rem;
+  /* margin: 0rem 6.84rem 0rem 6.84rem; */
 }
 
 .navbar {
   height: 5rem;
   background: #ffffff;
+  height: 80px;
+  bottom: 0;
 }
 
-.navContainer {
-  img {
-    width: 8.375rem;
-    height: 2.25rem;
-  }
-  a {
-    text-decoration: none;
-    color: #0b0d14;
-    font-size: 1rem;
-    line-height: 165%;
+.navbar {
+ 
+  .nav-item{
+    a{
+      font-size: 1rem;
+      color: #0B0D14;
+    }
   }
   .mybtn {
     font-size: 1rem;
@@ -65,7 +64,6 @@ body {
     height: 2.75rem;
     border-radius: 1rem;
     background: #fec545;
-    margin: 0;
     border: none;
   }
   li a img {

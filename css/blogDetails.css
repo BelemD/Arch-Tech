@@ -39,24 +39,22 @@
 
 body {
   background: #ffffff;
-  margin: 0rem 6.84rem 0rem 6.84rem;
 }
 
 .navbar {
   height: 5rem;
   background: #ffffff;
+  height: 80px;
+  bottom: 0;
 }
 
-.navContainer {
-  img {
-    width: 8.375rem;
-    height: 2.25rem;
-  }
-  a {
-    text-decoration: none;
-    color: #0b0d14;
-    font-size: 1rem;
-    line-height: 165%;
+.navbar {
+ 
+  .nav-item{
+    a{
+      font-size: 1rem;
+      color: #0B0D14;
+    }
   }
   .mybtn {
     font-size: 1rem;
@@ -65,7 +63,6 @@ body {
     height: 2.75rem;
     border-radius: 1rem;
     background: #fec545;
-    margin: 0;
     border: none;
   }
   li a img {
@@ -80,6 +77,7 @@ body {
   background: url(../images/BG3.png);
   align-items: center;
   display: flex;
+  margin-block-start: 6rem;
   justify-content: center;
   align-content: center;
   text-align: center;
@@ -103,10 +101,7 @@ body {
 }
 
 /* --------------------LEADERSHIP LESSON---------------------- */
-.myBody{
-  margin-inline: 6.625rem;
-  margin-block-start: 6%;
-}
+
 .leadershipLesson{
     
 
@@ -315,5 +310,486 @@ body {
       }
     }
   }
+}
+
+@media screen and (max-width: 36rem) {
+  .navbar .mybtn {
+    display: none;
+  }
+
+  
+  .navbar, .myNav{
+    max-width: 430px !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+
+  }
+
+  .dropdown-item {
+    background: #ffffff !important;
+    }
+
+  nav a {
+  text-decoration: none !important;
+  }
+
+  .nav-item a:hover {
+  text-decoration: none !important;
+  }
+
+  /* ---------------------------OUR VALUES--------------------------------------- */
+.services {
+  height: 275px;
+  max-width: 425px;
+  background: url(../images/BG\ ph.png);
+  background-repeat: round;
+  align-items: center;
+  display: flex;
+  margin-block-start: 3rem;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+
+  .servicesContent {
+    color: #ffffff;
+    width: 43.375rem;
+    height: 19.3125rem;
+
+    h2 {
+      height: 66px;
+      font-size: 36px;
+      width: 425px;
+    }
+
+    p {
+      font-size: 1rem;
+      width: 264px;
+    }
+  }
+}
+
+/* --------------------LEADERSHIP LESSON---------------------- */
+.myBody{
+  margin-inline: 16px;
+  margin-block-start:22px;
+}
+.leadershipLesson{
+    width: 375px;
+
+    .eightMin{
+        font-size: 0.75rem;
+        color: #1B1822;
+        background: #4ee1f1;
+        width: 9.1875rem;
+        height: 1.675rem;
+        border-radius: 1rem;
+        margin-block-end: 1rem;
+
+
+        .product{
+            width: 3.875rem;
+            height: 1.375rem;
+            background: #ffffff;
+            border-radius: 1rem;
+        }
+    }
+
+
+    h2{
+        font-size: 36px;
+        width: 343px;
+        color: #191D26;
+        margin-block-end: 0;
+    }
+    
+    p{
+        width: 343px;
+        color: #475569;
+        font-size: 18px;
+    }
+
+}
+
+.myPhoto{
+  gap: 2rem;
+
+      .bottomTop{
+
+        .pTags{
+
+          p{
+          color: #B77E00;
+          font-size: 0.875rem;
+          /* width: 4.4375rem; */
+        }
+        }
+       
+        .bottomBelow{
+
+        p{
+          color: #101828;
+          font-size: 18px;
+        }
+      }
+      }
+
+      
+      .myImages{
+        display: none !important;
+          gap: 0.75rem;
+
+          img{
+            width: 2.5rem;
+            height: 2.5rem;
+          }
+
+          .myImg{
+            width: 7.6875rem;
+            height: 2.5rem;
+          }
+        }
+}
+
+/* -------------------INTRODUCTION----------------------- */
+.introduction{
+  margin-block-start: 5%;
+  gap: 7.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+
+  .myImg{
+    width: 343px;
+    height: 272px;
+  }
+  .leftPart{
+    width: 343px;
+
+    .myH4{
+      width: 343px !important;
+      height: 252px;
+    }
+
+    p{
+      font-size: 1.125rem;
+      color: #265358;
+    }
+
+    h2{
+      font-size: 1.975rem;
+      color: #101828;
+    }
+    li{
+      color: #265358;
+      font-size: 1.125rem;
+    }
+  }
+
+  .rightPart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding-inline: 2rem;
+    padding-block-start: 2rem;
+    padding-block-end: 2.5rem;
+    background: #E7FAFD;
+    height: 27.75rem;
+    border-radius: 1rem;
+
+    img{
+      width: 3.5rem;
+      height: 3.5rem;
+    }
+
+    h3{
+      color: #B77E00;
+      font-size: 1.5rem;
+    }
+
+    form{
+
+
+      p{
+        font-size: 1rem;
+        margin-block-start: 0.5rem;
+      }
+
+      input{
+        border-radius: 0.75rem;
+        margin-inline-end: 0.375rem;
+      }
+      input::placeholder {
+        color: #64748b;
+        font-size: 16px;
+        /* padding: 10px; */
+        padding-block: 131.5px;
+      }
+
+      button{
+        margin-block-start: 1rem;
+        width: 15rem;
+        border: none;
+        height: 2.75rem;
+        border-radius: 1rem;
+        background: #FEC545;
+      }
+    }
+  }
+  .aTag{
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+    }
+}
+
+.footer{
+  display: none;
+}
+.hvr-underline-from-left:before {
+  background: #fec545 !important;
+  width: 0;
+}
+.hvr-fade:before {
+  background-color: #fec545 !important;
+}
+.dropdown-menu {
+  --bs-dropdown-link-active-bg: #ffffff !important;
+}
+.hvr-bounce-to-top:before {
+  background-color: #fec545 !important;
+  border-radius: 1rem;
+}
+.grid-services:hover {
+  h3 {
+    color: #060809;
+  }
+}
+.myButton:active {
+  background-color: #f5b726;
+  transform: translateY(4px);
+}
+}
+
+@media screen and (min-width: 1024px) {
+  /* ---------------------------OUR VALUES--------------------------------------- */
+.services {
+  height: 14.75rem;
+  background: url(../images/BG3.png);
+  align-items: center;
+  display: flex;
+  margin-block-start: 6rem;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+
+  .servicesContent {
+    color: #ffffff;
+    width: 43.375rem;
+    height: 19.3125rem;
+
+    h2 {
+      height: 4.125rem;
+      font-size: 3.625rem;
+      width: 50.875rem;
+    }
+
+    p {
+      font-size: 1rem;
+      width: 33rem;
+    }
+  }
+}
+
+/* --------------------LEADERSHIP LESSON---------------------- */
+.myBody{
+  margin-inline: 6.625rem;
+  margin-block-start: 6%;
+}
+.leadershipLesson{
+    
+
+    .eightMin{
+        font-size: 0.75rem;
+        color: #1B1822;
+        background: #4ee1f1;
+        width: 9.1875rem;
+        height: 1.675rem;
+        border-radius: 1rem;
+        margin-block-end: 1rem;
+
+
+        .product{
+            width: 3.875rem;
+            height: 1.375rem;
+            background: #ffffff;
+            border-radius: 1rem;
+        }
+    }
+
+
+    h2{
+        font-size: 3rem;
+        width: 48rem;
+        color: #191D26;
+        margin-block-end: 1.5rem;
+    }
+    
+    p{
+        width: 48rem;
+        color: #475569;
+        font-size: 1.25rem;
+    }
+
+}
+
+.myPhoto{
+  gap: 2rem;
+
+      .bottomTop{
+
+        .pTags{
+          gap: 7.5rem;
+
+          p{
+          color: #B77E00;
+          font-size: 0.875rem;
+          /* width: 4.4375rem; */
+        }
+        }
+       
+        .bottomBelow{
+          gap: 5rem;
+
+        p{
+          color: #101828;
+          font-size: 1.135rem;
+        }
+      }
+      }
+
+      
+      .myImages{
+          gap: 0.75rem;
+
+          img{
+            width: 2.5rem;
+            height: 2.5rem;
+          }
+
+          .myImg{
+            width: 7.6875rem;
+            height: 2.5rem;
+          }
+        }
+}
+
+.introduction{
+  margin-block-start: 5%;
+  gap: 7.75rem;
+
+  .leftPart{
+    width: 45rem;
+
+    p{
+      font-size: 1.125rem;
+      color: #265358;
+    }
+
+    h2{
+      font-size: 1.975rem;
+      color: #101828;
+    }
+    li{
+      color: #265358;
+      font-size: 1.125rem;
+    }
+  }
+
+  .rightPart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding-inline: 2rem;
+    padding-block-start: 2rem;
+    padding-block-end: 2.5rem;
+    background: #E7FAFD;
+    height: 27.75rem;
+    border-radius: 1rem;
+
+    img{
+      width: 3.5rem;
+      height: 3.5rem;
+    }
+
+    h3{
+      color: #B77E00;
+      font-size: 1.5rem;
+    }
+
+    form{
+
+
+      p{
+        font-size: 1rem;
+        margin-block-start: 0.5rem;
+      }
+
+      input{
+        border-radius: 0.75rem;
+        margin-inline-end: 0.375rem;
+      }
+      input::placeholder {
+        color: #64748b;
+        font-size: 16px;
+        /* padding: 10px; */
+        padding-block: 131.5px;
+      }
+
+      button{
+        margin-block-start: 1rem;
+        width: 15rem;
+        border: none;
+        height: 2.75rem;
+        border-radius: 1rem;
+        background: #FEC545;
+      }
+    }
+  }
+  .aTag{
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+    }
+}
+
+ /* ----------------HOVER EFFECTS-------------------- */
+ .hvr-underline-from-left:before {
+  background: #fec545 !important;
+  
+}
+.hvr-fade:before {
+  background-color: #fec545 !important;
+
+}
+.dropdown-menu {
+  --bs-dropdown-link-active-bg: #ffffff !important;
+}
+.hvr-bounce-to-top:before {
+  background-color: #fec545 !important;
+  border-radius: 1rem;
+}
+.grid-services:hover {
+  h3 {
+    color: #060809;
+  }
+}
+.myButton:active {
+  background-color: #f5b726;
+  transform: translateY(4px);
+}
 }
 
