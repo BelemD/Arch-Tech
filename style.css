@@ -950,16 +950,15 @@
 
   .grid-ourServices {
     margin-inline: 5.59375rem;
-    width: 425px;
+    width: 425px !important;
     height: 16rem;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto;
     gap: 9.68px;
     justify-content: center;
     align-items: center;
 
     .grid-services {
-      width: 425px;
       height: 356.32px;
       background: #ffffff;
 
