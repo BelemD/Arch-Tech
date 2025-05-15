@@ -345,7 +345,8 @@ body {
 
   
   .navbar, .myNav{
-    width: 425px !important;
+    max-width: 425px !important;
+
     margin-right: 0 !important;
     margin-left: 0 !important;
 
@@ -365,7 +366,7 @@ body {
 
   .services {
   height: 275px;
-  width: 300px;
+  width: 425px;
   background-image: url(../images/BG\ ph.png);
   align-items: center;
   background-repeat: round;
@@ -481,7 +482,7 @@ body {
 /* -----------------------Say hello to our team members----------------------------- */
 
 .teamMembers {
-  width: 375px;
+  width: 425px;
   margin-block-start: 32px;
   display: flex;
   flex-direction: column;
