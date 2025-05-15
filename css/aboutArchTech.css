@@ -366,7 +366,7 @@ body {
 
   .services {
   height: 275px;
-  width: 425px;
+  width: 425px !important;
   background-image: url(../images/BG\ ph.png);
   align-items: center;
   background-repeat: round;
