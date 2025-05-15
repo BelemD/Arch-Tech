@@ -233,7 +233,7 @@ body {
 
   
   .navbar, .myNav{
-    max-width: 430px !important;
+    max-width: 425px !important;
     margin-right: 0 !important;
     margin-left: 0 !important;
 
@@ -282,15 +282,15 @@ body {
 
 /* ----------------------CONTACT US----------------- */
 .contactUs {
-  height: 68.875rem;
+  height: 958px;
   margin-block-start: 5%;
   
   .myImg{
     display: none;
   }
   .myForm {
-    width: 36.8125rem;
-    height: 56.875rem;
+    width: 375px;
+    height: 958px;
     padding: 2rem;
     gap: 1.5rem;
     display: flex;
@@ -303,15 +303,16 @@ body {
 
       .myCheckBox {
         gap: 1rem;
-        display: flex;
+        display: none;
         flex-direction: column;
       }
 
       .myInput{
+        width: 343px;
 
         input{
-        height: 3rem;
-        width: 32rem;
+        height: 48px;
+        width: 343px;
       }
       }
     }
@@ -347,13 +348,16 @@ body {
   }
 
   button {
-    width: 32.125rem;
+    width: 335px;
     height: 2.75rem;
     border: none;
     background: #fec545;
     color: #0e0d0d;
     border-radius: 1rem;
   }
+}
+.footer{
+  display: none;
 }
 }
 
@@ -365,6 +369,7 @@ body {
   background: url(../images/BG3.png);
   align-items: center;
   display: flex;
+  margin-block-start: 6rem;
   justify-content: center;
   align-content: center;
   text-align: center;

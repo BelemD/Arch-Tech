@@ -420,7 +420,7 @@ body {
 
   
   .navbar, .myNav{
-    max-width: 430px !important;
+    max-width: 420px !important;
     margin-right: 0 !important;
     margin-left: 0 !important;
 
@@ -451,11 +451,14 @@ body {
     color: #ffffff;
     margin-inline: 0;
     height: 19.3125rem;
+    width: 425px;
+    text-align: center;
+
 
     h2{
       font-size: 36px;
-      height: 66px;
-      width: 425px;
+      width: 264px;
+      
       padding-block-end: 0;
     }
 
@@ -922,8 +925,7 @@ body {
   display: grid;
   grid-template-columns: auto auto;
   margin-inline: 2.40625rem;
-  margin-block-start: 7%;
-  margin-block-end: 2.25rem;
+  margin-block-end: 76px !important;
   border-radius: 20px;
   border: 0.25rem solid #edeff1;
 
@@ -948,10 +950,10 @@ body {
     }
   }
 
+ 
   .footerlist {
     display: grid;
     grid-template-columns: auto auto auto;
-    /* gap: 1rem; */
 
     ul li {
       list-style: none;
@@ -960,6 +962,12 @@ body {
 
       .contact {
         margin-block-start: 5rem;
+      }
+
+      a {
+        text-decoration: none;
+        font-size: 16px;
+        color: #0b0d14;
       }
     }
   }

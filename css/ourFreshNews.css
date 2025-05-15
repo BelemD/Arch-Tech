@@ -235,7 +235,7 @@ body {
   }
   
   .navbar, .myNav{
-    max-width: 430px !important;
+    max-width: 425px !important;
     margin-right: 0 !important;
     margin-left: 0 !important;
 
@@ -339,64 +339,129 @@ body {
   }
   
   /* ------------------------FOOTER------------------------ */
-  
   .footer {
-    background: #ffffff;
-    padding-block: 2.5rem;
-    padding-inline: 3rem;
     display: none;
-    grid-template-columns: auto auto;
-    margin-inline: 2.40625rem;
-    margin-block-start: 7%;
-    margin-block-end: 2.25rem;
-    border-radius: 20px;
-    border: 0.25rem solid #edeff1;
-  
-    .top {
-      margin-block-end: 1.875rem;
+   }
+   
+   .footer-ph{
+     .myP{
+       width: 343px;
+       height: 48px;
+       font-size: 16px;
+       color: #475467;
+     }
+     .top{
+       margin-block-end: 40px;
+       ul li{
+         list-style: none;
+         font-size: 16px;
+         color: #475467;
+   
+         a{
+           text-decoration: none;
+           color: #475467;
+         }
+       }
+   
+     }
+     
+   }
+    
+   
+   .hvr-underline-from-left:before {
+     background: #fec545 !important;
+     width: 0;
+   }
+   .hvr-fade:before {
+     background-color: #fec545 !important;
+   }
+   .dropdown-menu {
+     --bs-dropdown-link-active-bg: #ffffff !important;
+   }
+   .hvr-bounce-to-top:before {
+     background-color: #fec545 !important;
+     border-radius: 1rem;
+   }
+   .grid-services:hover {
+     h3 {
+       color: #060809;
+     }
+   }
+   .myButton:active {
+     background-color: #f5b726;
+     transform: translateY(4px);
+   }
+}
+
+@media screen and (min-width: 1024px){
+  .footer-ph{
+    display: none;
+  }
+   /* ------------------------FOOTER------------------------ */
+
+.footer {
+  background: #ffffff;
+  padding-block: 2.5rem;
+  padding-inline: 3rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-inline: 2.40625rem;
+  margin-block-end: 76px !important;
+  border-radius: 20px;
+  border: 0.25rem solid #edeff1;
+
+  .top {
+    margin-block-end: 1.875rem;
+  }
+
+  .left-end {
+    p {
+      width: 492px;
+      height: 72px;
+      font-size: 16px;
+      color: #64748b;
+      margin-block-end: 10%;
     }
-  
-    .left-end {
-      p {
-        width: 492px;
-        height: 72px;
-        font-size: 16px;
-        color: #64748b;
-        margin-block-end: 10%;
-      }
-  
-      span {
-        width: 336px;
-        height: 24px;
-        font-size: 14px;
-        color: #667085;
-      }
-    }
-  
-    .footerlist {
-      display: grid;
-      grid-template-columns: auto auto auto;
-      /* gap: 1rem; */
-  
-      ul li {
-        list-style: none;
-        font-size: 16px;
-        margin-block-start: 0.5rem;
-  
-        .contact {
-          margin-block-start: 5rem;
-        }
-      }
+
+    span {
+      width: 336px;
+      height: 24px;
+      font-size: 14px;
+      color: #667085;
     }
   }
 
-   /* ----------------HOVER EFFECTS-------------------- */
- .hvr-underline-from-left:before {
+ 
+  .footerlist {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    ul li {
+      list-style: none;
+      font-size: 16px;
+      margin-block-start: 0.5rem;
+
+      .contact {
+        margin-block-start: 5rem;
+      }
+
+      a {
+        text-decoration: none;
+        font-size: 16px;
+        color: #0b0d14;
+      }
+    }
+  }
+}
+
+/* ----------------HOVER EFFECTS-------------------- */
+.hvr-underline-from-left:before {
   background: #fec545 !important;
-  width: 0;
+  
 }
 .hvr-fade:before {
   background-color: #fec545 !important;
+
 }
 .dropdown-menu {
   --bs-dropdown-link-active-bg: #ffffff !important;
@@ -414,27 +479,4 @@ body {
   background-color: #f5b726;
   transform: translateY(4px);
 }
-}
-
-@media screen and (min-width: 1024px){
-   /* ----------------HOVER EFFECTS-------------------- */
-   .hvr-fade:before {
-    background-color: #fec545 !important;
-}
-  .dropdown-menu {
-    --bs-dropdown-link-active-bg: #ffffff !important;
-  }
-  .hvr-bounce-to-top:before {
-    background-color: #fec545 !important;
-    border-radius: 1rem;
-  }
-  .grid-services:hover {
-    h3 {
-      color: #060809;
-    }
-  }
-  .myButton:active {
-    background-color: #f5b726;
-    transform: translateY(4px);
-  }
 }
