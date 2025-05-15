@@ -418,24 +418,24 @@ body {
     display: none;
   }
 
-  
-  .navbar, .myNav{
-    width: 420px !important;
+  .navbar,
+  .myNav {
+    width: 425px !important;
+    max-width: 425px !important;
     margin-right: 0 !important;
     margin-left: 0 !important;
-
   }
 
   .dropdown-item {
     background: #ffffff !important;
-    }
+  }
 
   nav a {
-  text-decoration: none !important;
+    text-decoration: none !important;
   }
 
   .nav-item a:hover {
-  text-decoration: none !important;
+    text-decoration: none !important;
   }
 
   .services {
