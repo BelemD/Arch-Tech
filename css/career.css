@@ -332,7 +332,7 @@ hvr-fade:before {
 
   
   .navbar, .myNav{
-    max-width: 425px !important;
+    width: 425px !important;
     margin-right: 0 !important;
     margin-left: 0 !important;
 
