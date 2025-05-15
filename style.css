@@ -936,11 +936,9 @@
   .lines {
     background: linear-gradient(#ecfcff, #e7fafd);
     height: 2216px;
-    width: 425px;
   }
   .grid-div {
     height: 57.4375rem;
-    width: 425px;
     padding-block-start: 7px;
     margin-block: 0;
     margin-block-start: 32px;
@@ -949,7 +947,7 @@
   }
 
   .grid-ourServices {
-    margin-inline: 5.59375rem;
+    margin-inline: 0;
     width: 425px !important;
     height: 16rem;
     display: grid;
@@ -961,8 +959,8 @@
     .grid-services {
       height: 356.32px;
       background: #ffffff;
-
-      border-radius: 1.25rem;
+      width: 425px;
+      border-radius: 0;
       padding-inline-start: 2.0625rem;
 
       img {
