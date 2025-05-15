@@ -669,6 +669,7 @@
   .navbar,
   .myNav {
     width: 425px !important;
+    max-width: 425px !important;
     margin-right: 0 !important;
     margin-left: 0 !important;
   }
@@ -936,6 +937,7 @@
   .lines {
     background: linear-gradient(#ecfcff, #e7fafd);
     height: 2216px;
+    width: 425px;
   }
   .grid-div {
     height: 57.4375rem;
@@ -948,7 +950,7 @@
 
   .grid-ourServices {
     margin-inline: 0;
-    width: 425px !important;
+    width: 420px ;
     height: 16rem;
     display: grid;
     grid-template-columns: auto;
@@ -959,7 +961,7 @@
     .grid-services {
       height: 356.32px;
       background: #ffffff;
-      width: 425px;
+      width: 375px;
       border-radius: 0;
       padding-inline-start: 2.0625rem;
 
@@ -1287,7 +1289,7 @@
       .buttonsBelow {
         display: flex;
         flex-direction: row;
-        width: 425px;
+        width: 375px;
         gap: 8px;
 
         a {
@@ -1301,7 +1303,7 @@
 
     .card-div {
       height: 444px;
-      width: 425px;
+      width: 420px;
       display: flex;
       flex-direction: row;
       gap: 32px;
@@ -1311,7 +1313,7 @@
 
       .card{
         .card-img-top{
-          width: 425px;
+          width: 420px;
         }
       }
       .noDisplay {
