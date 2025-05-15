@@ -894,7 +894,7 @@
       margin-block-end: 50px;
       padding-block-start: 16px;
       height: 133px;
-      width: 321px;
+      width: 425px;
     }
 
     .grid-chooseUs {
@@ -936,14 +936,16 @@
   .lines {
     background: linear-gradient(#ecfcff, #e7fafd);
     height: 2216px;
+    width: 425px;
   }
   .grid-div {
     height: 57.4375rem;
+    width: 425px;
     padding-block-start: 7px;
     margin-block: 0;
     margin-block-start: 32px;
     /* padding-inline-end: 2%; */
-    background-image: url(../assets/Icons/glow_two.png);
+    background-image: url(./assets/Icons/glow_two.png);
   }
 
   .grid-ourServices {
@@ -1238,6 +1240,7 @@
   /* -------------------------GO FURTHER---------------------- */
   .goFurther {
     height: 793px;
+    width: 425px;
     margin-block-start: 25px;
     margin-block-end: 44px;
     border-radius: 20px;
@@ -1308,6 +1311,7 @@
       align-content: center;
 
       .card{
+        width: 425px;
         .card-img-top{
           width: 383px;
         }
@@ -1405,7 +1409,6 @@
     --bs-dropdown-link-active-bg: #ffffff !important;
   }
   .hvr-bounce-to-top:before {
-    display: none;
     background-color: #fec545 !important;
     border-radius: 1rem;
   }
