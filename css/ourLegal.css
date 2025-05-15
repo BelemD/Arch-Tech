@@ -236,6 +236,7 @@ body {
 
   .services {
     height: 125px;
+    width: 425px;
     background: url(../images/BG\ ph.png);
     background-repeat: round;
     align-items: center;
@@ -306,6 +307,7 @@ body {
  }
  
  .footer-ph{
+  
    .myP{
      width: 343px;
      height: 48px;

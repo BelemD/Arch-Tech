@@ -234,6 +234,7 @@ body {
   
   .navbar, .myNav{
     max-width: 425px !important;
+    width: 425px;
     margin-right: 0 !important;
     margin-left: 0 !important;
 
@@ -254,6 +255,7 @@ body {
 .services {
 
   height: 14.75rem;
+  width: 425px;
   background: url(../images/BG\ ph.png);
   align-items: center;
   display: flex;
@@ -264,7 +266,7 @@ body {
 
   .servicesContent {
     color: #ffffff;
-    width: 425px;
+    width: 335px;
     height: 19.3125rem;
 
     h2 {
