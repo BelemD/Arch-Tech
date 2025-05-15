@@ -529,10 +529,12 @@ body {
 
   .lines {
   background: linear-gradient(#ecfcff, #e7fafd);
+  width: 425px;
   height: 2216px;
  }
 .grid-div {
   height: 57.4375rem;
+  width: 420px;
   padding-block-start: 7px;
   margin-block: 0;
   margin-block-start: 32px;
