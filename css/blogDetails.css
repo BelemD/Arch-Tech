@@ -360,7 +360,7 @@ body {
   /* ---------------------------OUR VALUES--------------------------------------- */
   .services {
     height: 275px;
-    max-width: 425px;
+    width: 425px;
     background: url(../images/BG\ ph.png);
     background-repeat: round;
     align-items: center;

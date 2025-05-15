@@ -669,7 +669,7 @@
 
   .navbar,
   .myNav {
-    max-width: 425px !important;
+    width: 425px !important;
     margin-right: 0 !important;
     margin-left: 0 !important;
   }
@@ -687,7 +687,7 @@
   }
 
   .solution {
-    max-width: 425px;
+    width: 425px;
     height: 395px;
     background-image: url("./images/image_fx.png"), url("./images/BG25.png");
     background-repeat: round;
