@@ -420,7 +420,7 @@ body {
 
   
   .navbar, .myNav{
-    max-width: 420px !important;
+    width: 420px !important;
     margin-right: 0 !important;
     margin-left: 0 !important;
 
@@ -440,7 +440,7 @@ body {
 
   .services {
     height: 275px;
-    max-width: 425px;
+    width: 425px;
     background-image: url(../images/BG\ ph.png);
     border-radius: 0;
     background-repeat: round;
