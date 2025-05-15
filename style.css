@@ -950,6 +950,7 @@
 
   .grid-ourServices {
     margin-inline: 5.59375rem;
+    width: 425px;
     height: 16rem;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -958,7 +959,7 @@
     align-items: center;
 
     .grid-services {
-      width: 353px;
+      width: 425px;
       height: 356.32px;
       background: #ffffff;
 
@@ -1252,7 +1253,7 @@
 
     .top-goFurther {
       height: 217px;
-      width: 351px;
+      width: 425px;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -1289,7 +1290,7 @@
       .buttonsBelow {
         display: flex;
         flex-direction: row;
-        width: 312px;
+        width: 425px;
         gap: 8px;
 
         a {
@@ -1303,6 +1304,7 @@
 
     .card-div {
       height: 444px;
+      width: 425px;
       display: flex;
       flex-direction: row;
       gap: 32px;
@@ -1312,7 +1314,7 @@
 
       .card{
         .card-img-top{
-          width: 383px;
+          width: 425px;
         }
       }
       .noDisplay {
