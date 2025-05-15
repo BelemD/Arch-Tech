@@ -438,6 +438,10 @@ body {
     text-decoration: none !important;
   }
 
+  body{
+    width: 425px;
+  }
+
   .services {
     height: 275px;
     width: 425px;
