@@ -295,6 +295,9 @@ body {
 
       p {
         font-size: 14px;
+      }
+      a {
+        text-decoration: none;
         color: #1a1c1f;
       }
     }
@@ -535,30 +538,33 @@ body {
 
   .lines {
     background: linear-gradient(#ecfcff, #e7fafd);
+    height: 2216px;
+    width: 425px;
   }
   .grid-div {
-    height: 57.4375rem;
-    padding-block-start: 3.25rem;
-    margin-block: 5%;
+    height: 912px;
+    padding-block-start: 7px;
+    margin-block-start: 32px;
     /* padding-inline-end: 2%; */
     background-image: url(../assets/Icons/glow_one.png.png),
       url(../images/Line\ design\ -\ bg.png);
   }
 
   .grid-ourServices {
-    margin-inline: 5.59375rem;
+    margin-inline: 0;
+    width: 420px;
     height: 16rem;
     display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 1.4375rem;
+    grid-template-columns: auto;
+    gap: 9.68px;
     justify-content: center;
     align-items: center;
 
     .grid-services {
-      width: 24.375rem;
-      height: 24.625rem;
+      height: 356.32px;
+      width: 375px;
       background: #ffffff;
-
+      
       border-radius: 1.25rem;
       padding-inline-start: 2.0625rem;
 

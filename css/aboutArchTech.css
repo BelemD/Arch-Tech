@@ -346,7 +346,7 @@ body {
   
   .navbar, .myNav{
     max-width: 425px !important;
-
+    width: 425px;
     margin-right: 0 !important;
     margin-left: 0 !important;
 
@@ -851,7 +851,7 @@ body {
     .icons {
       width: 9.5rem;
       gap: 1.5rem;
-      display: flex;
+      display: none;
       flex-direction: row;
     }
   }

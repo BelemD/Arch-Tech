@@ -361,12 +361,29 @@ body {
 .footer{
   display: none;
 }
+
+.footer-ph{
+  .top{
+    margin-block-end: 40px;
+    ul li{
+      list-style: none;
+      font-size: 16px;
+      color: #475467;
+
+      a{
+        text-decoration: none;
+        color: #475467;
+      }
+    }
+
+  }
+}
 }
 
 
 @media screen and (min-width: 1024px) {
   /* ---------------------------OUR VALUES--------------------------------------- */
-.services {
+  .services {
   height: 14.75rem;
   background: url(../images/BG3.png);
   align-items: center;
@@ -392,7 +409,9 @@ body {
       width: 33rem;
     }
   }
-}
+
+  
+  }
 
 /* ----------------------CONTACT US----------------- */
 .contactUs {
@@ -466,5 +485,66 @@ body {
     color: #0e0d0d;
     border-radius: 1rem;
   }
+}
+
+/* ------------------------FOOTER------------------------ */
+
+.footer {
+  background: #ffffff;
+  padding-block: 2.5rem;
+  padding-inline: 3rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-inline: 2.40625rem;
+  margin-block-end: 76px !important;
+  border-radius: 20px;
+  border: 0.25rem solid #edeff1;
+
+  .top {
+    margin-block-end: 1.875rem;
+  }
+
+  .left-end {
+    p {
+      width: 492px;
+      height: 72px;
+      font-size: 16px;
+      color: #64748b;
+      margin-block-end: 10%;
+    }
+
+    span {
+      width: 336px;
+      height: 24px;
+      font-size: 14px;
+      color: #667085;
+    }
+  }
+
+ 
+  .footerlist {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    ul li {
+      list-style: none;
+      font-size: 16px;
+      margin-block-start: 0.5rem;
+
+      .contact {
+        margin-block-start: 5rem;
+      }
+
+      a {
+        text-decoration: none;
+        font-size: 16px;
+        color: #0b0d14;
+      }
+    }
+  }
+}
+
+.footer-ph{
+  display: none;
 }
 }

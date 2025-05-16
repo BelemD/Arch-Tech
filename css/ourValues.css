@@ -471,6 +471,7 @@ body {
           justify-content: center;
           align-items: center;
           align-content: center;
+          width: 425px;
         }
 
         button {
@@ -780,7 +781,7 @@ body {
       .icons {
         width: 9.5rem;
         gap: 1.5rem;
-        display: flex;
+        display: none;
         flex-direction: row;
       }
     }
