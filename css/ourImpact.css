@@ -1067,6 +1067,7 @@ body {
 
     .client-bottom {
       display: flex;
+      
       justify-content: center;
       position: relative;
       gap: 24px !important;

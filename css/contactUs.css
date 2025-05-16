@@ -547,4 +547,29 @@ body {
 .footer-ph{
   display: none;
 }
+
+ /* ----------------HOVER EFFECTS-------------------- */
+ .hvr-underline-from-left:before {
+  background: #fec545 !important;
+}
+
+.hvr-fade:before {
+  background-color: #fec545 !important;
+}
+.dropdown-menu {
+  --bs-dropdown-link-active-bg: #fec545 !important;
+}
+.hvr-bounce-to-top:before {
+  background-color: #fec545 !important;
+  border-radius: 1rem;
+}
+.grid-services:hover {
+  h3 {
+    color: #060809;
+  }
+}
+.myButton:active {
+  background-color: #f5b726;
+  transform: translateY(4px);
+}
 }

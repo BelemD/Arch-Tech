@@ -403,6 +403,7 @@ body {
 /* ------------------------WHO WE ARE-------------------------------- */
 .mission {
   height: 881px;
+  width: 425px;
   margin-block: 0;
   align-self: center;
   display: flex;
@@ -422,6 +423,7 @@ body {
   .div-card6 {
     position: relative;
     width: 298px;
+    max-width: 425px;
     height: 328px;
     margin-block-start: 32px;
     padding-block-start: 33px;
@@ -438,6 +440,7 @@ body {
   .missionStatement {
     height: 514px;
     width: 317px;
+    max-width: 425px;
     border-radius: 14px;
     background: #f6fffc;
     align-items: center;
