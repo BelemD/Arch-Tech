@@ -159,6 +159,7 @@ body {
     .solImg {
       height: 2.625rem;
       width: 8.9375rem;
+      margin-block-end: 1rem;
     }
     h3 {
       font-size: 2rem;
