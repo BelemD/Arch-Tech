@@ -71,76 +71,7 @@ body {
   }
 }
 
-/* ---------------------------OUR VALUES--------------------------------------- */
-.services {
-  height: 12.5625rem;
-  background: url(../images/PBG.png);
-  margin-block-start: 6rem;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  text-align: center;
 
-  .servicesContent {
-    color: #ffffff;
-    width: 43.375rem;
-    height: 19.3125rem;
-    display: flex;
-    justify-content: center;
-    gap: 2.1rem;
-
-    h2 {
-      height: 4.125rem;
-      font-size: 3.625rem;
-      width: 50.875rem;
-    }
-
-    p {
-      font-size: 1rem;
-      width: 33rem;
-    }
-  }
-}
-
-.ourSolution {
-  margin-block-start: 4.875rem;
-  margin-block-end: 8.75rem;
-  .solImg {
-    height: 3.625rem;
-    width: 10.9375rem;
-  }
-  h3 {
-    font-size: 4rem;
-    color: #181818;
-    width: 38rem;
-  }
-  .card {
-    border-radius: 1.5rem;
-    width: 34.125rem;
-    img {
-      border-radius: 1.5rem;
-    }
-
-    .payleads {
-      font-size: 1.5rem;
-      color: #1e293b;
-    }
-    .viewProject {
-      font-size: 1.25rem;
-      color: #666666;
-    }
-
-    p {
-      font-size: 1rem;
-      color: #475569;
-    }
-    .btn {
-      color: #0099cc;
-      font-size: 0.75rem;
-    }
-  }
-}
 
 .hvr-underline-from-left:before {
   background: #fec545 !important;
@@ -172,8 +103,6 @@ body {
 
   .navbar,
   .myNav {
-    max-width: 26.5625rem !important;
-    width: 26.5625rem;
     margin-right: 0 !important;
     margin-left: 0 !important;
   }
@@ -189,9 +118,8 @@ body {
   .nav-item a:hover {
     text-decoration: none !important;
   }
-  body {
-    width: 26.5625rem;
-  }
+
+
   /* ---------------------------OUR VALUES--------------------------------------- */
   .services {
     height: 12.5625rem;
@@ -206,7 +134,6 @@ body {
 
     .servicesContent {
       color: #ffffff;
-      width: 43.375rem;
       height: 26.5625rem;
       display: flex;
       justify-content: center;
@@ -240,9 +167,9 @@ body {
     }
     .card {
       border-radius: 1rem;
-      width: 22.0625rem;
+      width: 20.0625rem;
       img {
-        border-radius: 1rem;
+        border-radius: 1rem 1rem 0 0;
       }
   
       .payleads {
@@ -265,7 +192,7 @@ body {
     }
     .card{
       margin-block-start: 1rem;
-      margin-inline: 2.4rem;
+      margin-inline: 12%;
     }
   }
 
@@ -321,6 +248,76 @@ body {
 }
 
 @media screen and (min-width: 64rem) {
+  /* ---------------------------OUR VALUES--------------------------------------- */
+.services {
+  height: 12.5625rem;
+  background: url(../images/PBG.png);
+  margin-block-start: 6rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+
+  .servicesContent {
+    color: #ffffff;
+    width: 43.375rem;
+    height: 19.3125rem;
+    display: flex;
+    justify-content: center;
+    gap: 2.1rem;
+
+    h2 {
+      height: 4.125rem;
+      font-size: 3.625rem;
+      width: 50.875rem;
+    }
+
+    p {
+      font-size: 1rem;
+      width: 33rem;
+    }
+  }
+}
+
+.ourSolution {
+  margin-block-start: 4.875rem;
+  margin-block-end: 8.75rem;
+  .solImg {
+    height: 3.625rem;
+    width: 10.9375rem;
+  }
+  h3 {
+    font-size: 4rem;
+    color: #181818;
+    width: 38rem;
+  }
+  .card {
+    border-radius: 1.5rem;
+    width: 34.125rem;
+    img {
+      border-radius: 1.5rem 1.5rem 0 0;
+    }
+
+    .payleads {
+      font-size: 1.5rem;
+      color: #1e293b;
+    }
+    .viewProject {
+      font-size: 1.25rem;
+      color: #666666;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #475569;
+    }
+    .btn {
+      color: #0099cc;
+      font-size: 0.75rem;
+    }
+  }
+}
   /* ------------------------FOOTER------------------------ */
 
   .footer {
