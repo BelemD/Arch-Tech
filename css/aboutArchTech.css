@@ -141,8 +141,6 @@ body {
     background: #f6fffc;
     align-items: center;
     justify-content: end;
-    /* position: absolute; */
-    margin-inline-start: 5.7%;
     background-image: url(../images/Asset\ 4\ 1.png);
 
     h2-tag {
@@ -366,14 +364,10 @@ body {
 
   .services {
   height: 275px;
-  width: 425px !important;
   background-image: url(../images/BG\ ph.png);
   align-items: center;
   background-repeat: round;
-  align-content: center;
   margin-block-start: 3.0625rem;
-  text-align: center;
-  margin-inline-start: 0;
 
   .servicesContent {
     color: #ffffff;
@@ -404,13 +398,14 @@ body {
 .mission {
   height: 881px;
   width: 425px;
-  margin-block: 0;
+  margin-block: 32px;
   align-self: center;
   display: flex;
   background: #F6FFFC;
   flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
+  padding-inline: 22px;
   
 
   .card5 {
@@ -441,11 +436,10 @@ body {
     height: 514px;
     width: 317px;
     max-width: 425px;
-    border-radius: 14px;
+    border-radius: 0;
     background: #f6fffc;
     align-items: center;
     justify-content: center;
-   
     background-image: url(../images/Asset\ 4\ 1.png);
 
     h2-tag {
@@ -472,7 +466,6 @@ body {
     .p-tag {
       width: 303px;
       height: 288px;
-      
       margin-inline-start: 0;
     }
 
@@ -486,7 +479,7 @@ body {
 
 .teamMembers {
   width: 425px;
-  margin-block-start: 32px;
+  margin-block-start: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -546,7 +539,8 @@ body {
     align-content: center;
     gap: 1.5rem;
     justify-content: center;
-    margin-block-end: o;
+    margin-block-end: 32px;
+    margin-block-start: 32px;
 
     .members {
       img {
@@ -606,6 +600,12 @@ body {
 }
 
 .footer-ph{
+  border: 0.25rem solid #edeff1;
+  border-radius: 2rem;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+
   .myP{
     width: 343px;
     height: 48px;

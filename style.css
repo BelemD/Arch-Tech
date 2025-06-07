@@ -198,7 +198,7 @@
       font-size: 2.625rem;
       line-height: 3.9375rem;
       color: #0f172a;
-      margin-inline-start: 14.25rem;
+      /* margin-inline-start: 14.25rem; */
     }
     p {
       width: 32.1875rem;
@@ -1537,8 +1537,8 @@
       justify-content: end;
       /* padding-block-end: 60%; */
       position: absolute;
-      left: 24.5%;
-      margin-inline-start: 5.7%;
+      left: 26rem;
+      margin-inline-start: 0;
       background-image: url(../images/Asset\ 4\ 1.png);
 
       h2-tag {
@@ -1552,7 +1552,7 @@
         font-size: 2.625rem;
         line-height: 3.9375rem;
         color: #0f172a;
-        margin-inline-start: 14.25rem;
+        /* margin-inline-start: 14.25rem; */
       }
       p {
         width: 32.1875rem;
@@ -1562,7 +1562,7 @@
         width: 32.1875rem;
         height: 18rem;
         font-size: 1rem;
-        margin-inline-start: 0.875rem;
+        margin-inline-start: 0rem;
 
         .mybtn {
           font-size: 1rem;
@@ -1586,7 +1586,7 @@
     display: grid;
     grid-template-rows: auto auto;
     gap: 1.875rem;
-    margin-block-end: 10%;
+    /* margin-block-end: 10%; */
     justify-content: center;
 
     .features {
@@ -1795,7 +1795,7 @@
           height: 0.825rem;
           background: #276e6e;
           border-radius: 99999px;
-          margin-block-start: 6px;
+          margin-block-start: 3.1px;
           margin-inline-end: 0.625rem;
         }
 

@@ -76,13 +76,12 @@ body {
   background-image: url(../images/BG2.png);
   border-radius: 1.25rem;
   margin-block-start: 6rem;
-  margin-inline-end: 116px;
-  margin-inline-start: 106px;
+  /* margin-inline-end: 116px; */
+  /* margin-inline-start: 106px; */
   /* position: relative; */
 
   .servicesContent {
     color: #ffffff;
-    margin-inline: 23.3125rem;
     height: 19.3125rem;
 
     h2 {
@@ -117,7 +116,7 @@ body {
         font-size: 16px;
         /* padding: 10px; */
         padding-block: 131.5px;
-        padding-inline-start: 35px;
+        /* padding-inline-start: 35px; */
       }
 
       .myForm {
@@ -157,15 +156,13 @@ body {
 }
 .grid-div {
   height: 57.4375rem;
-  padding-block-start: 3.25rem;
-  margin-block: 5%;
   /* padding-inline-end: 2%; */
   background-image: url(../assets/Icons/glow_one.png.png),
     url(../images/Line\ design\ -\ bg.png);
 }
 
 .grid-ourServices {
-  margin-inline: 5.59375rem;
+  /* margin-inline: 5.59375rem; */
   height: 16rem;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -174,11 +171,8 @@ body {
   align-items: center;
 
   .grid-services {
-    width: 24.375rem;
     height: 24.625rem;
     background: #ffffff;
-
-    border-radius: 1.25rem;
     padding-inline-start: 2.0625rem;
 
     img {
@@ -447,12 +441,10 @@ body {
 
   .services {
     height: 275px;
-    width: 425px;
     background-image: url(../images/BG\ ph.png);
     border-radius: 0;
     background-repeat: round;
     margin-block-start: 3.0625rem;
-    margin-inline: 0;
 
     .servicesContent {
     color: #ffffff;
@@ -538,41 +530,44 @@ body {
 
   .lines {
     background: linear-gradient(#ecfcff, #e7fafd);
-    height: 2216px;
+    height: 2300px;
     width: 425px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-block-start: 32px;
+
   }
   .grid-div {
-    height: 912px;
-    padding-block-start: 7px;
-    margin-block-start: 32px;
+    /* height: 138.5rem; */
+    padding-left: 0 !important;
     /* padding-inline-end: 2%; */
     background-image: url(../assets/Icons/glow_one.png.png),
       url(../images/Line\ design\ -\ bg.png);
   }
 
   .grid-ourServices {
-    margin-inline: 0;
     width: 420px;
-    height: 16rem;
+    /* height: 138.5rem; */
     display: grid;
     grid-template-columns: auto;
-    gap: 9.68px;
+    gap: 19.68px;
     justify-content: center;
     align-items: center;
+    padding-block: 32px;
 
     .grid-services {
       height: 356.32px;
-      width: 375px;
+      width: 353px;
       background: #ffffff;
+      border-radius: 20px;
       
-      border-radius: 1.25rem;
-      padding-inline-start: 2.0625rem;
+      padding-inline-start: 21px;
 
       img {
         width: 60px;
         height: 60px;
-        margin-block-end: 33px;
-        margin-block-start: 33px;
+        margin-block-end: 34px;
+        margin-block-start: 24px;
       }
       h3 {
         width: 313px;
@@ -587,7 +582,7 @@ body {
         width: 313px;
         height: 72px;
         color: #475569;
-        margin-block-end: 10px;
+        margin-block-end: 23px;
       }
       a {
         text-decoration: none;
@@ -599,6 +594,8 @@ body {
           color: #0f172a;
           width: 1rem;
           height: 1rem;
+          margin-block-end: 0;
+          margin-block-start: 0;
         }
       }
     }
@@ -694,14 +691,15 @@ body {
         max-width: 535px;
         height: 64px;
         border-radius: 24px;
+        padding-inline-start: 2rem;
+
       }
 
       input::placeholder {
         color: #64748b;
-        font-size: 16px;
-        /* padding: 10px; */
-        padding-block: 131.5px;
-        padding-inline-start: 35px;
+        font-size: 1rem;
+        padding-block: 8.21875rem;
+        /* padding-inline-start: 35px; */
       }
 
       .myForm {
@@ -709,12 +707,12 @@ body {
 
         span img {
           position: absolute;
-          width: 20px;
-          height: 20px;
+          width: 1.25rem;
+          height: 1.25rem;
           color: #1f1f24;
           /* padding: 10px; */
-          top: 21px;
-          left: 10px;
+          top: 1.3125rem;
+          left: 0.625rem;
         }
       }
     }
@@ -877,7 +875,7 @@ body {
         height: 14px;
         background: #276e6e;
         border-radius: 99999px;
-        margin-block-start: 6px;
+        margin-block-start: 3.1px;
         margin-inline-end: 10px;
       }
 
