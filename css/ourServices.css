@@ -421,6 +421,7 @@ body {
     max-width: 425px !important;
     margin-right: 0 !important;
     margin-left: 0 !important;
+    background: #ffffff;
   }
 
   .dropdown-item {

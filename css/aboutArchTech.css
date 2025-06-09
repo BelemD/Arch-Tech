@@ -347,7 +347,7 @@ body {
     width: 425px;
     margin-right: 0 !important;
     margin-left: 0 !important;
-
+    background: #ffffff;
   }
 
   .dropdown-item {
@@ -365,7 +365,6 @@ body {
   .services {
   height: 275px;
   background-image: url(../images/BG\ ph.png);
-  align-items: center;
   background-repeat: round;
   margin-block-start: 3.0625rem;
 
