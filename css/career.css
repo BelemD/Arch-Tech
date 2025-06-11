@@ -336,6 +336,7 @@ hvr-fade:before {
     width: 26.5625rem;
     margin-right: 0 !important;
     margin-left: 0 !important;
+    background: #ffffff;
 
   }
 
@@ -387,7 +388,7 @@ hvr-fade:before {
   .whyWorkWithUs {
     width: 26.5625rem;
     height: 68.75rem;
-    margin-block-start: 4%;
+    margin-block-start: 89px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -820,7 +821,29 @@ hvr-fade:before {
       text-align: center;
     }
   }
-
+  .tab-titles {
+    display: flex;
+    margin: 20px 0 40px;
+  
+    .tab-links {
+      cursor: pointer;
+      position: relative;
+    }
+  
+    .tab-links::after {
+      content: "";
+      width: 0;
+      height: 3px;
+      background: #f5b726;
+      left: 0;
+      bottom: -8px;
+      transition: 0.5s;
+      position: absolute;
+    }
+    .tab-links.active-link::after {
+      width: 100%;
+    }
+  }
   .tab-titles {
     display: flex;
     justify-content: center;

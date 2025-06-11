@@ -216,30 +216,30 @@
 
       <div class="titles">
         <div class="tab-titles">
-          <div class="tab-links active-link inter-semibold" onclick="openTab('skills')">
+          <div class="tab-links active-link inter-semibold" onclick="openTab('view')">
             View
           </div>
 
-          <div class="tab-links inter-semibold" onclick="openTab('experience')">
+          <div class="tab-links inter-semibold" onclick="openTab('design')">
             Design
           </div>
 
-          <div class="tab-links inter-semibold" onclick="openTab('experience')">
+          <div class="tab-links inter-semibold" onclick="openTab('software')">
             Software engineering
           </div>
 
-          <div class="tab-links inter-semibold" onclick="openTab('experience')">
+          <div class="tab-links inter-semibold" onclick="openTab('customerSuccess')">
             Customer Success
           </div>
 
-          <div class="tab-links inter-semibold" onclick="openTab('experience')">
+          <div class="tab-links inter-semibold" onclick="openTab('sales')">
             Sales
           </div>
 
-          <div class="tab-links inter-semibold" onclick="openTab('education')">Marketing</div>
+          <div class="tab-links inter-semibold" onclick="openTab('marketing')">Marketing</div>
         </div>
 
-        <div class="tab-contents active-tab" id="skills">
+        <div class="tab-contents active-tab" id="design">
           <div class="tab-design">
             <span class="inter-semibold">Design</span>
             <span class="inter-semibold">View Job <img loading="lazy" src="../assets/Icons/arrow-up-right.png" alt=""></span>
@@ -251,7 +251,7 @@
           </div>
         </div>
 
-        <div class="tab-contents active-tab" id="skills">
+        <div class="tab-contents active-tab" id="software">
           <div class="tab-design">
             <span class="inter-semibold">Software Development</span>
             <span class="inter-semibold">View Job <img loading="lazy" src="../assets/Icons/arrow-up-right.png" alt=""></span>
@@ -263,7 +263,7 @@
           </div>
         </div>
 
-        <div class="tab-contents active-tab" id="skills">
+        <div class="tab-contents active-tab" id="customerSuccess">
           <div class="tab-design">
             <span class="inter-semibold">Customer Success</span>
             <span class="inter-semibold">View Job <img loading="lazy" src="../assets/Icons/arrow-up-right.png" alt=""></span>
@@ -275,7 +275,7 @@
           </div>
         </div>
 
-        <div class="tab-contents active-tab" id="skills">
+        <div class="tab-contents active-tab" id="sales">
           <div class="tab-design">
             <span class="inter-semibold">Sales</span>
             <span class="inter-semibold">View Job <img loading="lazy" src="../assets/Icons/arrow-up-right.png" alt=""></span>
@@ -287,7 +287,7 @@
           </div>
         </div>
 
-        <div class="tab-contents active-tab" id="skills">
+        <div class="tab-contents active-tab" id="marketing">
           <div class="tab-design">
             <span class="inter-semibold">Marketing</span>
             <span class="inter-semibold">View Job <img loading="lazy" src="../assets/Icons/arrow-up-right.png" alt=""></span>
@@ -428,5 +428,24 @@
       >
     </div>
   </div>
+
+
+
+  <script>
+    let tabLinks = document.getElementsByClassName("tab-links");
+    let tabContents = document.getElementsByClassName("tab-contents");
+
+    function openTab(tabName) {
+      for (tabLink of tabLinks) {
+        tabLink.classList.remove("active-link");
+      }
+
+      for (tabContent of tabContents) {
+        tabContent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabName).classList.add("active-tab");
+    }
+  </script>
   </body>
 </html>

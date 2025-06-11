@@ -77,6 +77,7 @@ body {
 .services {
   height: 14.75rem;
   background: url(../images/BG3.png);
+  background-repeat: round;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -108,7 +109,7 @@ body {
   height: 444px;
   display: flex;
   flex-direction: row;
-  gap: 2.875rem;
+  gap: 2rem;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -118,6 +119,9 @@ body {
     color: #1e293b;
   }
 
+  .card{
+  width: 383px;
+  }
   .card-text {
     font-size: 16px;
     color: #475569;
@@ -145,8 +149,8 @@ body {
     justify-content: center;
     align-items: center;
     align-content: center;
-    gap: 2.5rem;
-    margin-block: 3.5rem;
+    gap: 42px;
+    margin-block: 71px;
     
 
     .aTag{
@@ -239,6 +243,7 @@ body {
     width: 425px;
     margin-right: 0 !important;
     margin-left: 0 !important;
+    background: #ffffff;
 
   }
 
@@ -287,7 +292,7 @@ body {
   
   
   .card-div {
-    margin-inline: 10px;
+    margin-inline: 20px;
     width: 335px;
     height: 1310px;
     display: flex;
@@ -330,7 +335,7 @@ body {
       align-items: center;
       align-content: center;
       gap: 2.5rem;
-      margin-block: 3.5rem;
+      margin-block: 40px;
       
   
       .aTag{
@@ -339,13 +344,21 @@ body {
           gap: 3rem;
       }
   }
-  
+  .card-none{
+    display: none;
+  }
   /* ------------------------FOOTER------------------------ */
   .footer {
     display: none;
    }
    
    .footer-ph{
+    border: 0.25rem solid #edeff1;
+    border-radius: 2rem;
+    border-left: none;
+    border-right: none;
+     border-bottom: none;
+
      .myP{
        width: 343px;
        height: 48px;

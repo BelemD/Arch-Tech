@@ -251,6 +251,10 @@ body {
   justify-content: center;
   align-items: center;
   align-content: center;
+  padding-inline-start: 39px;
+  padding-inline-end: 38px;
+  padding-block-start: 30px;
+  padding-block-end: 20px;
 
   .create-content {
     width: 78rem;
@@ -260,7 +264,6 @@ body {
     background: #ffffff;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     align-content: center;
     text-align: center;
@@ -269,11 +272,13 @@ body {
       font-size: 2.625rem;
       color: #0f172a;
       width: 37.4375rem;
+      margin-block-end: 24px;
     }
     p {
       font-size: 1.125rem;
       color: #002966;
       width: 32.5rem;
+      margin-block-end: 14px;
     }
 
     form {
@@ -500,7 +505,6 @@ body {
         justify-content: center;
         align-items: center;
         align-content: center;
-        gap: 36px;
 
         h2 {
           color: #0f172a;
@@ -568,7 +572,7 @@ body {
     .images {
       display: grid;
       grid-template-columns: auto auto;
-      gap: 16px;
+      gap: 19px;
 
       img1 {
         width: 102.48px;
@@ -708,6 +712,7 @@ body {
     justify-content: center;
     align-items: center;
     align-content: center;
+    margin-block: 32px;
 
     .impact-contents {
       background: url(../images/Asset\ 4\ 5.png);
@@ -718,7 +723,10 @@ body {
       justify-content: center;
       align-items: center;
       align-content: center;
-      margin-block-end: 91px;
+      padding-block-start: 30px;
+      padding-block-end: 25px;
+      padding-inline-start: 27.5px;
+      padding-inline-end: 19.5px;
 
       h2 {
         font-size: 38px;
@@ -739,17 +747,21 @@ body {
       }
 
       .bottomContents {
-        height: 173px;
         width: 330px;
+        height: 173px;
         background: #ffffff;
         border-radius: 1.25rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: left;
         align-content: center;
         text-align: left;
-        padding: 1.7rem;
+        padding-inline-start: 21px;
+        padding-inline-end: 7px;
+        padding-block-start: 24px;
+        padding-block-end: 29px;
+
+      
       }
 
       .impactBottom {
@@ -781,7 +793,6 @@ body {
       background: #ffffff;
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: center;
       align-content: center;
       text-align: center;
@@ -861,6 +872,12 @@ body {
 
   .footer-ph {
     margin-block-start: 36px;
+    border: 0.25rem solid #edeff1;
+    border-radius: 2rem;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    
     .myP {
       width: 343px;
       height: 48px;

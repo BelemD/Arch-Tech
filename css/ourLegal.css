@@ -219,6 +219,7 @@ body {
     max-width: 425px !important;
     margin-right: 0 !important;
     margin-left: 0 !important;
+    background: #ffffff;
 
   }
 
@@ -276,7 +277,9 @@ body {
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-block: 2rem;
+    margin-block-start: 2rem;
+    margin-block-end: 4rem;
+    margin-inline: 1rem;
   
     p {
       font-size: 1rem;
@@ -307,7 +310,11 @@ body {
  }
  
  .footer-ph{
-  
+  border: 0.25rem solid #edeff1;
+   border-radius: 2rem;
+   border-left: none;
+   border-right: none;
+   border-bottom: none;
    .myP{
      width: 343px;
      height: 48px;
@@ -393,13 +400,13 @@ body {
 
 .termsCondition {
   margin-inline: 25.75rem;
-  /* height: ; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   align-content: center;
-  margin-block: 2rem;
+  margin-block-start: 60px;
+  margin-block-end: 154px;
 
   p {
     font-size: 1rem;
