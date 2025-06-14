@@ -237,7 +237,7 @@ body {
     width: 425px;
     margin-right: 0 !important;
     margin-left: 0 !important;
-
+    background: #ffffff;
   }
 
   .dropdown-item {
@@ -363,6 +363,13 @@ body {
 }
 
 .footer-ph{
+  border: 0.25rem solid #edeff1;
+  border-radius: 2rem;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+ 
+
   .top{
     margin-block-end: 40px;
     ul li{
