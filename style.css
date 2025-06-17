@@ -286,7 +286,6 @@
 }
 .grid-div {
   height: 57.4375rem;
-  /* padding-inline-end: 2%; */
   background-image: url(./assets/Icons/glow_one.png.png),
     url(../images/Line\ design\ -\ bg.png);
 
@@ -294,7 +293,6 @@
 }
 
 .grid-ourServices {
-  
   height: 16rem;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -902,7 +900,7 @@
       .grid-boxes {
         width: 425px;
         height: 201px;
-        border-radius: 0;
+        border-radius: 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -934,6 +932,7 @@
     background: linear-gradient(#ecfcff, #e7fafd);
     height: 2508px;
     width: 425px !important;
+    padding: 0 !important;
   }
   .grid-div {
     height: 2008px;
@@ -984,7 +983,6 @@
   }
 
   .grid-ourServices {
-    margin-inline: 0;
     width: 420px ;
     height: 16rem;
     display: grid;
@@ -1330,7 +1328,7 @@
       .buttonsBelow {
         display: flex;
         flex-direction: row;
-        width: 375px;
+        width: 312px;
         gap: 8px;
 
         a {
