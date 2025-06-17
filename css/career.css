@@ -502,7 +502,8 @@ hvr-fade:before {
 
     /* ---------------------WANT TO JOIN TEAM ARKTECH--------------------- */
 
-    .joinTeamArktech {
+
+    .myPhone{
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -718,16 +719,28 @@ hvr-fade:before {
         button{
           width: 34px;
           height: 33px;
+          background: #ffffff;
+          border: none;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
         }
       }
       .arrows{
         width: 88px;
         height: 36px;
+        background: #ffffff;
+        border: 1px solid #E4E7EC;
+        border-radius: 8px;
       }
     }
 
 }
 
+.myWeb{
+  display: none;
+}
 /* ------------------------FOOTER------------------------ */
 .footer {
   display: none;
@@ -914,7 +927,11 @@ hvr-fade:before {
 
   /* ---------------------WANT TO JOIN TEAM ARKTECH--------------------- */
 
-.joinTeamArktech {
+  
+.myPhone{
+  display: none;
+}
+.myWeb{
   display: flex;
   flex-direction: column;
   justify-content: center;
