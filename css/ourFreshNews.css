@@ -307,6 +307,9 @@ body {
       color: #1e293b;
     }
   
+    .card{
+      width: 335px;
+    }
     .card-text {
       font-size: 16px;
       color: #475569;
@@ -358,6 +361,7 @@ body {
     border-left: none;
     border-right: none;
      border-bottom: none;
+     width: 375px;
 
      .myP{
        width: 343px;
