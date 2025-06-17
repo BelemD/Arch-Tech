@@ -605,6 +605,7 @@ body {
   border-left: none;
   border-right: none;
   border-bottom: none;
+  width: 375px;
 
   .myP{
     width: 343px;
