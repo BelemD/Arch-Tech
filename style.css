@@ -937,7 +937,7 @@
   .grid-div {
     height: 2008px;
     padding-block-start: 7px;
-    width: 425px !important;
+    width: 381px !important;
     background-image: url(./assets/Icons/glow_two.png);
     display: flex;
     flex-direction: column;
@@ -983,7 +983,7 @@
   }
 
   .grid-ourServices {
-    width: 420px ;
+    width: 381px ;
     height: 16rem;
     display: grid;
     grid-template-columns: auto;
@@ -1279,7 +1279,7 @@
   /* -------------------------GO FURTHER---------------------- */
   .goFurther {
     height: 793px;
-    width: 425px;
+    width: 381px;
     margin-block-start: 25px;
     margin-block-end: 44px;
     border-radius: 20px;
