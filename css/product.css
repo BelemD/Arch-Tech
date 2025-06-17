@@ -71,6 +71,12 @@ body {
   }
 }
 
+.card-body span img{
+  width: 20px;
+  height: 20px;
+  margin-inline-start: 6px;
+}
+
 
 
 .hvr-underline-from-left:before {
@@ -105,6 +111,7 @@ body {
   .myNav {
     margin-right: 0 !important;
     margin-left: 0 !important;
+    background: #ffffff;
   }
 
   .dropdown-item {
@@ -202,17 +209,24 @@ body {
   }
 
   .footer-ph {
+    margin-block-start: 36px;
+    border: 0.25rem solid #edeff1;
+    border-radius: 2rem;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    
     .myP {
-      width: 21.4375rem;
-      height: 3rem;
-      font-size: 1rem;
+      width: 343px;
+      height: 48px;
+      font-size: 16px;
       color: #475467;
     }
     .top {
-      margin-block-end: 2.5rem;
+      margin-block-end: 40px;
       ul li {
         list-style: none;
-        font-size: 1rem;
+        font-size: 16px;
         color: #475467;
 
         a {
