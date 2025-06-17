@@ -150,6 +150,7 @@ body {
         height: 1.75rem;
         font-size: 2.25rem;
         width: 18.75rem;
+        margin-block-start: 1rem;
       }
 
       p {

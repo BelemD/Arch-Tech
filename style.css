@@ -933,12 +933,12 @@
   .lines {
     background: linear-gradient(#ecfcff, #e7fafd);
     height: 2508px;
-    width: 425px;
+    width: 425px !important;
   }
   .grid-div {
     height: 2008px;
     padding-block-start: 7px;
-    /* padding-inline-end: 2%; */
+    width: 425px !important;
     background-image: url(./assets/Icons/glow_two.png);
     display: flex;
     flex-direction: column;
