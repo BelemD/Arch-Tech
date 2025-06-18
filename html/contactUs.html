@@ -155,13 +155,14 @@
 
         <form action="">
           <div class="myInput">
-            <label for="validationCustom01" class="form-label inter-medium"
+            <label for="name" class="form-label inter-medium"
               >Name</label
             >
             <input
               type="text"
               class="form-control inter-regular"
-              id="validationCustom01"
+              id="name"
+              name="name"
               value=""
               placeholder="Your name"
               required
@@ -170,13 +171,14 @@
           </div>
 
           <div class="myInput">
-            <label for="validationCustom01" class="form-label inter-medium"
+            <label for="email" class="form-label inter-medium"
               >Email</label
             >
             <input
               type="text"
               class="form-control inter-regular"
-              id="validationCustom01"
+              id="email"
+              name="email"
               value=""
               placeholder="you@company.com"
               required
@@ -185,39 +187,40 @@
           </div>
 
           <div class="myInput">
-            <label for="validationCustom04" class="form-label inter-medium"
+            <label for="phn" class="form-label inter-medium"
               >Phone number</label
             >
-            <select
-              class="form-select inter-regular"
-              id="validationCustom04"
+            <input
+              type="text"
+              class="form-control inter-regular"
+              id="phn"
+              name="phn"
+              value=""
+              placeholder="08056424453"
               required
-            >
-              <option selected disabled value="" class="inter-regular">
-                Choose...
-              </option>
-              <option>...</option>
-            </select>
+            />
+             
             <div class="invalid-feedback">Please select a valid state.</div>
           </div>
 
           <div class="myInput">
             <label
-              for="exampleFormControlTextarea1"
+              for="help"
               class="form-label inter-medium"
               >How can we help?</label
             >
             <textarea
               class="form-control inter-regular"
               style="height: 8rem"
-              id="exampleFormControlTextarea1"
+              id="help"
+              name="help"
               placeholder="Tell us a little about the project..."
             ></textarea>
           </div>
 
           <!-- ------------------------CHECK BOX------------------------ -->
           <div class="myCheckBox">
-            <label for="" class="inter-medium">Services</label>
+            <label for="service" class="inter-medium">Services</label>
 
             <div class="check">
               <div class="form-check">
@@ -225,9 +228,10 @@
                   class="form-check-input"
                   type="checkbox"
                   value=""
-                  id="checkDefault"
+                  name="webDesign"
+                  id="webDesign"
                 />
-                <label class="form-check-label inter-medium" for="checkDefault">
+                <label class="form-check-label inter-medium" for="webDesign">
                   Web Design
                 </label>
               </div>
@@ -237,9 +241,10 @@
                   class="form-check-input"
                   type="checkbox"
                   value=""
-                  id="checkDefault"
+                  name="contentCreation"
+                  id="contentCreation"
                 />
-                <label class="form-check-label inter-medium" for="checkDefault">
+                <label class="form-check-label inter-medium" for="contentCreation">
                   Content Creation
                 </label>
               </div>
@@ -249,9 +254,10 @@
                   class="form-check-input"
                   type="checkbox"
                   value=""
-                  id="checkDefault"
+                  id="uI"
+                  name="uI"
                 />
-                <label class="form-check-label inter-medium" for="checkDefault">
+                <label class="form-check-label inter-medium" for="uI">
                   UI Design
                 </label>
               </div>
@@ -261,9 +267,10 @@
                   class="form-check-input"
                   type="checkbox"
                   value=""
-                  id="checkDefault"
+                  id="Strategy"
+                  name="Strategy"
                 />
-                <label class="form-check-label inter-medium" for="checkDefault">
+                <label class="form-check-label inter-medium" for="Strategy">
                   Strategy & Consulting
                 </label>
               </div>
@@ -273,9 +280,10 @@
                   class="form-check-input"
                   type="checkbox"
                   value=""
-                  id="checkDefault"
+                  id="userResearch"
+                  name="userResearch"
                 />
-                <label class="form-check-label inter-medium" for="checkDefault">
+                <label class="form-check-label inter-medium" for="userResearch">
                   User Research
                 </label>
               </div>
@@ -285,9 +293,10 @@
                   class="form-check-input"
                   type="checkbox"
                   value=""
-                  id="checkDefault"
+                  id="others"
+                  name="others"
                 />
-                <label class="form-check-label inter-medium" for="checkDefault">
+                <label class="form-check-label inter-medium" for="others">
                   others
                 </label>
               </div>
@@ -349,71 +358,70 @@
       </div>
     </div>
 
-
-  </div> <div class="footer-ph pt-5 mb-5 ps-2">
-    <div class="top">
-      <img src="../images/Asset 1 1logo.png" loading="lazy" class="top ms-4" alt="" />
-      <p class="inter-medium ms-4 mb-2 myP">
-        Design amazing digital experiences that create more happy in the world.
-      </p>
-
-      <div class="d-flex flex-row gap-5 mt-5">
-        <ul class="pages ">
-          <li class="inter-bold mb-4" style="font-size: 14px; color: #64748b">
-            Pages
+    <div class="footer-ph pt-5 mb-5 ps-2">
+      <div class="top">
+        <img src="../images/Asset 1 1logo.png" loading="lazy" class="top ms-4" alt="" />
+        <p class="inter-medium ms-4 mb-2 myP">
+          Design amazing digital experiences that create more happy in the world.
+        </p>
+  
+        <div class="d-flex flex-row gap-5 mt-5">
+          <ul class="pages ">
+            <li class="inter-bold mb-4" style="font-size: 14px; color: #64748b">
+              Pages
+            </li>
+            <li class="inter-semibold mb-2"><a href="../index.html">Home</a></li>
+            <li class="inter-semibold mb-2"><a href="#">How it works</a></li>
+            <li class="inter-semibold mb-2"><a href="#">FAQ</a></li>
+            <li class="contact inter-semibold mb-2">
+              <a href="./contactUs.html">Contact Us</a>
+            </li>
+          </ul>
+  
+          <ul class="pages mb-4 ">
+            <p class="inter-bold mb-4" style="font-size: 14px; color: #64748b">
+              Privacy
+            </p>
+            <li class="inter-semibold mb-2"><a href="./ourLegal.html">Privacy</a></li>
+            <li class="inter-semibold"><a href="./ourLegal.html">Terms & Conditions</a></li>
+          </ul>
+        </div>
+  
+        
+        <ul class="pages mb-4 mt-2">
+          <li
+            class="top inter-bold "
+            style="font-size: 14px; color: #64748b"
+          >
+            Socials
           </li>
-          <li class="inter-semibold mb-2"><a href="../index.html">Home</a></li>
-          <li class="inter-semibold mb-2"><a href="#">How it works</a></li>
-          <li class="inter-semibold mb-2"><a href="#">FAQ</a></li>
-          <li class="contact inter-semibold mb-2">
-            <a href="./contactUs.html">Contact Us</a>
+          <li>
+            <a href="https://www.linkedin.com/company/arktechltd">
+              <img
+              src="../assets/Icons/entypo-social_linkedin-with-circle.png"
+              loading="lazy"
+              alt=""
+              class="mb-2"
+            />
+          </a>
+            <a href="#">
+              <img
+              class="mb-2"
+              src="../assets/Icons/ph_x-logo-bold.png"
+              loading="lazy"
+              alt=""
+            /></a>
+            <a href="https://web.facebook.com/arkcelerateconsulting"><img loading="lazy" class="mb-2" src="../assets/Icons/bi_facebook.png" alt="" /></a>
+            <a href="#"><img class="mb-2" loading="lazy" src="../assets/Icons/uil_instagram-alt.png" alt="" /></a>
           </li>
-        </ul>
-
-        <ul class="pages mb-4 ">
-          <p class="inter-bold mb-4" style="font-size: 14px; color: #64748b">
-            Privacy
-          </p>
-          <li class="inter-semibold mb-2"><a href="./ourLegal.html">Privacy</a></li>
-          <li class="inter-semibold"><a href="./ourLegal.html">Terms & Conditions</a></li>
         </ul>
       </div>
-
-      
-      <ul class="pages mb-4 mt-2">
-        <li
-          class="top inter-bold "
-          style="font-size: 14px; color: #64748b"
+      <div>
+        
+        <span class="inter-regular ms-4"
+          >© 2025 Arktech. All rights reserved.</span
         >
-          Socials
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/company/arktechltd">
-            <img
-            src="../assets/Icons/entypo-social_linkedin-with-circle.png"
-            loading="lazy"
-            alt=""
-            class="mb-2"
-          />
-        </a>
-          <a href="#">
-            <img
-            class="mb-2"
-            src="../assets/Icons/ph_x-logo-bold.png"
-            loading="lazy"
-            alt=""
-          /></a>
-          <a href="https://web.facebook.com/arkcelerateconsulting"><img loading="lazy" class="mb-2" src="../assets/Icons/bi_facebook.png" alt="" /></a>
-          <a href="#"><img class="mb-2" loading="lazy" src="../assets/Icons/uil_instagram-alt.png" alt="" /></a>
-        </li>
-      </ul>
-    </div>
-    <div>
-      
-      <span class="inter-regular ms-4"
-        >© 2025 Arktech. All rights reserved.</span
-      >
-    </div>
+      </div>
     </div>
   </body>
 </html>

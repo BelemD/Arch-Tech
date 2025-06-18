@@ -1282,6 +1282,7 @@
     width: 381px;
     margin-block-start: 25px;
     margin-block-end: 44px;
+    margin-inline: 15px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;

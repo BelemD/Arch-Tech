@@ -233,8 +233,7 @@ body {
 
   
   .navbar, .myNav{
-    max-width: 425px !important;
-    width: 425px;
+    width: 425px !important;
     margin-right: 0 !important;
     margin-left: 0 !important;
     background: #ffffff;
@@ -362,27 +361,32 @@ body {
   display: none;
 }
 
-.footer-ph{
+.footer-ph {
+  margin-block-start: 36px;
   border: 0.25rem solid #edeff1;
   border-radius: 2rem;
   border-left: none;
   border-right: none;
   border-bottom: none;
- 
-
-  .top{
+  
+  .myP {
+    width: 343px;
+    height: 48px;
+    font-size: 16px;
+    color: #475467;
+  }
+  .top {
     margin-block-end: 40px;
-    ul li{
+    ul li {
       list-style: none;
       font-size: 16px;
       color: #475467;
 
-      a{
+      a {
         text-decoration: none;
         color: #475467;
       }
     }
-
   }
 }
 }

@@ -550,12 +550,13 @@ body {
   }
 
   .footer-ph {
-   border: 0.25rem solid #edeff1;
-   border-radius: 2rem;
-   border-left: none;
-   border-right: none;
-   border-bottom: none;
-
+    margin-block-start: 36px;
+    border: 0.25rem solid #edeff1;
+    border-radius: 2rem;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    
     .myP {
       width: 343px;
       height: 48px;
