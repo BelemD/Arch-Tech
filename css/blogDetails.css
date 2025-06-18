@@ -105,6 +105,9 @@ body {
 /* --------------------LEADERSHIP LESSON---------------------- */
 
 .leadershipLesson {
+  margin-inline: 32px;
+
+  
   .eightMin {
     font-size: 0.75rem;
     color: #1b1822;
@@ -138,7 +141,8 @@ body {
 
 .myPhoto {
   gap: 2rem;
-
+  margin-inline: 32px;
+  
   .bottomTop {
     .pTags {
       gap: 7.5rem;
@@ -178,6 +182,7 @@ body {
 .introduction {
   margin-block-start: 5%;
   gap: 7.75rem;
+  margin-inline: 32px;
 
   .leftPart {
     width: 45rem;

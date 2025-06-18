@@ -18,6 +18,17 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function(){
+      emailjs.init({
+        publicKey: "fCiPy7RH9jBVh9uMH",
+      });
+     })();
+    </script>
   </head>
   <body>
     <nav
@@ -175,7 +186,7 @@
               >Email</label
             >
             <input
-              type="text"
+              type="email"
               class="form-control inter-regular"
               id="email"
               name="email"
@@ -191,7 +202,7 @@
               >Phone number</label
             >
             <input
-              type="text"
+              type="tel"
               class="form-control inter-regular"
               id="phn"
               name="phn"
@@ -228,7 +239,7 @@
                   class="form-check-input"
                   type="checkbox"
                   value=""
-                  name="webDesign"
+                  name="web Design"
                   id="webDesign"
                 />
                 <label class="form-check-label inter-medium" for="webDesign">
@@ -241,7 +252,7 @@
                   class="form-check-input"
                   type="checkbox"
                   value=""
-                  name="contentCreation"
+                  name="content Creation"
                   id="contentCreation"
                 />
                 <label class="form-check-label inter-medium" for="contentCreation">
@@ -255,9 +266,9 @@
                   type="checkbox"
                   value=""
                   id="uI"
-                  name="uI"
+                  name="UI"
                 />
-                <label class="form-check-label inter-medium" for="uI">
+                <label class="form-check-label inter-medium" for="UI">
                   UI Design
                 </label>
               </div>
@@ -281,7 +292,7 @@
                   type="checkbox"
                   value=""
                   id="userResearch"
-                  name="userResearch"
+                  name="user Research"
                 />
                 <label class="form-check-label inter-medium" for="userResearch">
                   User Research
@@ -303,7 +314,7 @@
             </div>
           </div>
 
-          <button type="submit" class="inter-medium">Send a message</button>
+          <button type="submit" class="inter-medium" onclick="sendMail()">Send a message</button>
         </form>
       </div>
     </div>
@@ -423,5 +434,18 @@
         >
       </div>
     </div>
+
+    <script>
+      function sendMail(){
+        let params = {
+          name: document.getElementById("name").value,
+          email: document.getElementById("email").value,
+          phn: document.getElementById("phone").value,
+          help: document.getElementById("help").value
+        }
+
+        emailjs.send("service_qlaaio6", " template_xri4iih", params).then(alert("Email sent!!"));
+      }
+    </script>
   </body>
 </html>
